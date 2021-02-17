@@ -12,7 +12,7 @@ function AboutMe() {
 
 <span >
 
-<img  src="https://i.imgrz.com/vb6h.jpg" className="rounded-circle  img-fluid  m-2" ALIGN="left" alt="self-portrait" />
+<img  src="https://i.imgrz.com/vb6h.jpg" className="rounded-circle  img-fluid  m-2" align="left" alt="self-portrait" />
 </span>
 
 <h3>

@@ -6,21 +6,21 @@ function Main () {
   return (
     <div  >
 
-<div className="main1 " style={
-  {
-    color: 'white',
+<div className="main1 "   style={
+             {
 
-    }
-    }>
+              color: "white",
+              }
+            }>
 
   <div className="row-reverse text-center text-white">
     <div className="col-sm">
-      <img alt="jose's profile" height={350} className="border p-2 border-white rounded-circle  fade-in" src={("https://i.imgrz.com/vb6h.jpg")} />
+      <img alt="jose's profile" className="border p-2 border-white rounded-circle img-fluid fade-in" src={("https://i.imgrz.com/vb6h.jpg")} />
     </div>
     <div className="col-sm ">
-    <h2 className="pt-2">
+    <h3 style={{marginTop:"20px"}}>
     Jose Aguilera Merino, Full Stack Developer
-      </h2>
+      </h3>
       <a href="mailto:jgamerino@gmail.com" id="email" className="text-white">
         <p >
         jgamerino@gmail.com

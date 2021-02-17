@@ -16,24 +16,6 @@ body, .navbar {
 
 
 
-
-.main1 {
-    background: url("//images/SD_Landscape_1200px.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  align-items: center;
-
-  }
-
-
-
-
 html::-webkit-scrollbar {
   display: none;
   -ms-overflow-style: none;

@@ -14,12 +14,13 @@ import Aboutme from "./Aboutme";
 function NavBar () {
 return (
 
-  <div >
+  <div  >
 
 
   <HashRouter basename={process.env.PUBLIC_URL}>
-<nav className="navbar container navbar-expand-sm navbar-dark " >'
-  <a className="navbar-brand "  href="/"><NavLink style={{color: 'white'}}   activeClassName="selected"
+<nav className="navbar  navbar-expand-sm navbar-dark " >
+<div class="container-fluid">
+  <a className="navbar-brand "  href="/"><NavLink style={{color: 'white'}}
   to="/">JGAM</NavLink></a>
   <button className="navbar-toggler btn-outline-0"
   style={{
@@ -51,7 +52,7 @@ return (
       </li>
 
     </ul>
-
+    </div>
   </div>
 </nav>
 <div >
