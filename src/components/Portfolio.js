@@ -123,7 +123,7 @@ function Portfolio () {
      } >
 
      <i  className="fa fa-wrench text-white  pt-5 ">
-     <a href="https://github.com/Kuiil7" className=" btn-dark btn-1 btn-sm" > JGAM 2021</a>
+     <a href="https://github.com/Kuiil7" className=" text-white btn-1 btn-sm" > JGAM 2021</a>
 
      </i>
 
