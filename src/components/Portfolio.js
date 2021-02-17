@@ -3,7 +3,7 @@ import React from "react";
 
 const data = [
   {
-   
+
     name: "LingoLabs",
     images: ( process.env.PUBLIC_URL + "../images/lingolabs.png"),
     alt: "landing page screenshot",
@@ -14,7 +14,7 @@ const data = [
     builtWith: "Built with: NodeJs, NPM, Express.js, MongoDB, React.js, Mongoose, Passport.js, Socket.io, and Heroku."
   },
   {
-    
+
     name: "Movie-Magic",
     images:( process.env.PUBLIC_URL +  "../images/movie_magic.png"),
     alt: "landing page screenshot",
@@ -25,7 +25,7 @@ const data = [
     builtWith: "Built with: Express.js, NodeJs, Passport.js, MySQL, Moments.Js, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
   },
   {
-  
+
     name: "Sports-Tracker",
     images: (process.env.PUBLIC_URL + "../images/sports_tracker.png"),
     alt: "landing page screenshot",
@@ -36,9 +36,9 @@ const data = [
     builtWith: "Built with: Bootstrap, Bulma, Javascript, and JQuery."
   },
   {
-   
+
     name: "Note-Taker",
-    
+
    images: ( process.env.PUBLIC_URL + "../images/note_taker.gif"),
    alt: "landing page screenshot",
    repo: "https://github.com/Kuiil7/Note-Taker" ,
@@ -49,9 +49,9 @@ const data = [
   },
   {
 
-   
 
-    
+
+
     name: "Eat-da-Burger",
     images: ( process.env.PUBLIC_URL + "../images/eatdaburger.gif"),
     alt: "landing page screenshot",
@@ -73,9 +73,9 @@ function Portfolio () {
        return (<div className="container text-white ">
   <div className="col  ">
     <div className="col-sm ">
-      
+
       <h1 className="text-center pt-5">
-        
+
       {data.name}
 
       </h1>
@@ -86,53 +86,44 @@ function Portfolio () {
   </center>
 
       </div>
-      <div 
-      className=" p-4 " 
+      <div
+      className=" p-4 "
       style={
              {
-              display:"flex", 
+              display:"flex",
               justifyContent: "center"
               }
             }>
 <div>
   </div>
-        <a href={data.repo} className="  mr-2 btn-primary btn-1 btn-sm " >REPO</a>
- <a href={data.demo} className=" btn-primary btn-1 btn-sm ">
+        <a href={data.repo} className=" m-2 btn-outline-light btn-1 btn rounded-pill" >REPO</a>
+ <a href={data.demo} className=" m-2 btn-outline-light btn-1 btn rounded-pill">
     DEMO
      </a>
-      
+
 </div>
 
-     
     </div>
-    <div className="col-sm">
-      <p>
-      {data.description}
 
-      </p>
-      <p>
-      {data.myDuty}
+    <ul className="list-group">
+  <li className="list-group-item list-group-item-light">{data.description}</li>
+  <li className="list-group-item list-group-item-light">{data.myDuty}</li>
+  <li className="list-group-item list-group-item-light">{data.builtWith}</li>
+</ul>
 
-      </p>
-</div>
-    <div className="col-sm">
-      {data.builtWith}
-      
-    </div>
-    
   </div>
-  
+
 </div>)
      })}
    <div style={
      {
-     display:"flex", 
-     justifyContent: "center"
+     display:"flex",
+     justifyContent: "center",
      }
      } >
-       
-     <i className="fa fa-wrench text-white  pt-5 ">
-     <a href="https://kuiil7.github.io/" className=" btn-dark btn-1 btn-sm"> JGAM 2021</a>
+
+     <i  className="fa fa-wrench text-white  pt-5 ">
+     <a href="https://github.com/Kuiil7" className=" btn-dark btn-1 btn-sm" > JGAM 2021</a>
 
      </i>
 
@@ -140,7 +131,7 @@ function Portfolio () {
     </div>
 );
 
-  
+
 }
 
 export default Portfolio;

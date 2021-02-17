@@ -1,0 +1,87 @@
+body,html{margin:0}
+
+body, .navbar {
+    background-color: #393939;
+        letter-spacing: 2px;
+        line-height: 1.75;
+        font-family: 'Ranchers', cursive;
+        font-family: 'Roboto Mono', monospace;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Roboto+Mono:ital,wght@0,100;0,200;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Roboto+Mono:ital,wght@0,100;0,200;0,400;1,300&display=swap');
+
+
+
+
+.main1 {
+    background: url("//images/SD_Landscape_1200px.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+
+
+
+
+html::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family:'Roboto Slab';
+
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fade-in-2 {
+  animation: fadeIn ease 15s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:3;
+  }
+}
+
+.fade-in-3 {
+  animation: fadeIn ease 7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:3;
+  }
+}
+
+
+
+
+
