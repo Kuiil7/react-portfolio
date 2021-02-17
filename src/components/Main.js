@@ -6,7 +6,7 @@ function Main () {
   return (
     <div  >
 
-<div className="main1 "   style={
+<div className="main1 container"   style={
              {
 
               color: "white",
