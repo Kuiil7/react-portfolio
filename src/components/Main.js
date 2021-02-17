@@ -34,21 +34,21 @@ function Main () {
     <div className="row fade-in-2 ">
     <div className="col-sm ">
     <a className="btn " href="https://github.com/Kuiil7" >
-    <i class="fa fa-github fa-3x text-white" aria-hidden="true"></i>
+    <i className="fa fa-github fa-3x text-white" aria-hidden="true"></i>
       </a>
 
 
     </div>
-    <div className="col-sm text ">
+    <div className="col-sm  ">
     <a className="btn    " href="https://www.linkedin.com/in/joey-aguilera-merino-8298b6193/">
-    <i class="fa fa-linkedin-square fa-3x text-white" aria-hidden="true"></i>
+    <i className="fa fa-linkedin-square fa-3x text-white" aria-hidden="true"></i>
      </a>
     </div>
     <div className="col-sm">
 
 <a href={JAM_resume} target="_blank" rel="noopener noreferrer" download>
 
-<i class="fa fa-file-o fa-3x text-white"  aria-hidden="true"></i>
+<i className="fa fa-file-o fa-3x text-white"  aria-hidden="true"></i>
 
 
 </a>

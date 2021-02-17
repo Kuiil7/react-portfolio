@@ -12,7 +12,7 @@ function AboutMe() {
 
 <span >
 
-<img  src="https://i.imgrz.com/vb6h.jpg" className="rounded-circle  img-fluid  m-2" align="left" alt="self-portrait" />
+<img  src="https://i.imgrz.com/vb6h.jpg" className="rounded-circle img-thumbnail img-fluid  m-2" align="left" alt="self-portrait" />
 </span>
 
 <h3>
@@ -22,9 +22,9 @@ function AboutMe() {
 Full Stack Developer - MERN
 </h5>
 
-<h7>
+<h6>
 <i className="fa text-danger fa-map-pin"></i> San Diego, CA
-</h7>
+</h6>
 
 
 <div>
@@ -53,10 +53,10 @@ Full Stack Developer - MERN
 <p >
   E-mail:
   <a className="p-1" href="mailto:jgamerino@gmail.com"  >
-  <h7>
+
    jgamerino@gmail.com
 
-</h7>
+
           </a>
 
           </p>

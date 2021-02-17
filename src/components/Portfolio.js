@@ -70,7 +70,7 @@ function Portfolio () {
 
     <div>
     {data.map(function(data){
-       return (<div className="container text-white ">
+       return (<div className="container pb-4 bg-white">
   <div className="col  ">
     <div className="col-sm ">
 
@@ -81,7 +81,7 @@ function Portfolio () {
       </h1>
   < div  >
   <center>
-  <img src={data.images} alt={data.alt} className="img-fluid fade-in-3 " />
+  <img src={data.images} alt={data.alt} className="img-fluid fade-in-3 rounded" />
 
   </center>
 
@@ -96,19 +96,25 @@ function Portfolio () {
             }>
 <div>
   </div>
-        <a href={data.repo} className=" m-2 btn-outline-light btn-1 btn rounded-pill" >REPO</a>
- <a href={data.demo} className=" m-2 btn-outline-light btn-1 btn rounded-pill">
+  <span>
+  <a href={data.repo} className=" m-2 btn-outline-dark btn-1 btn rounded-pill" >REPO</a>
+  </span>
+
+<span>
+<a href={data.demo} className=" m-2 btn-outline-dark btn-1 btn rounded-pill">
     DEMO
      </a>
+</span>
+
 
 </div>
 
     </div>
 
     <ul className="list-group">
-  <li className="list-group-item list-group-item-light">{data.description}</li>
-  <li className="list-group-item list-group-item-light">{data.myDuty}</li>
-  <li className="list-group-item list-group-item-light">{data.builtWith}</li>
+  <li className="list-group-item ">{data.description}</li>
+  <li className="list-group-item ">{data.myDuty}</li>
+  <li className="list-group-item ">{data.builtWith}</li>
 </ul>
 
   </div>
@@ -122,7 +128,7 @@ function Portfolio () {
      }
      } >
 
-     <i  className="fa fa-wrench text-white  pt-5 ">
+     <i  className="fa fa-wrench text-white  pt-5  ">
      <a href="https://github.com/Kuiil7" className=" text-white btn-1 btn-sm" > JGAM 2021</a>
 
      </i>

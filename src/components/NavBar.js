@@ -19,9 +19,8 @@ return (
 
   <HashRouter basename={process.env.PUBLIC_URL}>
 <nav className="navbar  navbar-expand-sm navbar-dark " >
-<div class="container-fluid">
-  <a className="navbar-brand "  href="/"><NavLink style={{color: 'white'}}
-  to="/">JGAM</NavLink></a>
+<div className="container-fluid">
+  <a className="navbar-brand "  href="/">JGAM</a>
   <button className="navbar-toggler btn-outline-0"
   style={{
     border: '0',
