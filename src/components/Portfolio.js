@@ -52,7 +52,7 @@ const data = [
 
 
 
-    name: "Eat-da-Burger",
+    name: "Eat-Da-Burger",
     images: ( process.env.PUBLIC_URL + "../images/eatdaburger.gif"),
     alt: "landing page screenshot",
     repo: "https://github.com/Kuiil7/Node-Express-Handlebars" ,
