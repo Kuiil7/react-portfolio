@@ -1,27 +1,20 @@
 import React from "react";
 
+import {Route,NavLink,HashRouter} from "react-router-dom";
 
-import {
-  Route,
-  NavLink,
-  HashRouter
-} from "react-router-dom";
 import Main from "./Main";
 import Portfolio from "./Portfolio";
 import Aboutme from "./Aboutme";
-
 
 function NavBar () {
 return (
 
   <div  >
-
-
   <HashRouter basename={process.env.PUBLIC_URL}>
-<nav className="navbar  navbar-expand-sm navbar-dark " >
-<div className="container-fluid">
+<nav className="navbar container navbar-expand-sm navbar-light " >
+
   <a className="navbar-brand "  href="/">JGAM</a>
-  <button className="navbar-toggler btn-outline-0"
+  <button className="navbar-toggler "
   style={{
     border: '0',
     outline: 'none'
@@ -35,24 +28,18 @@ return (
 
       <li className="nav-item  ">
          <span className="p-2">
-        <NavLink   style={{color: 'white'}}
+        <NavLink className="text-dark"
   to="/portfolio">Portfolio</NavLink>
         </span>
       </li>
       <li className="nav-item">
         <span className="p-2">
-       <NavLink style={{color: 'white'}}
+       <NavLink className="text-dark"
   to="/aboutme">About Me</NavLink>
          </span>
-
-        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-
-        </div>
       </li>
-
     </ul>
     </div>
-  </div>
 </nav>
 <div >
   <Route exact path="/" component={Main}/>
@@ -61,8 +48,6 @@ return (
 </div> 
 </HashRouter>
 </div>
-
-
   );
 }
 
