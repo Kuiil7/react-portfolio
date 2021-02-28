@@ -1,9 +1,8 @@
-import React from "react";
-import {NavLink} from "react-router-dom";
-
+import {React, NavLink} from "react-router-dom";
 
 import JAM_resume from "../docs/JAM_resume.docx"
-import portfolio_portrait_1_m from "../images/portfolio_portrait_1_m.jpg"
+
+import self_portrait_1_m from "../images/self_portrait_1_m.jpg"
 
 function Main () {
   return (
@@ -19,7 +18,7 @@ function Main () {
   <figure className="image is-fluid mb-2 is-square  " >
   <NavLink
   to="/aboutme">
-    <img alt="jose's profile" className="is-rounded box  has-background-grey-lighter" src={portfolio_portrait_1_m} />
+    <img alt="jose's profile" className=" p-2 is-rounded box has-background-primary" src={self_portrait_1_m} />
     </NavLink>
 </figure>
 </div>
@@ -32,40 +31,35 @@ function Main () {
 
 <p className="is-size-2">
 Jose Aguilera Merino </p>
-<p className="is-size-4">
+<p className="is-size-5">
 Full Stack Developer - MERN
 </p>
     </div>
     </div>
 
-    <div class="columns is-flex is-justify-content-center">
-
+    <div className="columns is-flex is-justify-content-center">
 <div className="row ">
 <i className="fa fa-1x has-text-danger  fa-map-pin pr-3 mb-6"> </i>
 San Diego, CA
 </div>
-
 </div>
-
-
-
 </div>
 
 
 <div className="columns is-flex is-align-items-center-center has-text-centered">
   <div className="column ">
   <a className="btn " href="https://github.com/Kuiil7" >
-    <i className="fa fa-github fa-3x has-text-dark " aria-hidden="true"></i>
+    <i className="fa fa-github fa-3x has-text-primary " aria-hidden="true"></i>
       </a>
 </div>
   <div className="column">
   <a className="    " href="https://www.linkedin.com/in/jose-aguilera-merino-8298b6193/">
-    <i className="fa fa-linkedin-square fa-3x has-text-dark " aria-hidden="true"></i>
+    <i className="fa fa-linkedin-square fa-3x has-text-primary " aria-hidden="true"></i>
      </a>
     </div>
   <div className="column">
   <a href={JAM_resume} target="_blank" rel="noopener noreferrer" download>
-<i className="fa fa-file-o fa-3x has-text-dark"  aria-hidden="true"></i>
+<i className="fa fa-file-o fa-3x has-text-primary"  aria-hidden="true"></i>
 </a>
     </div>
 

@@ -11,12 +11,13 @@ function NavBar () {
 
 return (
   <HashRouter basename={process.env.PUBLIC_URL}>
-  <nav className="navbar is-fixed-top " role="navigation" aria-label="main navigation">
-  <div className="navbar-brand">
 
+  <nav className="navbar is-fixed-top  " role="navigation" aria-label="main navigation">
 
-  <NavLink className="navbar-item"
-to="/"><strong> JGAM</strong></NavLink>
+  <div className="navbar-brand ">
+  <NavLink className="navbar-item "
+to="/"><strong> JGAM</strong>
+</NavLink>
 
 <div
           onClick={() => {

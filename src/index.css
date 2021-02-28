@@ -56,5 +56,12 @@ html::-webkit-scrollbar {
   }
 }
 
+li {
+  list-style-type: none;
+}
 
+p {
+  line-height: 32px;
+  
 
+}

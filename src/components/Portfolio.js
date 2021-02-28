@@ -10,7 +10,7 @@ const data = [
   {
 
     name: "Movie-Magic",
-    images:( process.env.PUBLIC_URL +  "../images/movie_magic.png"),
+    images:( process.env.PUBLIC_URL +  "../images/portfolio/movie_magic.png"),
     alt: "sign-in screen",
     repo: "https://github.com/HowardDaniels/movie-magic" ,
     demo:"https://infinite-inlet-20359.herokuapp.com",
@@ -23,7 +23,7 @@ const data = [
     name: "LingoLabs",
     images: ( process.env.PUBLIC_URL + "../images/lingolabs.png"),
     alt: "lingolabs website",
-    repo: "https://github.com/ShawnWhy/LingoLabs" ,
+    repo: "https://github.com/ShawnWhy/portfolio/LingoLabs" ,
     demo:"https://shawnyulingolabsmaster.herokuapp.com/",
     description: "Description: A website where users can browse and shop for stock websites templates.",
     myDuty: "My core responsibility was creating the registration and backend server.",
@@ -32,7 +32,7 @@ const data = [
   {
 
     name: "Sports-Tracker",
-    images: (process.env.PUBLIC_URL + "../images/sports_tracker.png"),
+    images: (process.env.PUBLIC_URL + "../images/portfolio/sports_tracker.png"),
     alt: "figure of players playing verious sports",
     repo: "https://github.com/SportsWarriorsGWU/Sports-Tracker/" ,
     demo:"https://sportswarriorsgwu.github.io/Sports-Tracker/",
@@ -43,7 +43,7 @@ const data = [
   {
 
     name: "Note-Taker",
-   images: ( process.env.PUBLIC_URL + "../images/note_taker.gif"),
+   images: ( process.env.PUBLIC_URL + "../images/portfolio/note_taker.gif"),
    alt: "note taker ",
    repo: "https://github.com/Kuiil7/Note-Taker" ,
    demo:"https://kuiil7.github.io/Note-Taker",
@@ -53,7 +53,7 @@ const data = [
   },
   {
     name: "Eat-Da-Burger",
-    images: ( process.env.PUBLIC_URL + "../images/eatdaburger.gif"),
+    images: ( process.env.PUBLIC_URL + "../images/portfolio/eatdaburger.gif"),
     alt: "landing page with input box",
     repo: "https://github.com/Kuiil7/Node-Express-Handlebars" ,
     demo:"https://ancient-thicket-66505.herokuapp.com/",
@@ -73,7 +73,7 @@ function Portfolio () {
        return (<div className="container pt-4 pb-4 bg-white">
   <div className="col  ">
     <div className="col-sm ">
-      <h1 className="is-size-1 pt-5">
+      <h1 className="is-size-1 pt-5 has-text-centered">
       {data.name}
       </h1>
   < div  >

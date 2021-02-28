@@ -1,50 +1,62 @@
 const data = [
       {
+          id: 1,
         logo: "https://i.imgrz.com/Yjwf.png",
-        alt: "HTML5 logo"
+        alt: "HTML logo"
      },
       {
-
+        id: 2,
         logo: "https://i.imgrz.com/YAlk.png",
-        alt: "CSS3 logo"
+        alt: "CSS logo"
      },
       {
+        id: 3,
         logo: "http://i.imgrz.com/YLb5.png",
         alt: "Javascript logo"
     },
     {
+        id: 4,
         logo: " https://i.imgrz.com/YrnT.png",
         alt: "JQuery logo"
     },
     {
+        id: 5,
         logo: "https://i.imgrz.com/Y88z.png",
         alt: "MongoDB logo"
-    },
-    {
-        logo: "https://i.imgrz.com/YQud.png",
+        },
+
+        {
+            id: 6,
+    logo: "https://i.imgrz.com/YQud.png",
         alt: "ExpressJS logo"
     },
     {
+        id: 7,
         logo: "https://i.imgrz.com/YajO.png",
         alt: "HTML5 logo"
     },
     {
+        id: 8,
         logo: "https://i.imgrz.com/YgIw.png",
         alt: "NPM logo"
     },
     {
+        id: 9 ,
         logo: "https://i.imgrz.com/YldS.png",
         alt: "ReactJs logo"
     },
     {
+        id: 10,
         logo: "https://i.imgrz.com/YpbV.png",
         alt: "Adobe Illustrator logo"
     },
     {
+        id: 11,
         logo: "https://i.imgrz.com/Y27P.jpg",
         alt: "Photoshop logo"
     },
     {
+        id: 12,
         logo: "https://i.imgrz.com/RMw0.png",
         alt: "Final Cut Pro logo"
     }
@@ -54,18 +66,17 @@ const data = [
 
 
     function Icons () {
-
-
-
-
     return (
 <div className="columns p-2 is-flex is-flex-wrap-wrap">
           {data.map((data) => (
-
 <div className="column ">
-<figure className="image is-32x32" >
+
+<li key={data.id}>
+    <figure className="image is-32x32" >
 <img  src={data.logo} alt={data.alt}   />
 </figure>
+    </li>
+
 </div>
           ))}
         </div>
