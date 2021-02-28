@@ -32,7 +32,7 @@ function AboutMe() {
 Full Stack Developer - MERN
 </p>
 <a href="mailto:jgamerino@gmail.com" >
-  <p className="mb-4 is-size-5">
+  <p className="mb-4 is-size-6">
       jgamerino@gmail.com
   </p>
  </a>
