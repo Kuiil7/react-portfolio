@@ -6,21 +6,21 @@ import Main from "./Main";
 import Portfolio from "./Portfolio";
 import Aboutme from "./Aboutme";
 
+
 function NavBar () {
   const [isActive, setisActive] = React.useState(false)
 
 return (
   <HashRouter basename={process.env.PUBLIC_URL}>
 
-  <nav className="navbar is-fixed-top  " role="navigation" aria-label="main navigation">
 
+  <nav className="navbar is-fixed-top  " role="navigation" aria-label="main navigation">
   <div className="navbar-brand ">
   <NavLink className="navbar-item "
 to="/"><strong> JGAM</strong>
 </NavLink>
-
 <div
-          onClick={() => {
+         onClick={() => {
             setisActive(!isActive)
           }}
           role='button'
@@ -37,12 +37,10 @@ to="/"><strong> JGAM</strong>
   <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
    <div className='navbar-end'>
       <div className='navbar-item '>
-
  <NavLink className="navbar-item"
 to="/portfolio">Portfolio</NavLink>
  <NavLink className="navbar-item"
 to="/aboutme">About Me</NavLink>
-
           </div>
         </div>
       </div>

@@ -1,5 +1,3 @@
-
-
 import {NavLink} from "react-router-dom";
 
 import Icons from "./Icons";
@@ -20,7 +18,7 @@ function AboutMe() {
 <figure className="image is-fluid    " >
   <NavLink
   to="/aboutme">
-    <img alt="jose's profile" align="left" className="is-rounded  p-2 box has-background-primary  " src={self_portrait_1_m} />
+    <img alt="jose's profile" align="left" className="is-rounded  p-2 box m-3 has-background-primary  " src={self_portrait_1_m} />
     </NavLink>
 </figure>
 </div>
@@ -33,13 +31,14 @@ function AboutMe() {
 <p className="is-size-5" >
 Full Stack Developer - MERN
 </p>
-<a href="mailto:jgamerino@gmail.com" id="email">
-        <p className="mb-4 is-size-5">
-        jgamerino@gmail.com
-          </p>
-          </a>
+<a href="mailto:jgamerino@gmail.com" >
+  <p className="mb-4 is-size-5">
+      jgamerino@gmail.com
+  </p>
+ </a>
 <p className="is-size-5" >
-<i className="fa text-danger fa-map-pin has-text-danger"></i> San Diego, CA
+<i className="fa text-danger fa-map-pin has-text-danger"></i>
+San Diego, CA
 </p>
     </div>
     <div className="columns-reverse  is-flex">
@@ -56,27 +55,24 @@ Full Stack Developer - MERN
 </div>
 </div>
 
-<p className="pb-4">
+<div className="column pb-3">
+<p   >
   My career began with Sales and Marketing for Telecommunications sector for Fortune 500 compaines such as <strong> MCI WorldCom and AT&T </strong> for example. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet Universit to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling.
 </p>
 
-  <p className="pb-4">
+  <p className="pb-3" >
   Last year, I enrolled at the <strong>George Washington University's   Coding Boot Camp </strong> to obtain my professional certification. The coding program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
     </p>
 
-   <p className="pb-4">
+   <p className="pb-3" >
    My most recent work has been the creation of Single Page Apps (SPA) Progressive Web Apps (PWA) offline capability, and working nonstructural databases (MongoDB Atlas).
    </p>
-   <p>
+   <p className="pb-3">
    I bring: <strong> Full Stack Web Development, UX/UI design principles, technical expertise, and troubleshooting skills. </strong>
    </p>
-
-
-<Icons/>
-
 </div>
-
-
+<Icons/>
+</div>
   </div>
   </div>
 

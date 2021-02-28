@@ -26,7 +26,8 @@ const data = [
         },
 
         {
-            id: 6,
+
+        id: 6,
     logo: "https://i.imgrz.com/YQud.png",
         alt: "ExpressJS logo"
     },
@@ -67,15 +68,13 @@ const data = [
 
     function Icons () {
     return (
-<div className="columns p-2 is-flex is-flex-wrap-wrap">
+<div className="columns p-2 ">
           {data.map((data) => (
-<div className="column ">
+<div className="column " key={data.id}>
 
-<li key={data.id}>
-    <figure className="image is-32x32" >
+<figure className="image is-fluid " >
 <img  src={data.logo} alt={data.alt}   />
 </figure>
-    </li>
 
 </div>
           ))}

@@ -8,7 +8,7 @@ import { Button } from 'react-bulma-components';
 const data = [
 
   {
-
+  id: 1,
     name: "Movie-Magic",
     images:( process.env.PUBLIC_URL +  "../images/portfolio/movie_magic.png"),
     alt: "sign-in screen",
@@ -19,18 +19,18 @@ const data = [
     builtWith: "Express.js, NodeJs, Passport.js, MySQL, Moments.Js, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
   },
   {
-
+    id: 2 ,
     name: "LingoLabs",
     images: ( process.env.PUBLIC_URL + "../images/lingolabs.png"),
     alt: "lingolabs website",
-    repo: "https://github.com/ShawnWhy/portfolio/LingoLabs" ,
+    repo:   "https://github.com/ShawnWhy/portfolio/LingoLabs" ,
     demo:"https://shawnyulingolabsmaster.herokuapp.com/",
     description: "Description: A website where users can browse and shop for stock websites templates.",
     myDuty: "My core responsibility was creating the registration and backend server.",
     builtWith: "NodeJs, NPM, Express.js, MongoDB, React.js, Mongoose, Passport.js, Socket.io, and Heroku."
   },
   {
-
+    id: 3,
     name: "Sports-Tracker",
     images: (process.env.PUBLIC_URL + "../images/portfolio/sports_tracker.png"),
     alt: "figure of players playing verious sports",
@@ -41,7 +41,7 @@ const data = [
     builtWith: "Bootstrap, Bulma, Javascript, and JQuery."
   },
   {
-
+    id: 4,
     name: "Note-Taker",
    images: ( process.env.PUBLIC_URL + "../images/portfolio/note_taker.gif"),
    alt: "note taker ",
@@ -52,6 +52,7 @@ const data = [
     builtWith: "Bootstrap, NodeJs, NPM, jQuery, Express.js, Ajax, and JSON."
   },
   {
+    id: 5,
     name: "Eat-Da-Burger",
     images: ( process.env.PUBLIC_URL + "../images/portfolio/eatdaburger.gif"),
     alt: "landing page with input box",
@@ -69,45 +70,11 @@ function Portfolio () {
 
  return (
     <div className="p-4">
-    {data.map(function(data){
-       return (<div className="container pt-4 pb-4 bg-white">
-  <div className="col  ">
-    <div className="col-sm ">
-      <h1 className="is-size-1 pt-5 has-text-centered">
-      {data.name}
-      </h1>
-  < div  >
+    {data.map(function(data, i){
 
-  <center>
-  <img src={data.images} alt={data.alt} className="img-fluid fade-in-3 rounded" />
-  </center>
+       return (
+       <div className="container pt-4 pb-4 bg-white" key={i}>
 
-      </div>
-      <div className=" p-3 " style={{ display:"flex",justifyContent: "center"}}>
-<div>
-  </div>
-
-  <span>
-  <a href={data.repo} className=" m-2 " >
-   <Button color="primary">Repo</Button>
-</a>
-  </span>
-  <a href={data.demo}>
-  <Button color="primary">Demo</Button>
-</a>
-
-
-</div>
-
-    </div>
-
-    <ul className="list-group text-justify">
-  <li className="list-group-item "><strong> Description: </strong>{data.description}</li>
-  <li className="list-group-item "><strong>My Duties:</strong>  {data.myDuty}</li>
-  <li className="list-group-item "><strong>Built with:</strong>{data.builtWith}</li>
-</ul>
-
-  </div>
 
 </div>)
      })}
