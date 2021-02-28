@@ -1,9 +1,6 @@
-import React from "react";
-
+import React from 'react';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Button } from 'react-bulma-components';
-
-
 
 const data = [
 
@@ -74,7 +71,33 @@ function Portfolio () {
 
        return (
        <div className="container pt-4 pb-4 bg-white" key={i}>
+<div class="columns-reverse">
+  <div class="column is-size-3 has-text-centered">
+  <strong>{data.name}</strong>
+  </div>
+  <div class="column ">
+    <center>
+    <img src={data.images} alt={data.alt} className="is-fluid fade-in-3  " />
 
+    </center>
+  </div>
+  <div class="column has-text-centered">
+  <a href={data.repo} className=" m-2 " >
+   <Button color="primary">Repo</Button>
+</a>
+<a href={data.demo}>
+  <Button color="primary">Demo</Button>
+</a>
+
+</div>
+  <div class="column">
+  <ul  className="list-group text-justify ">
+  <li className="list-group-item pb-3"><strong> Description: </strong>{data.description}</li>
+  <li className="list-group-item pb-3"><strong>My Duties:</strong>  {data.myDuty}</li>
+  <li className="list-group-item pb-3"><strong>Built with:</strong>{data.builtWith}</li>
+</ul>
+  </div>
+</div>
 
 </div>)
      })}
