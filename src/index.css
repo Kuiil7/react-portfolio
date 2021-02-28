@@ -8,6 +8,8 @@ body, .navbar {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
 
 html::-webkit-scrollbar {
   display: none;
@@ -53,8 +55,6 @@ html::-webkit-scrollbar {
     opacity:3;
   }
 }
-
-
 
 
 

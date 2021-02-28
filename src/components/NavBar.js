@@ -7,39 +7,44 @@ import Portfolio from "./Portfolio";
 import Aboutme from "./Aboutme";
 
 function NavBar () {
+  const [isActive, setisActive] = React.useState(false)
+
 return (
-
-  <div  >
   <HashRouter basename={process.env.PUBLIC_URL}>
-<nav className="navbar container navbar-expand-sm navbar-light " >
+  <nav className="navbar is-fixed-top " role="navigation" aria-label="main navigation">
+  <div className="navbar-brand">
 
-  <a className="navbar-brand "  href="/">JGAM</a>
-  <button className="navbar-toggler "
-  style={{
-    border: '0',
-    outline: 'none'
 
-  }}
-  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon "></span>
-  </button>
-  <div className="collapse navbar-collapse "  id="navbarSupportedContent">
-    <ul className="navbar-nav ml-auto " >
+  <NavLink className="navbar-item"
+to="/"><strong> JGAM</strong></NavLink>
 
-      <li className="nav-item  ">
-         <span className="p-2">
-        <NavLink className="text-dark"
-  to="/portfolio">Portfolio</NavLink>
-        </span>
-      </li>
-      <li className="nav-item">
-        <span className="p-2">
-       <NavLink className="text-dark"
-  to="/aboutme">About Me</NavLink>
-         </span>
-      </li>
-    </ul>
-    </div>
+<div
+          onClick={() => {
+            setisActive(!isActive)
+          }}
+          role='button'
+          className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
+          aria-label='menu'
+          aria-expanded='false'
+        >
+          <span aria-hidden='true'></span>
+          <span aria-hidden='true'></span>
+          <span aria-hidden='true'></span>
+        </div>
+  </div>
+
+  <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
+   <div className='navbar-end'>
+      <div className='navbar-item '>
+
+ <NavLink className="navbar-item"
+to="/portfolio">Portfolio</NavLink>
+ <NavLink className="navbar-item"
+to="/aboutme">About Me</NavLink>
+
+          </div>
+        </div>
+      </div>
 </nav>
 <div >
   <Route exact path="/" component={Main}/>
@@ -47,7 +52,6 @@ return (
   <Route path="/aboutme" component={Aboutme}/>
 </div> 
 </HashRouter>
-</div>
   );
 }
 

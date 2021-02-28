@@ -59,9 +59,14 @@ const data = [
 
 
     return (
-        <div className="p-1 fade-in-3 text-center">
+<div className="columns pt-2 is-flex is-flex-wrap-wrap">
           {data.map((data) => (
-                       <img  src={data.logo} alt={data.alt} height={90} className="p-1" />
+
+<div className="column ">
+<figure className="image is-32x32" >
+<img  src={data.logo} alt={data.alt}   />
+</figure>
+</div>
           ))}
         </div>
       );
