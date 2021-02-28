@@ -90,7 +90,7 @@ function Portfolio () {
 </a>
 
 </div>
-  <div class="column">
+  <div className="column">
   <ul  className="list-group text-justify ">
   <li className="list-group-item pb-3"><strong> Description: </strong>{data.description}</li>
   <li className="list-group-item pb-3"><strong>My Duties:</strong>  {data.myDuty}</li>
