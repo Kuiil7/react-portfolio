@@ -17,15 +17,15 @@ function AboutMe() {
 
 <div className="column is-half is-offset-one-quarter pt-6 mt-6">
 
-<figure className="image is-fluid is-flex " >
+<figure className="image is-fluid is-flex  " >
   <NavLink
   to="/aboutme">
-    <img alt="jose's profile" className="is-rounded  " src={portfolio_portrait_1_m} />
+    <img alt="jose's profile" className="is-rounded  box has-background-grey-lighter  " src={portfolio_portrait_1_m} />
     </NavLink>
 </figure>
 </div>
 
-<div className="columns-reverse has-text-centered  ">
+<div className="columns-reverse has-text-centerd ">
   <div className="column">
   <p className="is-size-3" >
   Jose <strong>Aguilera Merino </strong>
@@ -62,15 +62,15 @@ Full Stack Developer - MERN
 
 
 <div className="columns ">
-<div className="column has-text-justified ">
+<div className="column has-text-justified p-5">
 <p >
-  My career began at Telecommunications and Marketing with MCI WorldCom and more recently AT&T Relay Services in a national capacity. Coding was not only a necessity in these roles, it had been a lifelong untapped passion. To continue improving these skills I enrolled in the George Washington Coding Boot Camp and obtained my professional certification. This program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
+  My career began with Sales and Marketing for Telecommunications sector for Fortune 500 compaines such as <strong> MCI WorldCom and AT&T </strong> for example. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet Universit to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling. Last year, I enrolled at the <strong>George Washington University's   Coding Boot Camp </strong> to obtain my professional certification. The coding program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
    </p>
    <p>
-   My most recent work has been the creation of Single Page  Progressive Web Apps (PWAs) with offline capability, and working nonstructural databases (MongoDB Atlas).
+   My most recent work has been the creation of Single Page Apps (SPA) Progressive Web Apps (PWA) offline capability, and working nonstructural databases (MongoDB Atlas).
    </p>
    <p>
-   I bring: <strong> Full Stack Web Development, UX/UI design principles, technical expertise, and problem-solver among many not listed here. </strong>
+   I bring: <strong> Full Stack Web Development, UX/UI design principles, technical expertise, and troubleshooting skills. </strong>
    </p>
 </div>
 </div>

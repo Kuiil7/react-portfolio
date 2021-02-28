@@ -16,10 +16,10 @@ function Main () {
 
   <div className="column-reverse " >
 
-  <figure className="image is-fluid mb-2 is-square " >
+  <figure className="image is-fluid mb-2 is-square  " >
   <NavLink
   to="/aboutme">
-    <img alt="jose's profile" className="is-rounded  " src={portfolio_portrait_1_m} />
+    <img alt="jose's profile" className="is-rounded box  has-background-grey-lighter" src={portfolio_portrait_1_m} />
     </NavLink>
 </figure>
 </div>

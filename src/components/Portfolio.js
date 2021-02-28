@@ -68,7 +68,7 @@ function Portfolio () {
 
 
  return (
-    <div>
+    <div className="p-4">
     {data.map(function(data){
        return (<div className="container pt-4 pb-4 bg-white">
   <div className="col  ">

@@ -59,7 +59,7 @@ const data = [
 
 
     return (
-<div className="columns pt-2 is-flex is-flex-wrap-wrap">
+<div className="columns p-2 is-flex is-flex-wrap-wrap">
           {data.map((data) => (
 
 <div className="column ">
