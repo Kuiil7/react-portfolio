@@ -66,7 +66,7 @@ function Portfolio () {
 
 
  return (
-    <div className="columns container is-flex is-justify-content-center	 is-flex-wrap-wrap p-4  mt-5">
+    <div className="columns container is-flex is-justify-content-center	 is-flex-wrap-wrap p-4  " style={{marginTop:"100px"}}>
     {data.map(function(data, i){
 
        return (
