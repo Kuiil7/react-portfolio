@@ -91,7 +91,7 @@ function Portfolio () {
 
 </div>
   <div className="column">
-  <ul  className="list-group text-justify ">
+  <ul  className="list-group has-text-justified ">
   <li className="list-group-item pb-3"><strong> Description: </strong>{data.description}</li>
   <li className="list-group-item pb-3"><strong>My Duties: </strong>  {data.myDuty}</li>
   <li className="list-group-item pb-3"><strong>Built with: </strong>{data.builtWith}</li>
@@ -107,8 +107,6 @@ function Portfolio () {
      justifyContent: "center",
      }
      } >
-
-
      <i  className="fa fa-wrench text-white  pt-5  ">
      <a href="https://github.com/Kuiil7" className=" text-white btn-1 btn-sm" > JGAM 2021</a>
 
