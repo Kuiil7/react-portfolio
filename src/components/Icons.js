@@ -73,7 +73,7 @@ const data = [
 <div className="column " key={data.id}>
 
 <figure className="image is-fluid " >
-<img  src={data.logo} alt={data.alt}   />
+<img  src={data.logo} alt={data.alt}    />
 </figure>
 
 </div>

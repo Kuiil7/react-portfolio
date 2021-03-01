@@ -1,4 +1,6 @@
-body,html{margin:0}
+body,html{
+  margin:0
+}
 
 body, .navbar {
         letter-spacing: 2px;
@@ -59,4 +61,5 @@ html::-webkit-scrollbar {
 li {
   list-style-type: none;
 }
+
 
