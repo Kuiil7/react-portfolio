@@ -66,7 +66,9 @@ function Portfolio () {
 
 
  return (
-    <div className="columns container 	 is-flex-wrap-wrap p-4  " style={{marginTop:"25px"}}>
+  <div className="container ">
+
+    <div className="columns	 is-flex-wrap-wrap p-4  " style={{marginTop:"25px"}}>
     {data.map(function(data, i){
 
        return (
@@ -121,6 +123,7 @@ function Portfolio () {
 )
      })}
 <br/>
+    </div>
     </div>
 );
 
