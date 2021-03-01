@@ -17,7 +17,7 @@ return (
   <nav className="navbar is-fixed-top  " role="navigation" aria-label="main navigation">
   <div className="navbar-brand ">
   <NavLink className="navbar-item "
-to="/"><strong> JGAM</strong>
+to="/"><strong> JGAMWORKS</strong>
 </NavLink>
 <div
          onClick={() => {
