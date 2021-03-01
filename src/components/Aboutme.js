@@ -55,17 +55,17 @@ San Diego, CA
 </div>
 </div>
 
-<div className="column pb-3">
+<div className="column pb-3 is-text-justified">
 <p   >
-  My career began with Sales and Marketing for Telecommunications sector for Fortune 500 compaines such as <strong> MCI WorldCom and AT&T </strong> for example. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet Universit to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling.
+  My career began with Sales and Marketing for Telecommunications sector for Fortune 500 compaines such as <strong> MCI WorldCom and AT&T </strong> for example. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine.Not only has coding been integral in every previous position I have had, coding has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet University to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling.
 </p>
 
   <p className="pb-3" >
-  Last year, I enrolled at the <strong>George Washington University's   Coding Boot Camp </strong> to obtain my professional certification. The coding program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
+  Last year, I enrolled at The <strong>George Washington University's Coding Boot Camp </strong> to obtain my professional certification. The coding program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
     </p>
 
    <p className="pb-3" >
-   My most recent work has been the creation of Single Page Apps (SPA) Progressive Web Apps (PWA) offline capability, and working nonstructural databases (MongoDB Atlas).
+   My most recent work has been the creation of Single Page Apps (SPA) and Progressive Web Apps (PWA) offline capability, as well as working nonstructural databases (MongoDB Atlas).
    </p>
    <p className="pb-3">
    I bring: <strong> Full Stack Web Development, UX/UI design principles, technical expertise, and troubleshooting skills. </strong>
