@@ -66,7 +66,7 @@ function Portfolio () {
 
 
  return (
-    <div className="columns container is-flex is-justify-content-center	 is-flex-wrap-wrap p-4 ">
+    <div className="columns container is-flex is-justify-content-center	 is-flex-wrap-wrap p-4  mt-5">
     {data.map(function(data, i){
 
        return (
@@ -74,8 +74,8 @@ function Portfolio () {
 
 
     <div key={i} className="column is-6 ">
-    <div className="card ">
-  <div className="card-image">
+    <div className="card  ">
+  <div className="card-image ">
     <figure className="image ">
     <img src={data.images} alt={data.alt} className="is-fluid fade-in-3  " />    </figure>
   </div>
