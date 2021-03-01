@@ -57,7 +57,7 @@ San Diego, CA
 
 <div className="column pb-3 has-text-justified">
 <p   >
-  My career began with Sales and Marketing for Telecommunications sector for Fortune 500 compaines such as <strong> MCI WorldCom and AT&T </strong> for example. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine. Not only has coding been integral in every previous position I have had, coding has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet University to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling.
+My career began with Sales and Marketing in the Telecommunications sector for Fortune 500 companies, such as MCI WorldCom and AT&T. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine. Not only has coding been integral in every previous position I have had, coding has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet University to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling.
 </p>
 
   <p className="pb-3" >
