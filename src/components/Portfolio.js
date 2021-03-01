@@ -11,9 +11,9 @@ const data = [
     alt: "sign-in screen",
     repo: "https://github.com/HowardDaniels/movie-magic" ,
     demo:"https://infinite-inlet-20359.herokuapp.com",
-    description: "This application allows the user to find movies and fellow movie buffs called- buddies, based on information they provide in a form which is accessed upon signing up or logging in. Once the user's top 3 favorite movies, actors, directors, and movie genres are entered, the user consents to being searchable by fellow movie buffs, and then submits the form.Upon submitting the form, users see descriptions of their favorite movies, recommended movies based on their favorite movies, actors, directors, and genres. These recommended movie results include posters which can be clicked on to access the Rotten Tomatoes page for that movie. In addition, the user sees a list of buddies whose tastes in movies are closest to theirs.This application uses OMDB API to search movie data, as well as MySQL to store user data in a database. The business impact of this application is the ability for movies to receive increased publicity through recommendations and social networks developed through the buddy search. Future developments to this project include adding geolocation to prioritize nearby buddies in the search, as well as messaging between buddies.",
-    myDuty: "My core responsibility was configuring MongoDB to the registration page using PassportJ and create a private route for users, layout, API calls.",
-    builtWith: "Express.js, NodeJs, Passport.js, MySQL, Moments.Js, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
+    description: "This application allows the user to find movies and fellow movie buffs called- buddies, based on information they provide in a form which is accessed upon signing up or logging in. Once the user's top 3 favorite movies, actors, directors, and movie genres are entered, the user consents to being searchable by fellow movie buffs, and then submits the form. Upon submitting the form, users see descriptions of their favorite movies, recommended movies based on their favorite movies, actors, directors, and genres. These recommended movie results include posters which can be clicked on to access the Rotten Tomatoes page for that movie. In addition, the user sees a list of buddies whose tastes in movies are closest to theirs. This application uses OMDB API to search movie data, as well as MySQL to store user data in a database. The business impact of this application is the ability for movies to receive increased publicity through recommendations and social networks developed through the buddy search. Future developments to this project include adding geolocation to prioritize nearby buddies in the search, as well as messaging between buddies.",
+    myDuty:"My core responsibilities were configuring MongoDB to the registration page using PassportJ and creating a private route for users, layout, and API calls.",
+    builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
   },
   {
     id: 2 ,
@@ -22,9 +22,9 @@ const data = [
     alt: "lingolabs website",
     repo:   "https://github.com/ShawnWhy/portfolio/LingoLabs" ,
     demo:"https://shawnyulingolabsmaster.herokuapp.com/",
-    description: "A website where users can browse and shop for stock websites templates.",
+    description: "A website where users can browse and shop for stock website templates.",
     myDuty: "My core responsibility was creating the registration, backend server, private route.",
-    builtWith: "NodeJs, NPM, Express.js, MongoDB, React.js, Mongoose, Passport.js, Socket.io, and Heroku."
+    builtWith: "NodeJs, NPM, Expressjs, MongoDB, Reactjs, Mongoose, Passportjs, Socket.io, and Heroku."
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const data = [
    demo:"https://kuiil7.github.io/Note-Taker",
     description: "This application was created to write, save, and delete text notes. This is for any type of user that wants to track any amount of information. Backend data is stored and retrieved in JSON format via Express.",
     myDuty: "My core responsibility was creating the app from scratch",
-    builtWith: "Bootstrap, NodeJs, NPM, jQuery, Express.js, Ajax, and JSON."
+    builtWith: "Bootstrap, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON."
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const data = [
     demo:"https://ancient-thicket-66505.herokuapp.com/",
     description: "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they would like to eat.",
     myDuty: "All responsibilities (individual project)",
-    builtWith: "Node, Express Handlebars (MVC), and MySQL."
+    builtWith: "NodeJs, Express Handlebars (MVC), and MySQL."
   }
 ];
 
@@ -93,8 +93,8 @@ function Portfolio () {
   <div className="column">
   <ul  className="list-group text-justify ">
   <li className="list-group-item pb-3"><strong> Description: </strong>{data.description}</li>
-  <li className="list-group-item pb-3"><strong>My Duties:</strong>  {data.myDuty}</li>
-  <li className="list-group-item pb-3"><strong>Built with:</strong>{data.builtWith}</li>
+  <li className="list-group-item pb-3"><strong>My Duties: </strong>  {data.myDuty}</li>
+  <li className="list-group-item pb-3"><strong>Built with: </strong>{data.builtWith}</li>
 </ul>
   </div>
 </div>

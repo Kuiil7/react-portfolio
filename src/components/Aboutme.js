@@ -25,7 +25,7 @@ function AboutMe() {
 
 <div className="columns-reverse  ">
   <div className="column">
-  <p className="is-size-3" >
+  <p className="is-size-3 " >
   Jose <strong >Aguilera Merino </strong>
 </p>
 <p className="is-size-5" >
@@ -61,7 +61,7 @@ San Diego, CA
 </p>
 
   <p className="pb-3" >
-  Last year, I enrolled at The <strong>George Washington University's Coding Boot Camp </strong> to obtain my professional certification. The coding program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
+  Last year, I enrolled at  <strong>The George Washington University's Coding Boot Camp </strong> to obtain my professional certification. The coding program provided me the foundation, skills and tools to create and build websites and applications from the ground up.
     </p>
 
    <p className="pb-3" >
