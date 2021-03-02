@@ -99,10 +99,10 @@ function Portfolio () {
       <br />
       <div className="is-flex is-justify-content-center	 ">
         <a href={data.repo}  >
-   <Button color="primary" className="mr-2">Repo</Button>
+        <button class="button is-primary is-outlined mr-2">Repo</button>
 </a>
 <a href={data.demo}>
-  <Button color="primary">Demo</Button>
+<button class="button is-primary is-outlined">Demo</button>
 </a>
         </div>
   </div>
