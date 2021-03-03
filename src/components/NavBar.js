@@ -14,7 +14,7 @@ return (
   <HashRouter basename={process.env.PUBLIC_URL}>
 
 
-  <nav className="navbar is-fixed-top  " role="navigation" aria-label="main navigation">
+  <nav className="navbar is-fixed-top container " role="navigation" aria-label="main navigation">
   <div className="navbar-brand ">
   <NavLink className="navbar-item "
 to="/"><strong> JGAMWORKS</strong>
@@ -37,6 +37,7 @@ to="/"><strong> JGAMWORKS</strong>
   <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
    <div className='navbar-end'>
       <div className='navbar-item '>
+
  <NavLink className="navbar-item"
 to="/portfolio">Portfolio</NavLink>
  <NavLink className="navbar-item"

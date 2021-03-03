@@ -11,7 +11,7 @@ function Main () {
 
 <div  className="columns-reverse ">
 
-  <div className="column-reverse " >
+  <div className="column " >
 
   <figure className="image is-fluid mb-2 is-square  " >
   <NavLink
