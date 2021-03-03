@@ -2,7 +2,7 @@ import {React, NavLink} from "react-router-dom";
 
 import JAM_resume from "../docs/JAM_resume.docx"
 
-import self_portrait_1_m from "../images/self_portrait_1_m.jpg"
+import self_portrait_1_m from "../images/portrait/self_portrait_1_m.jpg"
 
 function Main () {
   return (

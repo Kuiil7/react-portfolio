@@ -6,7 +6,7 @@ const data = [
   {
   id: 1,
     title: "Movie-Magic",
-    images:( process.env.PUBLIC_URL +  "../images/portfolio/movie_magic.png"),
+    images:( process.env.PUBLIC_URL +  "../images/repos/movie_magic.png"),
     alt: "sign-in screen",
     repo: "https://github.com/HowardDaniels/movie-magic" ,
     demo:"https://infinite-inlet-20359.herokuapp.com",
@@ -17,7 +17,7 @@ const data = [
   {
     id: 2 ,
     title: "LingoLabs",
-    images: ( process.env.PUBLIC_URL + "../images/lingolabs.png"),
+    images: ( process.env.PUBLIC_URL + "../images/repos/lingolabs.png"),
     alt: "lingolabs website",
     repo:   "https://github.com/ShawnWhy/portfolio/LingoLabs" ,
     demo:"https://shawnyulingolabsmaster.herokuapp.com/",
@@ -28,7 +28,7 @@ const data = [
   {
     id: 3,
     title: "Sports-Tracker",
-    images: (process.env.PUBLIC_URL + "../images/portfolio/sports_tracker.png"),
+    images: (process.env.PUBLIC_URL + "../images/repos/sports_tracker.png"),
     alt: "figure of players playing verious sports",
     repo: "https://github.com/SportsWarriorsGWU/Sports-Tracker/" ,
     demo:"https://sportswarriorsgwu.github.io/Sports-Tracker/",
@@ -39,7 +39,7 @@ const data = [
   {
     id: 4,
     title: "Note-Taker",
-   images: ( process.env.PUBLIC_URL + "../images/portfolio/note_taker.gif"),
+   images: ( process.env.PUBLIC_URL + "../images/repos/note_taker.gif"),
    alt: "note taker ",
    repo: "https://github.com/Kuiil7/Note-Taker" ,
    demo:"https://kuiil7.github.io/Note-Taker",
@@ -50,7 +50,7 @@ const data = [
   {
     id: 5,
     title: "Eat-Da-Burger",
-    images: ( process.env.PUBLIC_URL + "../images/portfolio/eatdaburger.gif"),
+    images: ( process.env.PUBLIC_URL + "../images/repos/eatdaburger.gif"),
     alt: "landing page with input box",
     repo: "https://github.com/Kuiil7/Node-Express-Handlebars" ,
     demo:"https://ancient-thicket-66505.herokuapp.com/",
@@ -65,7 +65,7 @@ function Portfolio () {
 
 
  return (
-  <div className="container ">
+  <div className="container mt-6">
 
     <div className="columns	 is-flex-wrap-wrap p-4  " style={{marginTop:"25px"}}>
     {data.map(function(data, i){
