@@ -19,7 +19,7 @@ const data = [
     title: "LingoLabs",
     images: ( process.env.PUBLIC_URL + "../images/repos/lingolabs.png"),
     alt: "lingolabs website",
-    repo:   "https://github.com/ShawnWhy/portfolio/LingoLabs" ,
+    repo:   "https://github.com/ShawnWhy/LingoLabs" ,
     demo:"https://shawnyulingolabsmaster.herokuapp.com/",
     description: "A website where users can browse and shop for stock website templates.",
     myDuty: "My core responsibility was creating the registration page, configuring the backend server, setting up private routes.",

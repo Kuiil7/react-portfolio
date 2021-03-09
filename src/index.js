@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 
+  
   <NavBar />,
 
   document.getElementById("root")
