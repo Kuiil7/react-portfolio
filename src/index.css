@@ -1,0 +1,65 @@
+body,html{
+  margin:0
+}
+
+body, .navbar {
+        letter-spacing: 2px;
+        line-height: 1.75;
+        font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
+
+html::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fade-in-2 {
+  animation: fadeIn ease 15s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:3;
+  }
+}
+
+.fade-in-3 {
+  animation: fadeIn ease 7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:3;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+
