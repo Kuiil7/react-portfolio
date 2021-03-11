@@ -1,4 +1,4 @@
-# PORTFOLIO
+# My Portfolio
 created with Bulma, React, and SaSs
 
 ## INSTRUCTIONS
