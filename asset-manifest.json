@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Kuiil7/react-portfoliov3static/css/main.bd256762.chunk.css",
-    "main.js": "/Kuiil7/react-portfoliov3static/js/main.9904dbb6.chunk.js",
-    "main.js.map": "/Kuiil7/react-portfoliov3static/js/main.9904dbb6.chunk.js.map",
-    "runtime-main.js": "/Kuiil7/react-portfoliov3static/js/runtime-main.383754d5.js",
-    "runtime-main.js.map": "/Kuiil7/react-portfoliov3static/js/runtime-main.383754d5.js.map",
-    "static/css/2.17980b61.chunk.css": "/Kuiil7/react-portfoliov3static/css/2.17980b61.chunk.css",
-    "static/js/2.cb81cfdc.chunk.js": "/Kuiil7/react-portfoliov3static/js/2.cb81cfdc.chunk.js",
-    "static/js/2.cb81cfdc.chunk.js.map": "/Kuiil7/react-portfoliov3static/js/2.cb81cfdc.chunk.js.map",
-    "static/js/3.153b5d7a.chunk.js": "/Kuiil7/react-portfoliov3static/js/3.153b5d7a.chunk.js",
-    "static/js/3.153b5d7a.chunk.js.map": "/Kuiil7/react-portfoliov3static/js/3.153b5d7a.chunk.js.map",
-    "index.html": "/Kuiil7/react-portfoliov3index.html",
-    "static/css/2.17980b61.chunk.css.map": "/Kuiil7/react-portfoliov3static/css/2.17980b61.chunk.css.map",
-    "static/css/main.bd256762.chunk.css.map": "/Kuiil7/react-portfoliov3static/css/main.bd256762.chunk.css.map",
-    "static/js/2.cb81cfdc.chunk.js.LICENSE.txt": "/Kuiil7/react-portfoliov3static/js/2.cb81cfdc.chunk.js.LICENSE.txt",
-    "static/media/JAM_resume.62b05dd2.docx": "/Kuiil7/react-portfoliov3static/media/JAM_resume.62b05dd2.docx",
-    "static/media/self_portrait_1_m.0a8e2b93.jpg": "/Kuiil7/react-portfoliov3static/media/self_portrait_1_m.0a8e2b93.jpg"
+    "main.css": "/Kuiil7/react-portfoliov3/static/css/main.bd256762.chunk.css",
+    "main.js": "/Kuiil7/react-portfoliov3/static/js/main.8af2f100.chunk.js",
+    "main.js.map": "/Kuiil7/react-portfoliov3/static/js/main.8af2f100.chunk.js.map",
+    "runtime-main.js": "/Kuiil7/react-portfoliov3/static/js/runtime-main.fa381c2c.js",
+    "runtime-main.js.map": "/Kuiil7/react-portfoliov3/static/js/runtime-main.fa381c2c.js.map",
+    "static/css/2.17980b61.chunk.css": "/Kuiil7/react-portfoliov3/static/css/2.17980b61.chunk.css",
+    "static/js/2.cb81cfdc.chunk.js": "/Kuiil7/react-portfoliov3/static/js/2.cb81cfdc.chunk.js",
+    "static/js/2.cb81cfdc.chunk.js.map": "/Kuiil7/react-portfoliov3/static/js/2.cb81cfdc.chunk.js.map",
+    "static/js/3.153b5d7a.chunk.js": "/Kuiil7/react-portfoliov3/static/js/3.153b5d7a.chunk.js",
+    "static/js/3.153b5d7a.chunk.js.map": "/Kuiil7/react-portfoliov3/static/js/3.153b5d7a.chunk.js.map",
+    "index.html": "/Kuiil7/react-portfoliov3/index.html",
+    "static/css/2.17980b61.chunk.css.map": "/Kuiil7/react-portfoliov3/static/css/2.17980b61.chunk.css.map",
+    "static/css/main.bd256762.chunk.css.map": "/Kuiil7/react-portfoliov3/static/css/main.bd256762.chunk.css.map",
+    "static/js/2.cb81cfdc.chunk.js.LICENSE.txt": "/Kuiil7/react-portfoliov3/static/js/2.cb81cfdc.chunk.js.LICENSE.txt",
+    "static/media/JAM_resume.62b05dd2.docx": "/Kuiil7/react-portfoliov3/static/media/JAM_resume.62b05dd2.docx",
+    "static/media/self_portrait_1_m.0a8e2b93.jpg": "/Kuiil7/react-portfoliov3/static/media/self_portrait_1_m.0a8e2b93.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.383754d5.js",
+    "static/js/runtime-main.fa381c2c.js",
     "static/css/2.17980b61.chunk.css",
     "static/js/2.cb81cfdc.chunk.js",
     "static/css/main.bd256762.chunk.css",
-    "static/js/main.9904dbb6.chunk.js"
+    "static/js/main.8af2f100.chunk.js"
   ]
 }
