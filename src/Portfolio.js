@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 
 const Portfolio = () => {
 
@@ -65,64 +66,56 @@ const Portfolio = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
   return (
     < >
-<div className=" columns
+  <section className="
+hero
+is-light
+is-fullheight"
+  >
+
+<div className='container'>
+<div className="hero-body">
+<div className="
+columns
 is-flex-wrap-wrap
 ">
 
 {data.map((items, i) => (
 
-<div key={i} className="
+<div className="
 column
-is-6
+is-6-tablet
+is-half-desktop
+is-5-widescreen
+is-5-fullhd
 ">
 
-<div class="card">
-  <div class="card-image">
+<div className="column " key={i}>
+<div className="box ">
+<div className="card-image">
 
-      <img src={items.images} alt={items.alt} className="is-fluid fade-in-3  " />
+<img src={items.images} alt={items.alt} className="is-fluid fade-in-3  " />
 
-  </div>
-  <div class="card-content">
-    <div class="media">
-   
-      <div class="media-content">
-        <p class="title is-4">{items.title}</p>
+<p class="title is-4 mb-2">{items.title}</p>
 
-      </div>
-    </div>
-
-    <div class="content">
-      <p>{items.description}</p>
-
-      <p class="subtitle is-6 ">
-          My Core responsibilities: {items.myDuty}</p>
-          <p><strong>Built with: </strong></p>
-<p class="subtitle is-6 is-italic">{items.builtWith}</p>
-
-      <br />
-    </div>
-  </div>
 </div>
 
+<p className=" mb-2"> My Core responsibilities: {items.myDuty}</p>
+<p><strong>Built with: </strong></p>
+<p class="subtitle is-6 is-italic ">{items.builtWith}</p>
 
 
+
+
+</div>
+    </div>
 </div>
 ))}
 </div>
-
-
+  </div>
+  </div>
+</section>
     </>
   );
 };

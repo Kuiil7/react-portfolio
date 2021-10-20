@@ -4,15 +4,23 @@ import './index.css';
 import App from './App';
 import AboutMe from "./AboutMe";
 import Portfolio from './Portfolio';
+import NavBar from './NavBar';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+
 } from "react-router-dom";
 ReactDOM.render(
+
 <Router>
+
+
+
+
+
+<NavBar />
 
 
 <Switch>
@@ -26,8 +34,6 @@ ReactDOM.render(
             <Portfolio />
           </Route>
         </Switch>
-
-
 </Router>,
   document.getElementById('root')
 );

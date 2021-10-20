@@ -1,19 +1,16 @@
 import './App.css';
-import React, { Fragment, useState, useEffect } from 'react';
-
-import {Route,NavLink,HashRouter} from "react-router-dom";
-
-
-import AboutMe from "./AboutMe";
-import Portfolio from './Portfolio';
-
+import React from 'react';
+import {NavLink} from "react-router-dom";
 import self_portrait_1_m from "./images/portrait/self_portrait_1_m.jpg"
 import JAM_resume from "./docs/JAM_resume.docx"
 
 
-function App() {
 
-  const [isActive, setisActive] = useState(false)
+
+
+
+
+function App() {
 
 
 
@@ -23,78 +20,27 @@ function App() {
 
     <div className="App  ">
 
-
-<section class="hero is-light is-fullheight">
-  <div class="hero-head">
-    <header class="navbar">
-      <div class="container">
-        <div class="navbar-brand"
-        >
+<div className="Container  ">
 
 
-<NavLink
-className=" navbar-item is-active has-background-light "
-to="/">
-JGAMWORKS
-</NavLink>
-
-
-<div
-  onClick={() => {
-  setisActive(!isActive)
-          }}
-  role='button'
-  className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
-  aria-label='menu'
-  aria-expanded='false'
-        >
-  <span aria-hidden='true'></span>
-  <span aria-hidden='true'></span>
-  <span aria-hidden='true'></span>
-  </div>
-  </div>
-
-
-
-        <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
-
-
-
-        <div class="navbar-end">
-
-
-<NavLink
-className=" navbar-item "
-to="/">
-<p class="heading">Home</p>
-</NavLink>
-
-<NavLink
-className=" navbar-item "
-to="/aboutme">
-<p class="heading">About Me</p>
-</NavLink>
-
-<NavLink
-className=" navbar-item "
-to="/portfolio">
-<p class="heading">Portfolio</p>
-
-</NavLink>
-    </div>
-      </div>
-
-      </div>
-    </header>
-  </div>
-
-
-
-
+<section class="hero  is-fullheight">
 
 
   <div class="hero-body">
     <div class="container has-text-centered">
+
+
+
+    <div className="
+columns
+
+">
+
+<div className="
+column
+is-half
+is-offset-one-quarter
+">
 
   <figure className="image is-fluid mb-2 is-square  " >
   <NavLink
@@ -104,7 +50,15 @@ to="/portfolio">
 </figure>
 
 
-    <nav class="level">
+</div>
+
+</div>
+
+
+
+
+
+    <nav class="level is-mobile">
   <div class="level-item has-text-centered">
     <div>
 
@@ -154,7 +108,7 @@ to="/portfolio">
   </div>
 </section>
     </div>
-
+    </div>
   );
 }
 

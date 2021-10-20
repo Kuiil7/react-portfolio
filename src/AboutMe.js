@@ -2,14 +2,17 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    < >{}
-<section class="hero is-danger is-fullheight">
+    < >
+
+<section class="hero is-light is-fullheight">
   <div class="hero-body">
-    <div class="">
+    <div class="container">
+    <div className="columns ">
+    <div className="column ">
+
       <p class="title">
       About Me
       </p>
-
 
       <p class="subtitle">
 My career began with Sales and Marketing in the Telecommunications sector for Fortune 500 companies, such as MCI WorldCom and AT&T. Coding has not only been a necessity in every role in my previous roles that I have filled in every position but also has been a lifelong untapped passion of mine. Not only has coding been integral in every previous position I have had, coding has been a lifelong untapped passion of mine. When I was enrolled in my Master of Arts program at Gallaudet University to study Linguistics, I took campus job that led to a full time job in Web Development. For that reason, it was clear that coding was my calling.
@@ -25,8 +28,9 @@ My career began with Sales and Marketing in the Telecommunications sector for Fo
    <p class="subtitle">
     I bring: <strong> full stack web development, UX/UI design principles, technical expertise, and troubleshooting skills. </strong>
    </p>
-
+   </div>
     </div>
+  </div>
   </div>
 </section>
 
