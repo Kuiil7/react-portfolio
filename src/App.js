@@ -23,18 +23,15 @@ function App() {
 <div className="Container  ">
 
 
-<section class="hero  is-fullheight">
+<section className="hero  is-fullheight">
 
 
-  <div class="hero-body">
-    <div class="container has-text-centered">
+  <div className="hero-body">
+    <div className="container has-text-centered">
 
 
 
-    <div className="
-columns
-
-">
+    <div className="columns">
 
 <div className="
 column
@@ -58,8 +55,8 @@ is-offset-one-quarter
 
 
 
-    <nav class="level is-mobile">
-  <div class="level-item has-text-centered">
+    <nav className="level is-mobile">
+  <div className="level-item has-text-centered">
     <div>
 
   <a href={JAM_resume} target="_blank" rel="noopener noreferrer" download>
@@ -72,7 +69,7 @@ is-offset-one-quarter
 
 
 
-  <div class="level-item has-text-centered">
+  <div className="level-item has-text-centered">
     <div>
     <i className="fa fa-github fa-3x has-text-primary " aria-hidden="true"></i>
 
@@ -82,7 +79,7 @@ is-offset-one-quarter
 
     </div>
   </div>
-  <div class="level-item has-text-centered">
+  <div className="level-item has-text-centered">
     <div>
     <i className="fa fa-linkedin-square fa-3x has-text-primary " aria-hidden="true"></i>
 
@@ -99,9 +96,9 @@ is-offset-one-quarter
     </div>
   </div>
 
-  <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth ">
-      <div class="container has-text-centered">
+  <div className="hero-foot">
+    <nav className="tabs is-boxed is-fullwidth ">
+      <div className="container has-text-centered">
      <a href="http://www.jgamworks.com" alt="my website" > 🤟🏿 JGAMWORKS 🤟🏿</a>
       </div>
     </nav>

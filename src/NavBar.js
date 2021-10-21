@@ -38,25 +38,25 @@ JGAMWORKS
 
 
 <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
-<div class="navbar-end">
+<div className="navbar-end">
 
 
 <NavLink
 className=" navbar-item "
 to="/">
-<p class="heading">Home</p>
+<p className="heading">Home</p>
 </NavLink>
 
 <NavLink
 className=" navbar-item "
 to="/aboutme">
-<p class="heading">About Me</p>
+<p className="heading">About Me</p>
 </NavLink>
 
 <NavLink
 className=" navbar-item "
 to="/portfolio">
-<p class="heading">Portfolio</p>
+<p className="heading">Portfolio</p>
 
 </NavLink>
     </div>

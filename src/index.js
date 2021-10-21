@@ -15,14 +15,7 @@ import {
 ReactDOM.render(
 
 <Router>
-
-
-
-
-
 <NavBar />
-
-
 <Switch>
           <Route exact path="/">
             <App/>

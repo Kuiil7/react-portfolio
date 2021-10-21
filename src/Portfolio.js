@@ -97,13 +97,13 @@ is-5-fullhd
 
 <img src={items.images} alt={items.alt} className="is-fluid fade-in-3  " />
 
-<p class="title is-4 mb-2">{items.title}</p>
+<p className="title is-4 mb-2">{items.title}</p>
 
 </div>
 
 <p className=" mb-2"> My Core responsibilities: {items.myDuty}</p>
 <p><strong>Built with: </strong></p>
-<p class="subtitle is-6 is-italic ">{items.builtWith}</p>
+<p className="subtitle is-6 is-italic ">{items.builtWith}</p>
 
 
 

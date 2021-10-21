@@ -4,8 +4,8 @@ import React from "react";
 const Header = () => {
   return (
     < >
-<div class="columns  has-text-centered">
-  <div class="column">
+<div className="columns  has-text-centered">
+  <div className="column">
   <p className="title has-text-white ">
     Welcome to MyWeather!
     </p>

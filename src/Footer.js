@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    < >{}
-<div className=" " style={{height:'60px'}}>
+    < >
+<div  style={{height:'60px'}}>
 <footer className="footer">
   <div className="content has-text-centered mt-6">
     <p >
