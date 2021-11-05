@@ -1,22 +1,47 @@
-import React from "react";
+import React, {useState} from "react";
+import {NavLink } from "react-router-dom";
 
 
-const Header = () => {
+function Header() {
+
+  const [isActive, setisActive] = useState(false)
+
   return (
-    < >
-<div className="columns  has-text-centered">
-  <div className="column">
-  <p className="title has-text-white ">
-    Welcome to MyWeather!
-    </p>
-    <p className="subtitle is-7 is-italic has-text-white">
-     Your #1 U.S. Weather update search site powered by <a className="has-text-white" href="https://openweathermap.org/">Openweathermap.org!</a>
-    </p>
+    <div className="Header">
+   <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+
+  <NavLink className="navbar-item" to="/"> jGAMWORKS</NavLink>
+    <div
+         onClick={() => {
+            setisActive(!isActive)
+          }}
+          role='button'
+          className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
+          aria-label='menu'
+          aria-expanded='false'
+        >
+    <button className="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+    </div>
   </div>
 
+  <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
+   <div className='navbar-end'>
+      <div className='navbar-item '>
+ <NavLink className="navbar-item"
+to="/portfolio">Portfolio</NavLink>
+ <NavLink className="navbar-item"
+to="/aboutme">About Me</NavLink>
+          </div>
+        </div>
+      </div>
+</nav>
 
-</div>
-    </>
+    </div>
   );
-};
+}
 export default Header;
