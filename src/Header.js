@@ -10,8 +10,8 @@ function Header() {
 
     <div className="container">
     <div className="Header">
-   <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
+   <nav className="navbar" role="navigation" aria-label="main navigation">
+  <div className="navbar-brand">
 
   <NavLink className="navbar-item" to="/"> jGAMWORKS</NavLink>
     <div
@@ -23,7 +23,7 @@ function Header() {
           aria-label='menu'
           aria-expanded='false'
         >
-    <button className="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <button  className="navbar-burger button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -34,10 +34,8 @@ function Header() {
   <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
    <div className='navbar-end'>
       <div className='navbar-item '>
- <NavLink className="navbar-item"
-to="/portfolio">Portfolio</NavLink>
- <NavLink className="navbar-item"
-to="/aboutme">About Me</NavLink>
+ <NavLink className="navbar-item" to="/portfolio">Portfolio</NavLink>
+ <NavLink className="navbar-item" to="/aboutme">About Me</NavLink>
           </div>
         </div>
       </div>

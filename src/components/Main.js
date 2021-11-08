@@ -3,16 +3,12 @@ import React from "react";
 function Main() {
   return (
     <>
-      <main>
-      <section class="hero is-danger is-fullheight">
-  <div class="hero-body">
-    <div class="">
-      <p class="title">
-        Fullheight hero
-      </p>
-      <p class="subtitle">
-        Fullheight subtitle
-      </p>
+      <main id="mainSection">
+      <section className="hero  is-fullheight" >
+  <div className="hero-body">
+    <div className="">
+      <p className="title">Jose Aguilera Merino</p>
+      <p className="subtitle">Full Stack Developer - MERN stack</p>
     </div>
   </div>
 </section>
