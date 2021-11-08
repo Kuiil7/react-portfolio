@@ -67,7 +67,7 @@ function Portfolio () {
 <>
 <section className="hero is-info is-fullheight">
 
-<div className="hero-body">
+<div className="hero-body ">
 <div className="columns 
 is-flex-wrap-no-wrap
 scrolling-wrapper
@@ -77,22 +77,34 @@ scrolling-hidden
 
   
       {data.map(data => (
-  <div className="column is-6 box m-1  " key={data}>
+  <div className="column is-6 box m-1" key={data.id}>
 <div className="columns">
-  <div className="column">
+  <div className="column p-2">
 
-  <img src={data.images} alt={data.alt} width="250px"/> 
-<div className="has-text-centered mt-5">
-  <a href={data.repo}  ><button class="button is-primary is-outlined mr-2 ">Repo</button></a>
-<a href={data.demo}><button class="button is-primary is-outlined ">Demo</button></a>
-</div>
+<div className="has-text-centered p-2">
+
+<img src={data.images} alt={data.alt} width="250px" /> 
+
   </div>
+ 
+
+<div className="has-text-centered mt-5">
+  <a href={data.repo}  ><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
+<a href={data.demo}><button className="button is-primary is-outlined ">Demo</button></a>
+</div>
+
+
+
+  </div>
+
   <div className="column is-8">
   <p className="title is-4 mb-0 has-text-dark">{data.title}</p>
 <p className="mb-1 "> {data.description}</p>
 <p className="mb-1"><strong>My Duties: </strong>{data.myDuty}</p>
 <p><strong>Built with: </strong>{data.builtWith}</p>
   </div>
+
+
 </div>
     </div>
 ))}
