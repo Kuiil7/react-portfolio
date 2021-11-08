@@ -10,7 +10,7 @@ const data = [
     repo: "https://github.com/HowardDaniels/movie-magic" ,
     demo:"https://infinite-inlet-20359.herokuapp.com",
     description: "This application allows the user to find movies and buddies.",
-    myDuty:"My core responsibilities were configuring MongoDB to the registration page using PassportJ and creating a private route for users, layout, and API calls.",
+    myDuty:"Configuring setting up authentication using PassportJs and styling",
     builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
   },
   {
@@ -21,7 +21,7 @@ const data = [
     repo:   "https://github.com/ShawnWhy/LingoLabs" ,
     demo:"https://shawnyulingolabsmaster.herokuapp.com/",
     description: "A website where users can browse and shop for stock website templates.",
-    myDuty: "My core responsibility was creating the registration page, configuring the backend server, setting up private routes.",
+    myDuty: "Creating the registration page, configuring the backend server, setting up private routes.",
     builtWith: "NodeJs, NPM, Expressjs, MongoDB, Reactjs, Mongoose, Passportjs, Socket.io, and Heroku."
   },
   {
@@ -66,27 +66,35 @@ function Portfolio () {
  return (
 <>
 
-<div className="container">
+
+<section class="hero is-info is-fullheight">
+  
+  <div class="hero-body">
+
+
 <div className="columns 
 is-flex-wrap-no-wrap
 scrolling-wrapper
 scrolling-hidden
 " 
 >
+  
 
       {data.map(data => (
-
-<div className="column is-6 box m-1  " key={data} >
+  <div className="column is-6 box m-1  " key={data} >
 <div class="columns">
+  
   <div class="column">
+
   <img src={data.images} alt={data.alt} width="250px"/> 
-<div className="has-text-centered">
+<div className="has-text-centered mt-5">
   <a href={data.repo}  ><button class="button is-primary is-outlined mr-2 ">Repo</button></a>
 <a href={data.demo}><button class="button is-primary is-outlined ">Demo</button></a>
 </div>
   </div>
   <div class="column is-8">
-  <p className="title is-4 mb-0">{data.title}</p>
+
+  <p className="title is-4 mb-0 has-text-dark">{data.title}</p>
 <p className="mb-1 "> {data.description}</p>
 <p className="mb-1"><strong>My Duties: </strong>{data.myDuty}</p>
 <p><strong>Built with: </strong>{data.builtWith}</p>
@@ -94,9 +102,15 @@ scrolling-hidden
 </div>
 
     </div>
+
+
+
+
 ))}
  </div>
  </div>
+</section>
+
 
 </>
 );
