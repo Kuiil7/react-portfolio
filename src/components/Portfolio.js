@@ -9,7 +9,7 @@ const data = [
     alt: "sign-in screen",
     repo: "https://github.com/HowardDaniels/movie-magic" ,
     demo:"https://infinite-inlet-20359.herokuapp.com",
-    description: "This application allows the user to find movies and fellow movie buffs called- buddies, based on user input which is accessed upon signing or logging in. Once the user's top 3 categoriesare entered, the user has the option to being searchable by fellow movie buffs, and then submits the form.",
+    description: "This application allows the user to find movies and buddies.",
     myDuty:"My core responsibilities were configuring MongoDB to the registration page using PassportJ and creating a private route for users, layout, and API calls.",
     builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
   },
@@ -31,7 +31,7 @@ const data = [
     alt: "figure of players playing verious sports",
     repo: "https://github.com/SportsWarriorsGWU/Sports-Tracker/" ,
     demo:"https://sportswarriorsgwu.github.io/Sports-Tracker/",
-    description: "Sports-Tracker is a website dedicated to the professional sports leagues of the United States (minus MLS to come in a later version). It features stats and news related to each league and the specific teams, as well as quick links and a favorite function.",
+    description: "Sports-Tracker is a website dedicated to sports (NBA, NCAA, MLB, NHL) stats and news with a favorites funciton",
     myDuty: "My core responsibility utilizing Bootstrap and Bulma CSS to work with API call data.",
     builtWith: "Bootstrap, Bulma, Javascript, and JQuery."
   },
@@ -42,7 +42,7 @@ const data = [
    alt: "note taker ",
    repo: "https://github.com/Kuiil7/Note-Taker" ,
    demo:"https://kuiil7.github.io/Note-Taker",
-    description: "This application was created to write, save, and delete text notes. This is for any type of user that wants to track any amount of information. Backend data is stored and retrieved in JSON format via Express.",
+    description: "This application was created to write, save, and delete text notes.",
     myDuty: "My core responsibility was creating the app from scratch",
     builtWith: "Bootstrap, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON."
   },
@@ -64,43 +64,41 @@ function Portfolio () {
 
 
  return (
-<div className="columns
-">
+<>
 
-    {data.map(function(data, i){
-       return (
-  <div  className="container" key={i} >
+<div className="container">
+<div className="columns 
+is-flex-wrap-no-wrap
+scrolling-wrapper
+scrolling-hidden
+" 
+>
 
-    <div className="column
+      {data.map(data => (
 
-    ">
-   <div className="column
-is-12
-">
-
-<img src={data.images} alt={data.alt} className="is-fluid fade-in-3  " width="250px" />
-
+<div className="column is-6 box m-1  " key={data} >
+<div class="columns">
+  <div class="column">
+  <img src={data.images} alt={data.alt} width="250px"/> 
+<div className="has-text-centered">
+  <a href={data.repo}  ><button class="button is-primary is-outlined mr-2 ">Repo</button></a>
+<a href={data.demo}><button class="button is-primary is-outlined ">Demo</button></a>
 </div>
-
-<p className="title is-4 ">{data.title}</p>
-
-<p><strong>Description: </strong> {data.description}</p>
-<p><strong>My Duties: </strong>{data.myDuty}</p>
+  </div>
+  <div class="column is-8">
+  <p className="title is-4 mb-0">{data.title}</p>
+<p className="mb-1 "> {data.description}</p>
+<p className="mb-1"><strong>My Duties: </strong>{data.myDuty}</p>
 <p><strong>Built with: </strong>{data.builtWith}</p>
-
-<a href={data.repo}  >
-        <button class="button is-primary is-outlined mr-2 ">Repo</button>
-</a>
-<a href={data.demo}>
-<button class="button is-primary is-outlined ">Demo</button>
-</a>
-
-</div>
-</div>
-)
-})}
+  </div>
 </div>
 
+    </div>
+))}
+ </div>
+ </div>
+
+</>
 );
 }
 

@@ -7,6 +7,8 @@ function Header() {
   const [isActive, setisActive] = useState(false)
 
   return (
+
+    <div className="container">
     <div className="Header">
    <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
@@ -40,7 +42,7 @@ to="/aboutme">About Me</NavLink>
         </div>
       </div>
 </nav>
-
+</div>
     </div>
   );
 }
