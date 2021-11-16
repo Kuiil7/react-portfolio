@@ -6,9 +6,7 @@ function AboutMe() {
     <section className="hero is-info is-fullheight">
     <div className="hero-body">
       <div className="container">
-        
       <p className="title " > About Me </p>
-
         <img src={Portrait_4} alt="self-portrait" width="200"  className="is-pulled-left pr-3"/>
 
         <p className="subtitle">

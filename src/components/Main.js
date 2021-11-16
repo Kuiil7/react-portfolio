@@ -4,7 +4,7 @@ function Main() {
   return (
     <>
       <main id="mainSection">
-      <section className="hero  is-fullheight" >
+      <section className="hero is-fullheight" >
   <div className="hero-body">
     <div className="">
       <p className="title">Jose Aguilera Merino</p>

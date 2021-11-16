@@ -13,7 +13,6 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="portfolio" element={<Portfolio />} />
-
       </Routes>
     </div>
   );

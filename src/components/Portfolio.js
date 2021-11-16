@@ -82,28 +82,23 @@ scrolling-hidden
   <div className="column p-2">
 
 <div className="has-text-centered p-2">
-
 <img src={data.images} alt={data.alt} width="250px" /> 
-
   </div>
  
 
 <div className="has-text-centered mt-5">
-  <a href={data.repo}  ><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
+  <a href={data.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
 <a href={data.demo}><button className="button is-primary is-outlined ">Demo</button></a>
 </div>
-
-
 
   </div>
 
   <div className="column is-8">
   <p className="title is-4 mb-0 has-text-dark">{data.title}</p>
-<p className="mb-1 "> {data.description}</p>
-<p className="mb-1"><strong>My Duties: </strong>{data.myDuty}</p>
-<p><strong>Built with: </strong>{data.builtWith}</p>
+  <p className="mb-1 "> {data.description}</p>
+  <p className="mb-1"><strong>My Duties: </strong>{data.myDuty}</p>
+  <p><strong>Built with: </strong>{data.builtWith}</p>
   </div>
-
 
 </div>
     </div>
