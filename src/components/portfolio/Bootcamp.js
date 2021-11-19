@@ -10,7 +10,7 @@ const data = [
     repo: "https://github.com/HowardDaniels/movie-magic" ,
     demo:"https://infinite-inlet-20359.herokuapp.com",
     description: "This application allows the user to find movies and buddies.",
-    myDuty:"Configuring setting up authentication using PassportJs and styling",
+    myDuty:"Configuring setting up authentication using PassportJs and styling.",
     builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
   },
   {
@@ -43,7 +43,7 @@ const data = [
    repo: "https://github.com/Kuiil7/Note-Taker" ,
    demo:"https://kuiil7.github.io/Note-Taker",
     description: "This application was created to write, save, and delete text notes.",
-    myDuty: "My core responsibility was creating the app from scratch",
+    myDuty: "My core responsibility was creating the app from scratch.",
     builtWith: "Bootstrap, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON."
   },
   {
@@ -60,57 +60,47 @@ const data = [
 ];
 
 
-function Portfolio () {
+function Bootcamp () {
 
 
  return (
 <>
+<div className="container">
 <section className="hero is-info is-small">
 <p className="has-text-centered title is-3 pt-5">Bootcamp Projects</p>
 <div className="hero-body ">
-<div className="columns 
+<div className="columns
 is-flex-wrap-no-wrap
 scrolling-wrapper
 scrolling-hidden
-
 is-mobile
-" 
+"
 >
-
-  
-      {data.map(data => (
-  <div className="column is-10 box m-1" key={data.id}>
+{data.map(data => (
+<div className="column is-10 box m-1" key={data.id}>
 <div className="columns">
-  <div className="column p-2">
-
-<div className="has-text-centered p-2">
-<img src={data.images} alt={data.alt} width="250px" /> 
-  </div>
- 
-
+<div className="column p-2">
+<div className="has-text-centered p-2"><img src={data.images} alt={data.alt} width="250px" /></div>
 <div className="has-text-centered mt-5">
-  <a href={data.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
-<a href={data.demo}><button className="button is-primary is-outlined ">Demo</button></a>
+  <a href={data.repo}><button className="button is-info is-outlined mr-2 ">Repo</button></a>
+<a href={data.demo}><button className="button is-info is-outlined ">Demo</button></a>
 </div>
-
   </div>
-
   <div className="column is-8">
-  <p className="title is-4 mb-0 has-text-dark">{data.title}</p>
-  <p className="mb-1 "> {data.description}</p>
+  <p className="title is-4  has-text-dark">{data.title}</p>
+  <p className="mb-3 "> {data.description}</p>
   <p className="mb-1"><strong>My Duties: </strong>{data.myDuty}</p>
   <p><strong>Built with: </strong>{data.builtWith}</p>
   </div>
-
 </div>
     </div>
 ))}
  </div>
  </div>
 </section>
-
+</div>
 </>
 );
 }
 
-export default Portfolio;
+export default Bootcamp;
