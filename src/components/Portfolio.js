@@ -72,12 +72,14 @@ function Portfolio () {
 is-flex-wrap-no-wrap
 scrolling-wrapper
 scrolling-hidden
+
+is-mobile
 " 
 >
 
   
       {data.map(data => (
-  <div className="column is-6 box m-1" key={data.id}>
+  <div className="column is-10 box m-1" key={data.id}>
 <div className="columns">
   <div className="column p-2">
 

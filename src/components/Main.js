@@ -5,10 +5,13 @@ function Main() {
     <>
       <main id="mainSection">
       <section className="hero is-fullheight" >
-  <div className="hero-body " >
-    <div className="has-background-light p-5 box">
-      <p className="title">Joey Aguilera Merino</p>
-      <p className="subtitle">Full Stack Developer - MERN stack</p>
+  <div className="hero-body"  >
+    <div className=" p-5 box" style={{width:"600px", backgroundColor: 'rgba(52, 52, 52, 0.4)'
+}}>
+      <span>
+<p className="title is-3 has-text-white">     Joey Aguilera Merino
+</p>        </span>
+      <p className="subtitle has-text-white" >Full Stack Developer - MERN stack</p>
     </div>
   </div>
 </section>
