@@ -7,7 +7,6 @@ function Header() {
   const [isActive, setisActive] = useState(false)
 
   return (
-
     <div className="container">
     <div className="Header">
    <nav className="navbar" role="navigation" aria-label="main navigation">

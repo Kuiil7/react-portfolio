@@ -28,4 +28,14 @@ body {
 
  }
 
+ #AboutMeSection {
+  background-image: url("./components/images/sunset_2.jpg");
+  height: 100vh;    
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+ }
+
+
  
