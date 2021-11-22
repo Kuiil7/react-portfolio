@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectHeader from "./ProjectHeader";
 
 const data = [
 
@@ -66,8 +67,9 @@ function Bootcamp () {
  return (
 <>
 <div className="container">
-<section className="hero is-info is-small">
-<p className="has-text-centered title is-3 pt-5">Bootcamp Projects</p>
+<ProjectHeader/>
+
+<section className="hero is-warning is-medium">
 <div className="hero-body ">
 <div className="columns
 is-flex-wrap-no-wrap

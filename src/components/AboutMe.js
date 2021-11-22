@@ -6,9 +6,9 @@ function AboutMe() {
 
 
     <>
-    <section class="hero is-fullheight" id="AboutMeSection">
-  <div class="hero-body">
-    <div class=" ">
+    <section className="hero is-fullheight" id="AboutMeSection">
+  <div className="hero-body">
+    <div className=" ">
   
     <div className="  box" style={{ backgroundColor: 'rgba(52, 52, 52, 0.8)'}}>
 

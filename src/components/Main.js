@@ -14,6 +14,7 @@ function Main() {
 
 </span>
       <p className="subtitle is-6 has-text-white" >MongoDB - EXPRESS - REACT - NODE</p>
+      <p className="subtitle is-6 has-text-white is-italic" >Specializing in inclusive web design and development.</p>
 
     </div>
   </div>

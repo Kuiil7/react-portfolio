@@ -1,14 +1,13 @@
 import React from "react";
-import Bootcamp from "../portfolio/Bootcamp"
-import APIProjects from "../portfolio/APIProjects"
-
+import APIProjects from "./APIProjects";
 
 function Portfolio () {
+
+
  return (
 <>
 <div className="container">
 <APIProjects />
-<Bootcamp />
 </div>
 </>
 );
