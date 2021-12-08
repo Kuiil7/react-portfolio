@@ -6,7 +6,7 @@ function ProjectHeader() {
 
 
   return (
-    <div className="container">
+    <div className="container px-5">
 
 
 <div className="columns">

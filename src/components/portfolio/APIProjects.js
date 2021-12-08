@@ -38,26 +38,27 @@ function APIProjects () {
  return (
 <>
 
-<div className="container">
+<div className="container ">
 
 <ProjectHeader/>
 
 
-<section className="hero is-primary is-medium">
+<section className="hero is-primary is-medium " >
 <div className="hero-body ">
 <div className="columns
 is-flex-wrap-no-wrap
 scrolling-wrapper
 scrolling-hidden
 is-mobile
+
 "
 >
 {data.map(data => (
-<div className="column is-10 box m-1" key={data.id}>
+<div className="column is-10 box m-1 p-6" key={data.id}>
 <div className="columns">
 <div className="column p-2">
 <div className="has-text-centered p-2"><img src={data.images} alt={data.alt} width="250px" /></div>
-<div className="has-text-centered mt-5">
+<div className="has-text-centered mt-4">
   <a href={data.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
 <a href={data.demo}><button className="button is-primary is-outlined ">Demo</button></a>
 </div>

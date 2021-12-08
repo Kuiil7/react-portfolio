@@ -1,4 +1,5 @@
 import React from "react";
+import ASLV_1 from "./ASLV_1";
 import ProjectHeader from "./ProjectHeader";
 
 function Games() {
@@ -7,14 +8,24 @@ function Games() {
   return (
     <div className="container">
 <ProjectHeader/>
-<section className="hero is-link is-large">
-  <div className="hero-body">
-    <p className="title">
-Inclusive Design (ASL)
-    </p>
+
+
+
+
+
+<div class="columns ">
+
+  <div class="column ">
+  
+    <ASLV_1 />
 
   </div>
-</section>
+
+</div>
+
+
+
+
     </div>
   );
 }
