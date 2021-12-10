@@ -68,11 +68,11 @@ const data = [
 
     function Icons () {
     return (
-<div className="columns p-2 ">
+<div className="columns p-2 is-mobile is-flex-wrap-wrap">
           {data.map((data) => (
 <div className="column " key={data.id}>
 
-<figure className="image is-fluid " >
+<figure className="image is-64x64" >
 <img  src={data.logo} alt={data.alt}    />
 </figure>
 

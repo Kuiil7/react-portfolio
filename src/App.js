@@ -3,7 +3,7 @@ import { Routes, Route} from "react-router-dom";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/portfolio/Portfolio";
 import Main from "./components/Main";
-import Header from "./Header";
+//import Header from "./Header";
 import APIProjects from "./components/portfolio/APIProjects";
 import Bootcamp from "./components/portfolio/Bootcamp";
 import Database from "./components/portfolio/Database";
@@ -13,7 +13,7 @@ import ASL from "./components/portfolio/ASL";
 function App() {
   return (
     <div className="App">
-<Header />
+
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="aboutme" element={<AboutMe />} />

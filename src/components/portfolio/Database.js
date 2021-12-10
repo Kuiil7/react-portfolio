@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectHeader from "./ProjectHeader";
+import Header from "../Header"
 
 
 function Database() {
@@ -7,13 +8,13 @@ function Database() {
 
   return (
     <div className="container">
+      <Header />
 <ProjectHeader/>
-<section className="hero is-danger is-large">
+<section className="hero is-info is-fullheight">
   <div className="hero-body">
-    <p className="title">
- Database
-    </p>
-
+    <div className="">
+      <p className="title">Database (coming soon)</p>
+    </div>
   </div>
 </section>
     </div>

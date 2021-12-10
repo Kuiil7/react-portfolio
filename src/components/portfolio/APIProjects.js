@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectHeader from "./ProjectHeader";
-
+import Header from "../Header"
 
 function APIProjects () {
 
@@ -39,18 +39,17 @@ function APIProjects () {
 <>
 
 <div className="container ">
-
+<Header />
 <ProjectHeader/>
 
 
-<section className="hero is-primary is-medium " >
+<section className="hero is-primary is-fullheight " >
 <div className="hero-body ">
 <div className="columns
 is-flex-wrap-no-wrap
 scrolling-wrapper
 scrolling-hidden
 is-mobile
-
 "
 >
 {data.map(data => (
