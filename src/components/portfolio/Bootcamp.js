@@ -67,11 +67,12 @@ function Bootcamp () {
 
  return (
 <>
-<div className="container">
+
 <Header />
 <ProjectHeader/>
 
 <section className="hero is-warning is-fullheight">
+<div className="container">
 <div className="hero-body ">
 <div className="columns
 is-flex-wrap-no-wrap
@@ -101,8 +102,9 @@ is-mobile
 ))}
  </div>
  </div>
+ </div>
 </section>
-</div>
+
 </>
 );
 }

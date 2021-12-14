@@ -48,47 +48,32 @@ scrolling-hidden
 "
 >
 {data.map(data => (
+<div className="column  box mt-6 p-6 m-4" key={data.id}>
+<div className="columns">
 
-<div className="column is-8  mt-6 p-6 m-4" key={data.id}>
+<div class="columns is-mobile">
+  <div class="column column is-11 is-offset-1">
 
+  <img src={data.images} alt={data.alt}   />
 
-
-
-<div class="card is-size-6-mobile is-size-4-desktop">
-  <div class="card-image">
-    <figure class="image is-4by3">
-    <img src={data.images} alt={data.alt}   />    </figure>
   </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-left">
-      <p className="title has-text-dark">{data.title}</p>
+</div>
+<div className="column is-10 ">
 
-      </div>
 
-    </div>
 
-    <div class="content ">
-    <p className=" subtitle  "> {data.description}</p>
-    <p className=" subtitle "><strong>My Duties: </strong>{data.myDuty}</p>
+<p className="title is-size-2-desktop is-size-3-mobile  has-text-dark">{data.title}</p>
+  <p className=" subtitle  is-5-mobile is-size-4-desktop"> {data.description}</p>
+  <p className=" subtitle is-size-3"><strong>My Duties: </strong>{data.myDuty}</p>
   <p><strong>Built with: </strong>{data.builtWith}</p>
   <p><strong>Powered By: </strong><a href={data.poweredBy}>{data.poweredBy}</a></p>
-<div className="has-text-centered">
-<a href={data.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
+  <a href={data.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
 <a href={data.demo}><button className="button is-primary is-outlined ">Demo</button></a>
 
   </div>
-      <br />
-    </div>
-  </div>
+
 </div>
-
-
-
-
-  </div>
-
-
+    </div>
 ))}
  </div>
 </div>

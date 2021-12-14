@@ -1,20 +1,23 @@
 import React from "react";
-import ASLV_1 from "./ASLV_1";
 import ProjectHeader from "./ProjectHeader";
 import Header from "../Header"
-function Games() {
+function ASL() {
 
 
   return (
-<div className="container">
-<Header />
-<ProjectHeader/>
-<div className="columns ">
-<div className="column ">
-<ASLV_1 />
-</div>
-</div>
-</div>
+    <>
+    <Header />
+    <ProjectHeader/>
+    <section className="hero is-info is-fullheight">
+    <div className="container">
+      <div className="hero-body">
+        <div className="">
+          <p className="title">Inclusive Design: Bilingual content (coming soon)</p>
+        </div>
+      </div>
+      </div>
+    </section>
+    </>
   );
 }
-export default Games;
+export default ASL;

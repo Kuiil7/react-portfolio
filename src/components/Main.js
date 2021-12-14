@@ -3,21 +3,23 @@ import {Link } from "react-router-dom";
 import portrait_5 from "./images/portrait_5.jpg"
 function Main() {
 
-  const mainTitle =
+  const projectTitle =
   <nav className="level ">
-      <p className="level-item has-text-centered title is-size-5">
-  <Link className="link is-info" to="/bootcamp"> <i class="fas fa-user-graduate"> Bootcamp</i></Link>
-  </p>
- <p className="level-item has-text-centered title is-size-5">
+
+ <p className="level-item  title is-size-5">
   <Link className="link is-info" to="/apiprojects"><i class="fas fa-exchange-alt"> APIs</i></Link> </p>
 
-  <p className="level-item has-text-centered title is-size-5">
+  <p className="level-item  title is-size-5">
+  <Link className="link is-info" to="/bootcamp"> <i class="fas fa-user-graduate"> Bootcamp</i></Link>
+  </p>
+  
+  <p className="level-item  title is-size-5">
   <Link className="link is-info" to="/database"> <i class="fas fa-database"> Database</i></Link>
   </p>
-  <p className="level-item has-text-centered title is-size-5">
+  <p className="level-item  title is-size-5">
   <Link className="link is-info" to="/asl"> <i class="fas fa-pencil-ruler"> Inclusive Design</i></Link>
   </p>
-  <p className="level-item has-text-centered title is-size-5 mb-4">
+  <p className="level-item  title is-size-5 mb-4">
   <Link className="link is-info" to="/games"> <i class="fas fa-gamepad"> Games</i></Link>
   </p>
 </nav>
@@ -35,6 +37,8 @@ function Main() {
 </Link>
     </div>
   </div>
+
+
   <p className="level-item has-text-centered title is-size-1">
 <Link className="link is-info" to="/aboutme">JGAMWORKS</Link> </p>
 <p className="level-item has-text-centered subtitle is-size-6 is-italic">
@@ -43,7 +47,7 @@ function Main() {
 <div className="columns is-mobile">
 <div className="column ">
 
-{mainTitle}
+{projectTitle}
 
 
 <div className="columns is-mobile">
