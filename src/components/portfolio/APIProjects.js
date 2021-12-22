@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectHeader from "./ProjectHeader";
 import Header from "../Header"
-import Box from "../portfolio/Box"
 function APIProjects () {
 
 
@@ -39,17 +38,18 @@ function APIProjects () {
 <>
 <Header />
 <ProjectHeader/>
-<div className="is-fullheight has-background-danger" style={{height:'100vh'}}>
+<section className="hero is-light is-fullheight">
 <div className="container">
+<div className="hero-body ">
 <div className="columns
 is-flex-wrap-no-wrap
 scrolling-wrapper
 scrolling-hidden
+is-mobile
 "
 >
 {data.map(data => (
-
-<div className="column is-8  mt-6 p-6 m-4" key={data.id}>
+  <div className="column is-8  mt-6 p-6 m-4 " key={data.id}>
 
 
 
@@ -79,20 +79,23 @@ scrolling-hidden
 
   </div>
       <br />
+
     </div>
+
   </div>
+
 </div>
 
 
 
-
   </div>
-
 
 ))}
  </div>
-</div>
-</div>
+ </div>
+ </div>
+</section>
+
 
 </>
 );

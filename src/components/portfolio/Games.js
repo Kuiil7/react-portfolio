@@ -10,7 +10,7 @@ function Games() {
 <>
       <Header />
 <ProjectHeader/>
-<section className="hero is-danger is-fullheight">
+<section className="hero is-light is-fullheight">
 <div className="container">
   <div className="hero-body">
     <div className="">

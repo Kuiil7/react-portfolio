@@ -8,7 +8,7 @@ function ASL() {
     <>
     <Header />
     <ProjectHeader/>
-    <section className="hero is-info is-fullheight">
+    <section className="hero is-light is-fullheight">
     <div className="container">
       <div className="hero-body">
         <div className="">
