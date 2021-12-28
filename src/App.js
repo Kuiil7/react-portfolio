@@ -11,7 +11,7 @@ import ASL from "./components/portfolio/ASL";
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="aboutme" element={<AboutMe />} />

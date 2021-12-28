@@ -3,7 +3,7 @@ import {Link } from "react-router-dom";
 import portrait_5 from "./images/portrait_5.jpg"
 function Main() {
 
-  const projectTitle =
+  const projectTitles =
   <nav className="level  ">
 
  <p className="level-item  title is-size-5 ">
@@ -27,7 +27,7 @@ function Main() {
 
   return (
 <>
-<section className="hero  is-fullheight   is-dark" >
+<section className="hero  is-fullheight is-info"  >
 <div className="hero-body  ">
  <div className="container has-text-centered  ">
 <div className="columns">
@@ -48,7 +48,7 @@ Full Stack Developer (MERN) + ASL Linguistics = Inclusive Web Design. </p>
 <div className="columns is-mobile">
 <div className="column ">
 
-{projectTitle}
+{projectTitles}
 
 
 <div className="columns is-mobile">
