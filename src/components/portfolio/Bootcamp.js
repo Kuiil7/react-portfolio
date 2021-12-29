@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectHeader from "./ProjectHeader";
 import Header from "../Header"
-
+import Card from "../Card"
 
 
 function Bootcamp () {
@@ -16,7 +16,7 @@ function Bootcamp () {
       repo: "https://github.com/HowardDaniels/movie-magic" ,
       demo:"https://infinite-inlet-20359.herokuapp.com",
       description: "This application allows the user to find movies and buddies.",
-      myDuty:"Configuring setting up authentication using PassportJs and styling.",
+      myDuty:"Configuring authentication using PassportJs and styling.",
       builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
     },
     {
@@ -45,7 +45,7 @@ function Bootcamp () {
       id: 4,
       title: "Note-Taker",
      images: ( process.env.PUBLIC_URL + "../images/repos/note_taker.gif"),
-     alt: "note taker ",
+     alt: "note taker",
      repo: "https://github.com/Kuiil7/Note-Taker" ,
      demo:"https://kuiil7.github.io/Note-Taker",
       description: "This application was created to write, save, and delete text notes.",
@@ -74,53 +74,23 @@ function Bootcamp () {
 <section className="hero is-light is-fullheight">
 <div className="container">
 <div className="hero-body ">
-<div className="columns
-is-flex-wrap-no-wrap
-scrolling-wrapper
-scrolling-hidden
-is-mobile
-"
->
+<div className="columns is-flex-wrap-no-wrap scrolling-wrapper scrolling-hidden is-mobile">
 {data.map(data => (
-  <div className="column is-8  mt-6 p-6 m-4 " key={data.id}>
+<div className="column is-8  mt-6 p-6 m-4 " key={data.id}>
 
-
-
-
-<div class="card is-size-6-mobile is-size-4-desktop">
-  <div class="card-image">
-    <figure class="image is-4by3">
-    <img src={data.images} alt={data.alt}   />    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-left">
-      <p className="title has-text-dark">{data.title}</p>
-
-      </div>
-
-    </div>
-
-    <div class="content ">
-    <p className=" subtitle  "> {data.description}</p>
-    <p className=" subtitle "><strong>My Duties: </strong>{data.myDuty}</p>
-  <p><strong>Built with: </strong>{data.builtWith}</p>
-  <p><strong>Powered By: </strong><a href={data.poweredBy}>{data.poweredBy}</a></p>
-<div className="has-text-centered">
-<a href={data.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
-<a href={data.demo}><button className="button is-primary is-outlined ">Demo</button></a>
+<Card
+title={data.title}
+myDuty={data.myDuty}
+description={data.description}
+builtWith={data.builtWith}
+images={data.images}
+alt={data.alt}
+repo={data.repo}
+demo={data.demo}
+href={data.poweredBy}
+/>
 
   </div>
-      <br />
-    </div>
-  </div>
-</div>
-
-
-
-
-  </div>
-
 ))}
  </div>
  </div>

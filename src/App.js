@@ -5,24 +5,25 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Main from "./components/Main";
 import APIProjects from "./components/portfolio/APIProjects";
 import Bootcamp from "./components/portfolio/Bootcamp";
-import Database from "./components/portfolio/Database";
 import Games from "./components/portfolio/Games";
 import ASL from "./components/portfolio/ASL";
+import Misc from "./components/portfolio/Misc";
 
 function App() {
   return (
-    <div >
+    < >
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="apiprojects" element={<APIProjects/>} />
         <Route path="bootcamp" element={<Bootcamp/>} />
-        <Route path="database" element={<Database/>} />
         <Route path="games" element={<Games/>} />
         <Route path="asl" element={<ASL/>} />
+        <Route path="misc" element={<Misc/>} />
+
       </Routes>
-    </div>
+    </>
   );
 }
 export default App;
