@@ -1,5 +1,4 @@
 
-import reportWebVitals from './reportWebVitals';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
@@ -12,4 +11,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-reportWebVitals();

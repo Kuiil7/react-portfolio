@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route} from "react-router-dom";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/layout/AboutMe";
 import Portfolio from "./components/portfolio/Portfolio";
-import Main from "./components/Main";
+import Main from "./components/layout/Main";
 import APIProjects from "./components/portfolio/APIProjects";
 import Bootcamp from "./components/portfolio/Bootcamp";
 import Games from "./components/portfolio/Games";
@@ -21,7 +21,6 @@ function App() {
         <Route path="games" element={<Games/>} />
         <Route path="asl" element={<ASL/>} />
         <Route path="misc" element={<Misc/>} />
-
       </Routes>
     </>
   );

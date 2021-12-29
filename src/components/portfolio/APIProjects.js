@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectHeader from "./ProjectHeader";
-import Header from "../Header"
+import ProjectHeader from "../Style/ProjectHeader";
+import Header from "../Style/Header"
 import Card from "../Card"
 
 function APIProjects () {
