@@ -1,12 +1,10 @@
 import React from "react";
 import APIProjects from "./APIProjects";
 
-function Portfolio () {
-
-
+const Portfolio = () => {
  return (
 <>
-<APIProjects />
+<APIProjects/>
 </>
 );
 }

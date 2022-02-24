@@ -2,31 +2,26 @@ import React, {useState} from "react";
 import {NavLink } from "react-router-dom";
 
 
-function Header() {
-
+const Header = () => {
   const [isActive, setisActive] = useState(false)
-
   return (
-    <div className="container"   >
-   <nav className="navbar" role="navigation" aria-label="main navigation" >
+
+   <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"hsl(215,100%,20%, .8)"}}>
   <div className="navbar-brand " >
-  <NavLink className="navbar-item" to="/"> JGAMWORKS</NavLink><div
-         onClick={() => {
-            setisActive(!isActive)
-          }}
+  <NavLink className="navbar-item has-text-white" to="/"> JGAMWORKS</NavLink><div
+         onClick={() => {setisActive(!isActive)}}
           role="button"
           className={`navbar-burger burger  ${isActive ? "is-active" :""}`}
           aria-label="menu"
           aria-expanded="false"
         >
-    <button  className="navbar-burger button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <button  className="navbar-burger has-text-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </button>
     </div>
   </div>
-
   <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
    <div className="navbar-end">
       <div className="navbar-item">
@@ -37,7 +32,7 @@ function Header() {
       </div>
 </nav>
 
-    </div>
+
   );
 }
 export default Header;

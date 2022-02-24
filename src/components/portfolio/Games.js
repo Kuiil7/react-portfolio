@@ -1,24 +1,15 @@
 import React from "react";
-import ProjectHeader from "../Style/ProjectHeader";
-import Header from "../Style/Header"
+import ProjectHeader from "../layout/ProjectHeader";
+import Header from "../layout/Header"
+import TicGame from "./TicGame";
 
 
-function Games() {
-
-
+const Games= () => {
   return (
 <>
-      <Header />
+<Header />
 <ProjectHeader/>
-<section className="hero is-light is-fullheight">
-<div className="container">
-  <div className="hero-body">
-    <div className="">
-      <p className="title">Games (coming soon)</p>
-    </div>
-  </div>
-  </div>
-</section>
+<TicGame />
 </>
   );
 }

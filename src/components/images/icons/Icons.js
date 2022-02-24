@@ -1,5 +1,5 @@
 
-function Icons () {
+const Icons = () => {
         const data = [
             {
                 id: 1,
@@ -28,9 +28,8 @@ function Icons () {
               },
 
               {
-
               id: 6,
-          logo: "https://i.imgrz.com/YQud.png",
+              logo: "https://i.imgrz.com/YQud.png",
               alt: "ExpressJS logo"
           },
           {
@@ -63,9 +62,7 @@ function Icons () {
               logo: "https://i.imgrz.com/RMw0.png",
               alt: "Final Cut Pro logo"
           }
-
           ];
-
 
 
     return (
@@ -78,8 +75,6 @@ function Icons () {
 </div>
 ))}
 </div>
-      );
-
-    };
+);};
 
 export default Icons;

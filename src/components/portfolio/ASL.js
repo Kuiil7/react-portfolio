@@ -1,9 +1,9 @@
 import React from "react";
-import ProjectHeader from "../Style/ProjectHeader";
-import Header from "../Style/Header"
-function ASL() {
+import ProjectHeader from "../layout/ProjectHeader";
+import Header from "../layout/Header"
 
 
+const ASL = () =>{
   return (
     <>
     <Header />

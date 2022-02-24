@@ -2,7 +2,7 @@ import React from "react";
 import {Link } from "react-router-dom";
 
 
-function ProjectHeader() {
+const ProjectHeader = () => {
 
 const Tabs = <ul>
 <li><Link className="navbar-item " to="/apiprojects">APIs</Link></li>

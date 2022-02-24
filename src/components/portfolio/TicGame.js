@@ -1,19 +1,15 @@
 import React from "react";
-import ProjectHeader from "../layout/ProjectHeader";
-import Header from "../layout/Header"
-import Card from "../Card"
+import Card from "../Card";
 import {data} from "./Data";
 
-const Bootcamp = () => {
- return (
-<>
-<Header />
-<ProjectHeader/>
-<section className="hero is-light is is-fullheight">
+const TicGame = () =>{
+  return (
+    <>
+<section className="hero is-light is-fullheight">
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(0,5).map(data => (
-<div className="column is-8 p-6" key={data.id}>
+{data.slice(9,10).map(data => (
+<div className="column  p-6" key={data.id}>
 <Card
 title={data.title}
 myDuty={data.myDuty}
@@ -25,14 +21,13 @@ repo={data.repo}
 demo={data.demo}
 href={data.poweredBy}
 />
-  </div>
+</div>
 ))}
  </div>
  </div>
 </section>
 
-</>
-);
+    </>
+  );
 }
-
-export default Bootcamp;
+export default TicGame;

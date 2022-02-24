@@ -9,11 +9,12 @@ import Games from "./components/portfolio/Games";
 import ASL from "./components/portfolio/ASL";
 import Misc from "./components/portfolio/Misc";
 
-function App() {
+
+const App = () =>{
   return (
     < >
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main/>} />
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="apiprojects" element={<APIProjects/>} />

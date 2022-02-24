@@ -1,8 +1,9 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import portrait_5 from "../images/portrait_5.jpg"
+import Header from "./Header"
 
-function Main() {
+const Main = () => {
 
   const projectTitles =
   <nav className="level">
@@ -24,7 +25,8 @@ function Main() {
 
 return (
 <>
-<section className="hero is-fullheight is-info">
+<Header />
+<section className="hero is-fullheight is-info" style={{backgroundColor:"hsl(215,100%,20%, .8)"}}>
 <div className="hero-body">
 <div className="container has-text-centered">
 <div className="columns">

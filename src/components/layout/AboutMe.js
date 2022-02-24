@@ -1,8 +1,9 @@
 import React from "react";
 import Portrait_4 from "../images/portrait_4.jpg";
-import Header from "../Style/Header"
+import Header from "./Header"
 import Icons from "../images/icons/Icons"
-function AboutMe() {
+
+const AboutMe = () => {
 
   const selfPortrait = <img src={Portrait_4} alt="self-portrait" width="380"  className="is-pulled-left px-5 py-2 pt-5" />
   const Bio =   <div className="has-text-justified" >
