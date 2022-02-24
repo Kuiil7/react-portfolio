@@ -1,6 +1,6 @@
 import React from "react";
 import Portrait_4 from "../images/portrait_4.jpg";
-import Header from "./Header"
+import Header2 from "./Header2"
 import Icons from "../images/icons/Icons"
 
 const AboutMe = () => {
@@ -32,7 +32,7 @@ const mainContainer =   <section className="hero is-light is-fullheight" id="Abo
 
   return (
     <>
-    <Header />
+    <Header2 />
 {mainContainer}
     </>
   );

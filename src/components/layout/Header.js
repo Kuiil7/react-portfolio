@@ -6,7 +6,7 @@ const Header = () => {
   const [isActive, setisActive] = useState(false)
   return (
 
-   <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"hsl(215,100%,20%, .8)"}}>
+   <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"hsl(215,100%,20%, .1)"}}>
   <div className="navbar-brand " >
   <NavLink className="navbar-item has-text-white" to="/"> JGAMWORKS</NavLink><div
          onClick={() => {setisActive(!isActive)}}
@@ -24,9 +24,9 @@ const Header = () => {
   </div>
   <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
    <div className="navbar-end">
-      <div className="navbar-item">
- <NavLink className="navbar-item " to="/portfolio">Portfolio</NavLink>
- <NavLink className="navbar-item" to="/aboutme">About Me</NavLink>
+      <div className="navbar-item " >
+ <NavLink className="navbar-item has-text-white" to="/portfolio">Portfolio</NavLink>
+ <NavLink className="navbar-item has-text-white" to="/aboutme">About Me</NavLink>
           </div>
         </div>
       </div>

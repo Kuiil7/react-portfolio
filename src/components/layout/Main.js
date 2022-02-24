@@ -2,6 +2,8 @@ import React from "react";
 import {Link } from "react-router-dom";
 import portrait_5 from "../images/portrait_5.jpg"
 import Header from "./Header"
+import ReactPlayer from 'react-player'
+import water from "../videos/water.mov"
 
 const Main = () => {
 
@@ -26,7 +28,19 @@ const Main = () => {
 return (
 <>
 <Header />
-<section className="hero is-fullheight is-info" style={{backgroundColor:"hsl(215,100%,20%, .8)"}}>
+
+
+<section className="hero is-fullheight is-info" style={{backgroundColor:"hsl(215,100%,20%, .1)"}}>
+<ReactPlayer
+    url={water}
+    width='100vw'
+    height='100vh'
+    muted={true}
+    playing={true}
+    loop={true}
+    className='react-player '
+
+/>
 <div className="hero-body">
 <div className="container has-text-centered">
 <div className="columns">
