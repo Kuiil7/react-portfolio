@@ -70,7 +70,7 @@ const Icons = () => {
 {data.map((data) => (
 <div className="column " key={data.id}>
 <figure className="image is-64x64" >
-<img src={data.logo} alt={data.alt}    />
+<img src={data.logo} alt={data.alt} />
 </figure>
 </div>
 ))}

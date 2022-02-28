@@ -3,10 +3,16 @@ import {NavLink } from "react-router-dom";
 
 
 const Header = () => {
-  const [isActive, setisActive] = useState(false)
-  return (
 
-   <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"hsl(215,100%,20%, .1)"}}>
+  const [isActive, setisActive] = useState(false)
+
+  let bgColors = {
+  "default": "hsl(215,100%,20%)",
+  "frontPage": "hsl(215,100%,20%, .1)",
+};
+
+  return (
+   <nav className="navbar " role="navigation" aria-label="main navigation" style={{backgroundColor: bgColors.frontPage}}>
   <div className="navbar-brand " >
   <NavLink className="navbar-item has-text-white" to="/"> JGAMWORKS</NavLink><div
          onClick={() => {setisActive(!isActive)}}
@@ -31,8 +37,6 @@ const Header = () => {
         </div>
       </div>
 </nav>
-
-
   );
 }
 export default Header;

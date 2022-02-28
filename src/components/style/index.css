@@ -38,3 +38,56 @@ video {
   z-index: -1;
 }
 
+#rcorners {
+  border-radius: 250px;
+}
+
+.fade-in-3 {
+  animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.fade-in-2 {
+  animation: fadeIn ease 6s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.fade-in-1 {
+  animation: fadeIn ease 8s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fade-in-4 {
+  animation: fadeIn4 ease 12s;
+}
+@keyframes fadeIn4 {
+  0% {
+    opacity:.3;
+  }
+  100% {
+    opacity:1;
+  }
+}
