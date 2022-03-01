@@ -12,7 +12,7 @@ const Header = () => {
 };
 
   return (
-   <nav className="navbar " role="navigation" aria-label="main navigation" style={{backgroundColor: bgColors.frontPage}}>
+   <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: bgColors.frontPage}}>
   <div className="navbar-brand " >
   <NavLink className="navbar-item has-text-white" to="/"> JGAMWORKS</NavLink><div
          onClick={() => {setisActive(!isActive)}}
@@ -21,15 +21,15 @@ const Header = () => {
           aria-label="menu"
           aria-expanded="false"
         >
-    <button  className="navbar-burger has-text-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <button  className="navbar-burger has-text-white is-inverted" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </button>
     </div>
   </div>
-  <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
-   <div className="navbar-end">
+  <div className={`navbar-menu ${isActive ? "is-active" : ""}`} style={{backgroundColor: bgColors.frontPage}}>
+   <div className="navbar-end" >
       <div className="navbar-item " >
  <NavLink className="navbar-item has-text-white" to="/portfolio">Portfolio</NavLink>
  <NavLink className="navbar-item has-text-white" to="/aboutme">About Me</NavLink>

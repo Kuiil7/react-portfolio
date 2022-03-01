@@ -4,6 +4,11 @@ import {NavLink } from "react-router-dom";
 
 const Header2 = () => {
   const [isActive, setisActive] = useState(false)
+  let bgColors = {
+    "default": "hsl(215,100%,20%)",
+    "frontPage": "hsl(215,100%,20%, .1)",
+  };
+
   return (
 
    <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"hsl(215,100%,20%)"}}>
@@ -22,7 +27,7 @@ const Header2 = () => {
     </button>
     </div>
   </div>
-  <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
+  <div className={`navbar-menu ${isActive ? "is-active" : ""}`} style={{backgroundColor: bgColors.frontPage}}>
    <div className="navbar-end">
       <div className="navbar-item " >
  <NavLink className="navbar-item has-text-white" to="/portfolio">Portfolio</NavLink>
