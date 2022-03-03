@@ -7,15 +7,16 @@ import {data} from "./Data";
 const APIProjects = () => {
 
     let bgColors = {
-        "default": "hsl(215,100%,20%)",
+        "default": "hsl(217, 71%, 53%)",
         "frontPage": "hsl(215,100%,20%, .1)",
       };
 
  return (
 <>
 <div style={{backgroundColor: bgColors.default}}>
-<Header/>
+  <Header />
 </div>
+
 
 <ProjectHeader/>
 <section className="hero is-light is-fullheight">

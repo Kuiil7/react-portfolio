@@ -1,13 +1,11 @@
 import React from "react";
 import ProjectHeader from "../layout/ProjectHeader";
-import Header2 from "../layout/Header2"
 import Card from "../Card"
 import {data} from "./Data";
 
 const Bootcamp = () => {
  return (
 <>
-<Header2 />
 <ProjectHeader/>
 <section className="hero is-light is is-fullheight">
 <div className="container">

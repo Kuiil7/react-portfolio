@@ -18,9 +18,7 @@ body {
  .avatar {
   border-radius: 50%;
 }
-.navbar-nav > .active > a {
-  background-color: 	#ff0000 ;
-}
+
 
 .react-player {
   position: absolute;
@@ -91,3 +89,4 @@ video {
     opacity:1;
   }
 }
+

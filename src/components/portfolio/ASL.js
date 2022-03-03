@@ -1,12 +1,11 @@
 import React from "react";
 import ProjectHeader from "../layout/ProjectHeader";
-import Header2 from "../layout/Header2"
 
 
 const ASL = () =>{
   return (
     <>
-    <Header2 />
+
     <ProjectHeader/>
     <section className="hero is-light is-fullheight">
     <div className="container">
