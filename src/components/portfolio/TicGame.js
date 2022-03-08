@@ -26,7 +26,6 @@ href={data.poweredBy}
  </div>
  </div>
 </section>
-
     </>
   );
 }

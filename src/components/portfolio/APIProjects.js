@@ -1,23 +1,13 @@
 import React from "react";
 import ProjectHeader from "../layout/ProjectHeader";
-import Header from "../layout/Header"
 import Card from "../Card"
 import {data} from "./Data";
+import Header from "../layout/Header"
 
 const APIProjects = () => {
-
-    let bgColors = {
-        "default": "hsl(217, 71%, 53%)",
-        "frontPage": "hsl(215,100%,20%, .1)",
-      };
-
  return (
 <>
-<div style={{backgroundColor: bgColors.default}}>
-  <Header />
-</div>
-
-
+<Header />
 <ProjectHeader/>
 <section className="hero is-light is-fullheight">
 <div className="container">

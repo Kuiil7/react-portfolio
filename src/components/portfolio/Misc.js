@@ -2,11 +2,12 @@ import React from "react";
 import ProjectHeader from "../layout/ProjectHeader";
 import Card from "../Card"
 import {data} from "./Data";
+import Header from "../layout/Header"
 
 const Misc = () => {
  return (
 <>
-
+<Header />
 <ProjectHeader/>
 <section className="hero is-light is-fullheight">
 <div className="container">
