@@ -12,7 +12,7 @@ const AboutMe = () => {
 <p className="subtitle is-6">
   <span>Full Stack Developer (MERN)</span>
   <br/>
-  <span>Master of Arts in ASL Linguistics</span>
+  <span>Master of Arts in American Sign Language Linguistics</span>
   </p>
 
 <p className="title is-size-4 fade-in-3 mb-1 mt-5">Accessibility.</p>
