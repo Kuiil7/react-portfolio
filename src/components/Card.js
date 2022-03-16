@@ -10,7 +10,7 @@ const Card = (props) => {
 <div className="card-content">
 <div className="media">
 <div className="media-left">
-<p className="title is-size-4 has-text-dark">{props.title}</p>
+<p className="title is-size-5 has-text-dark">{props.title}</p>
 </div>
 </div>
 <div className="content ">

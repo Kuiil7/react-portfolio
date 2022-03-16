@@ -117,5 +117,60 @@
                   builtWith: "Bulma."
                 },
 
+                {
+                  id: 10,
+                    title: "Graduate School Newsletter #1",
+                    images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs1.jpg"),
+                    alt: "newsletter",
+                    demo: "https://pub.lucidpress.com/520a802b-e3ae-4e0b-bf8b-0d56fe0b3aff/",
+                    description: "Gallaudet University Graduate School Newsletter",
+                    myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
+                    builtWith: "LucidPress.com"
+                  },
+                  {
+                    id: 11,
+                      title: "Graduate School Newsletter #2",
+                      images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs2.png"),
+                      alt: "Tic Game",
+                      demo:"https://pub.lucidpress.com/Issue2/",
+                      description: "Gallaudet University Graduate School Newsletter",
+                      myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
+                      builtWith: "LucidPress.com"
+                    },
+
+                    {
+                      id: 12,
+                        title: "Graduate School Newsletter #3",
+                        images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs3.png"),
+                        alt: "Tic Game",
+                        demo:"https://pub.lucidpress.com/ThirdIssue/",
+                        description: "Gallaudet University Graduate School Newsletter",
+                        myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
+                        builtWith: "LucidPress.com"
+                      },
+
+                      {
+                        id: 13,
+                          title: "Graduate School Newsletter #4",
+                          images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs4.jpg"),
+                          alt: "Tic Game",
+                          demo:"https://pub.lucidpress.com/FourthIssue/",
+                          description: "Gallaudet University Graduate School Newsletter",
+                          myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
+                          builtWith: "LucidPress.com"
+                        },
+
+                        {
+                          id: 14,
+                            title: "Graduate School Newsletter #5",
+                            images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs5.jpg"),
+                            alt: "Tic Game",
+                            demo:"https://pub.lucidpress.com/Issue5/",
+                            description: "Gallaudet University Graduate School Newsletter",
+                            myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
+                            builtWith: "LucidPress.com"
+                          },
+
+                          
   ];
 
