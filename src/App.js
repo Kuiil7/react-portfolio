@@ -7,7 +7,7 @@ import APIProjects from "./components/portfolio/APIProjects";
 import Bootcamp from "./components/portfolio/Bootcamp";
 import Games from "./components/portfolio/Games";
 import ASL from "./components/portfolio/ASL";
-import Misc from "./components/portfolio/Misc";
+import Static from "./components/portfolio/Static";
 
 
 const App = () =>{
@@ -21,7 +21,7 @@ const App = () =>{
         <Route path="bootcamp" element={<Bootcamp/>} />
         <Route path="games" element={<Games/>} />
         <Route path="asl" element={<ASL/>} />
-        <Route path="misc" element={<Misc/>} />
+        <Route path="static" element={<Static/>} />
       </Routes>
     </>
   );

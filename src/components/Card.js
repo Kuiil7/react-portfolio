@@ -14,12 +14,12 @@ const Card = (props) => {
 </div>
 </div>
 <div className="content ">
-<p className="subtitle is-size-5 is-size-6-mobile"> {props.description}</p>
+<p className="subtitle is-size-5 is-size-6-mobile"> <strong>Description: </strong> {props.description}</p>
 <p className="subtitle is-size-5 is-size-6-mobile"><strong>My Duties: </strong>{props.myDuty}</p>
 <p className="subtitle is-size-5 is-size-6-mobile"><strong>Built with: </strong>{props.builtWith}</p>
 <div className="has-text-centered">
-<a href={props.repo}><button className="button is-primary is-outlined mr-2 ">Repo</button></a>
-<a href={props.demo}><button className="button is-primary is-outlined ">Demo</button></a>
+<a href={props.repo}><button className="button is-info is-outlined mr-2 ">Repo</button></a>
+<a href={props.demo}><button className="button is-info is-outlined ">Demo</button></a>
 </div>
 </div>
 </div>

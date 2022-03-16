@@ -8,7 +8,7 @@ const Tabs = <ul>
 <li><Link className="navbar-item " to="/apiprojects">APIs</Link></li>
 <li><Link className="navbar-item" to="/bootcamp"> Bootcamp</Link></li>
 <li><Link className="navbar-item" to="/asl"> Inclusive Web Design (bilingual)</Link></li>
-<li><Link className="navbar-item" to="/misc"> Misc</Link></li>
+<li><Link className="navbar-item" to="/static"> Static Websites</Link></li>
 <li><Link className="navbar-item" to="/games"> Games</Link></li>
 </ul>
 

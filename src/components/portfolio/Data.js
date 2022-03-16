@@ -9,8 +9,8 @@
       alt: "sign-in screen",
       repo: "https://github.com/HowardDaniels/movie-magic" ,
       demo:"https://infinite-inlet-20359.herokuapp.com",
-      description: "This application allows the user to find movies and buddies.",
-      myDuty:"Configuring authentication using PassportJs and styling.",
+      description: "This application allows the user to search and find movies and buddies.",
+      myDuty:"Set up and configured user authentication using PassportJs and styling.",
       builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
     },
     {
@@ -42,9 +42,9 @@
      alt: "note taker",
      repo: "https://github.com/Kuiil7/Note-Taker" ,
      demo:"https://kuiil7.github.io/Note-Taker",
-      description: "This application was created to write, save, and delete text notes.",
-      myDuty: "My core responsibility was creating the app from scratch.",
-      builtWith: "Bootstrap, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON."
+      description: "The purpose of this application is to write, save, and delete text notes using Atlas cloud service.",
+      myDuty: "Created frontend using React and backend routing, schema using MongoDB Atlas cloud service.",
+      builtWith: "Utilizing Bootstrap CSS framework, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON.",
     },
     {
       id: 4,
@@ -53,8 +53,8 @@
       alt: "landing page with input box",
       repo: "https://github.com/Kuiil7/Node-Express-Handlebars" ,
       demo:"https://ancient-thicket-66505.herokuapp.com/",
-      description: "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they would like to eat.",
-      myDuty: "All responsibilities (individual project)",
+      description: "Eat-Da-Burger!, a restaurant app that lets users input the names of burgers they would like to eat. Items are saved to a RDBMS SQL database utilizing CRUD funcitons with a client and server set up",
+      myDuty: "Created frontend and backend.",
       builtWith: "NodeJs, Express Handlebars (MVC), and MySQL."
     },
     {
@@ -85,18 +85,18 @@
         {
             id: 7,
               title: "GEAH Group",
-              images:( process.env.PUBLIC_URL +  "../images/repos/geah_group.png"),
+              images:( process.env.PUBLIC_URL +  "../images/geah_group.png"),
               alt: "El fundador sostiene tres botellas de vitamina.",
               repo: "https://github.com/Kuiil7/geah_group.git" ,
               demo:"https://geahgroup.pe",
-              description: "Esthetic medicine, health and beauty, and pharmaeuticals based in Peru.",
+              description: "A multibusiness website consisting of Esthetic medicine, health and beauty, and pharmaeuticals based in Peru.",
               myDuty:"Sole maintainer.",
               builtWith: "Bulma."
             },
             {
               id: 8,
               title: "ErrandFolks",
-              images: ( process.env.PUBLIC_URL + "../images/repos/errandfolks.png"),
+              images: ( process.env.PUBLIC_URL + "../images/errandfolks.png"),
               alt: "landing page with a video showing a man holding a cart witha mask",
               repo:   "https://github.com/Kuiil7/errandfolks" ,
               demo:"https://sad-spence-4b83df.netlify.app",
@@ -170,6 +170,10 @@
                             myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
                             builtWith: "LucidPress.com"
                           },
+                          {
+                            id: 15,
+                             
+                            },
 
                           
   ];
