@@ -13,7 +13,7 @@ const Bootcamp = () => {
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
 {data.slice(0,5).map(data => (
-<div className="column is-6" key={data.id}>
+<div className="column is-6 p-6 mt-6 p-6 m-4 " key={data.id}>
 <Card
 title={data.title}
 myDuty={data.myDuty}

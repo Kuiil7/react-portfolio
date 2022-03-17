@@ -85,9 +85,9 @@
         {
             id: 7,
               title: "GEAH Group",
-              images:( process.env.PUBLIC_URL +  "../images/geah_group.png"),
+              images:( process.env.PUBLIC_URL +  "../images/static/geah_group.png"),
               alt: "El fundador sostiene tres botellas de vitamina.",
-              repo: "https://github.com/Kuiil7/geah_group.git" ,
+              repo: "https://github.com/Kuiil7/geah_group" ,
               demo:"https://geahgroup.pe",
               description: "A multibusiness website consisting of Esthetic medicine, health and beauty, and pharmaeuticals based in Peru.",
               myDuty:"Sole maintainer.",
@@ -96,7 +96,7 @@
             {
               id: 8,
               title: "ErrandFolks",
-              images: ( process.env.PUBLIC_URL + "../images/errandfolks.png"),
+              images: ( process.env.PUBLIC_URL + "../images/static/errandfolks.png"),
               alt: "landing page with a video showing a man holding a cart witha mask",
               repo:   "https://github.com/Kuiil7/errandfolks" ,
               demo:"https://sad-spence-4b83df.netlify.app",
@@ -104,9 +104,21 @@
               myDuty: "Sole maintainer.",
               builtWith: "Bulma."
             },
+            {
+              id: 9,
+              title: "Disability Content Consulting",
+              images:( process.env.PUBLIC_URL +  "../images/static/dcc.jpg"),
+              alt: "video background cloudy mountains ",
+              repo:"https://www.github.com/Kuiil7/dcc",
+              demo:"https://www.disabilitycontentconsulting.com/",
+              description: "A collective formed by talented Disabled content creators and accessibility inclusion specialists from across the globe.",
+              myDuty:"Sole maintianer",
+              builtWith: "Bulma, Google Forms, Font Awesome"
+               
+              },
 
             {
-                id: 9,
+                id: 10,
                   title: "Tic Game w React Hooks",
                   images:( process.env.PUBLIC_URL +  "../images/repos/ticgame.gif"),
                   alt: "Tic Game",
@@ -118,7 +130,7 @@
                 },
 
                 {
-                  id: 10,
+                  id: 11,
                     title: "Graduate School Newsletter #1",
                     images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs1.jpg"),
                     alt: "newsletter",
@@ -128,7 +140,7 @@
                     builtWith: "LucidPress.com"
                   },
                   {
-                    id: 11,
+                    id: 12,
                       title: "Graduate School Newsletter #2",
                       images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs2.png"),
                       alt: "Tic Game",
@@ -139,7 +151,7 @@
                     },
 
                     {
-                      id: 12,
+                      id: 13,
                         title: "Graduate School Newsletter #3",
                         images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs3.png"),
                         alt: "Tic Game",
@@ -150,7 +162,7 @@
                       },
 
                       {
-                        id: 13,
+                        id: 14,
                           title: "Graduate School Newsletter #4",
                           images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs4.jpg"),
                           alt: "Tic Game",
@@ -161,7 +173,7 @@
                         },
 
                         {
-                          id: 14,
+                          id: 15,
                             title: "Graduate School Newsletter #5",
                             images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs5.jpg"),
                             alt: "Tic Game",
@@ -170,10 +182,7 @@
                             myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
                             builtWith: "LucidPress.com"
                           },
-                          {
-                            id: 15,
-                             
-                            },
+                        
 
                           
   ];
