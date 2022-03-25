@@ -1,7 +1,7 @@
 import React from "react";
-import ProjectHeader from "../layout/ProjectHeader";
-import Card from "../Card"
-import {data} from "./Data";
+import ProjectHeader from "../layout/ProjectsHeader";
+import Card from "../layout/cards/Card"
+import {data} from "../data/Data";
 import Header from "../layout/Header"
 
 const Static = () => {

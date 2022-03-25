@@ -1,20 +1,23 @@
 import React from "react";
-import ProjectHeader from "../layout/ProjectsHeader";
-import Card from "../layout/cards/Card"
+import Card2 from "../layout/cards/Card2"
 import {data} from "../data/Data";
+import ASLHeader from "../layout/ASLHeader"
+import ProjectHeader from "../layout/ProjectsHeader";
 import Header from "../layout/Header"
 
-const Bootcamp = () => {
+const Portrait = () => {
  return (
 <>
 <Header />
 <ProjectHeader/>
+<p className="Gallaudet University Graduate School's Newsletter"></p>
+<ASLHeader />
 <section className="hero is-light is is-fullheight">
 <div className="container">
-<div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(0,5).map(data => (
-<div className="column is-6 p-6 mt-6 p-6 m-4 " key={data.id}>
-<Card
+ <div className="columns scrolling-wrapper scrolling-hidden ">
+{data.slice(11,14).map(data => (
+<div className="column is-8 p-6 " key={data.id}>
+<Card2
 title={data.title}
 myDuty={data.myDuty}
 description={data.description}
@@ -27,6 +30,7 @@ href={data.poweredBy}
 />
   </div>
 ))}
+
  </div>
  </div>
 </section>
@@ -35,4 +39,4 @@ href={data.poweredBy}
 );
 }
 
-export default Bootcamp;
+export default Portrait;

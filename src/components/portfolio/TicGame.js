@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Card";
-import {data} from "./Data";
+import Card from "../layout/cards/Card";
+import {data} from "../data/Data";
 
 const TicGame = () =>{
   return (
@@ -8,7 +8,7 @@ const TicGame = () =>{
 <section className="hero is-light is-fullheight">
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(9,10).map(data => (
+{data.slice(10,11).map(data => (
 <div className="column  p-6" key={data.id}>
 <Card
 title={data.title}

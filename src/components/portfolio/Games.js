@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectHeader from "../layout/ProjectHeader";
+import ProjectHeader from "../layout/ProjectsHeader";
 import TicGame from "./TicGame";
 import Header from "../layout/Header"
 

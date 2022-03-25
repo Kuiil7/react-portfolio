@@ -1,19 +1,23 @@
 import React from "react";
-import ProjectHeader from "../layout/ProjectHeader";
-import Card from "../Card"
-import {data} from "./Data";
+import Card from "../layout/cards/Card"
+import {data} from "../data/Data";
+import ASLHeader from "../layout/ASLHeader"
+import ProjectHeader from "../layout/ProjectsHeader";
 import Header from "../layout/Header"
 
-const Bootcamp = () => {
+const Landscape = () => {
  return (
 <>
 <Header />
 <ProjectHeader/>
+<ASLHeader />
+
 <section className="hero is-light is is-fullheight">
+
 <div className="container">
-<div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(0,5).map(data => (
-<div className="column is-8 p-6 mt-6 p-6 m-4 " key={data.id}>
+ <div className="columns scrolling-wrapper scrolling-hidden ">
+{data.slice(14,16).map(data => (
+<div className="column is-8 p-6 " key={data.id}>
 <Card
 title={data.title}
 myDuty={data.myDuty}
@@ -27,6 +31,7 @@ href={data.poweredBy}
 />
   </div>
 ))}
+
  </div>
  </div>
 </section>
@@ -35,4 +40,4 @@ href={data.poweredBy}
 );
 }
 
-export default Bootcamp;
+export default Landscape;

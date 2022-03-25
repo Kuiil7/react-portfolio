@@ -64,7 +64,7 @@
           alt: "weather dashboard",
           repo: "https://github.com/Kuiil7/myweather" ,
           demo:"https://my-weather-one.vercel.app/",
-          description:"Find local temperature via geolocation function and do query search across U.S.",
+          description:"Search and find local temperature across the U.S.",
           myDuty:"Sole maintainer.",
           builtWith:"Bulma, Axios, Moment and dotenv.",
           poweredBy:"https://openweathermap.org/"
@@ -83,39 +83,40 @@
 
         },
         {
-            id: 7,
-              title: "GEAH Group",
-              images:( process.env.PUBLIC_URL +  "../images/static/geah_group.png"),
-              alt: "El fundador sostiene tres botellas de vitamina.",
-              repo: "https://github.com/Kuiil7/geah_group" ,
-              demo:"https://geahgroup.pe",
-              description: "A multibusiness website consisting of Esthetic medicine, health and beauty, and pharmaeuticals based in Peru.",
-              myDuty:"Sole maintainer.",
-              builtWith: "Bulma."
+          id: 7,
+          title: "Disability Content Consulting (ongoing)",
+          images:( process.env.PUBLIC_URL +  "../images/static/dcc.jpg"),
+          alt: "video background cloudy mountains ",
+          repo:"https://www.github.com/Kuiil7/dcc",
+          demo:"https://www.disabilitycontentconsulting.com/",
+          description: "A collective formed by talented Disabled content creators and accessibility inclusion specialists from across the globe.",
+          myDuty:"Sole maintianer",
+          builtWith: "Bulma, Google Forms, Font Awesome"
+
+          },
+
+        {
+          id: 8,
+          title: "GEAH Group (ongoing)",
+          images:( process.env.PUBLIC_URL +  "../images/static/geah_group.png"),
+          alt: "El fundador sostiene tres botellas de vitamina.",
+          repo: "https://github.com/Kuiil7/geah_group" ,
+          demo:"https://geahgroup.pe",
+          description: "A multibusiness website consisting of Esthetic medicine, health and beauty, and pharmaeuticals based in Peru.",
+          myDuty:"Sole maintainer.",
+          builtWith: "Bulma."
+        },
+        {
+          id: 9,
+          title: "ErrandFolks",
+          images: ( process.env.PUBLIC_URL + "../images/static/errandfolks.png"),
+          alt: "landing page with a video showing a man holding a cart witha mask",
+          repo:   "https://github.com/Kuiil7/errandfolks" ,
+          demo:"https://sad-spence-4b83df.netlify.app",
+          description: "Volunteer-based delivery services to deaf elders and immunocompromised. (discontinued)",myDuty: "Sole maintainer.",
+          builtWith: "Bulma."
             },
-            {
-              id: 8,
-              title: "ErrandFolks",
-              images: ( process.env.PUBLIC_URL + "../images/static/errandfolks.png"),
-              alt: "landing page with a video showing a man holding a cart witha mask",
-              repo:   "https://github.com/Kuiil7/errandfolks" ,
-              demo:"https://sad-spence-4b83df.netlify.app",
-              description: "Volunteer-based delivery services to deaf elders and immunocompromised. (discontinued)",
-              myDuty: "Sole maintainer.",
-              builtWith: "Bulma."
-            },
-            {
-              id: 9,
-              title: "Disability Content Consulting",
-              images:( process.env.PUBLIC_URL +  "../images/static/dcc.jpg"),
-              alt: "video background cloudy mountains ",
-              repo:"https://www.github.com/Kuiil7/dcc",
-              demo:"https://www.disabilitycontentconsulting.com/",
-              description: "A collective formed by talented Disabled content creators and accessibility inclusion specialists from across the globe.",
-              myDuty:"Sole maintianer",
-              builtWith: "Bulma, Google Forms, Font Awesome"
-               
-              },
+
 
             {
                 id: 10,
@@ -182,8 +183,5 @@
                             myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
                             builtWith: "LucidPress.com"
                           },
-                        
-
-                          
   ];
 

@@ -1,14 +1,15 @@
 import React from "react";
 import { Routes, Route} from "react-router-dom";
 import AboutMe from "./components/layout/AboutMe";
-import Portfolio from "./components/portfolio/Portfolio";
+import Portfolio from "./components/layout/Portfolio";
 import Main from "./components/layout/Main";
-import APIProjects from "./components/portfolio/APIProjects";
+import APIProjects from "./components/portfolio/API";
 import Bootcamp from "./components/portfolio/Bootcamp";
 import Games from "./components/portfolio/Games";
 import ASL from "./components/portfolio/ASL";
 import Static from "./components/portfolio/Static";
-
+import Portrait from "./components/portfolio/Portrait";
+import Landscape from "./components/portfolio/Landscape";
 
 const App = () =>{
   return (
@@ -22,6 +23,9 @@ const App = () =>{
         <Route path="games" element={<Games/>} />
         <Route path="asl" element={<ASL/>} />
         <Route path="static" element={<Static/>} />
+        <Route path="portrait" element={<Portrait/>} />
+        <Route path="landscape" element={<Landscape/>} />
+
       </Routes>
     </>
   );
