@@ -84,6 +84,17 @@
         },
         {
           id: 7,
+            title: "MyNews",
+            images:( process.env.PUBLIC_URL +  "../images/repos/mynews.png"),
+            alt: "screenshot of app",
+            demo:"https://pub.lucidpress.com/Issue5/",
+            description: "A U.S. news search app with 6 categories onload",
+            myDuty:"Sole maintainer",
+            builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express."
+          },
+
+        {
+          id: 8,
           title: "Disability Content Consulting (ongoing)",
           images:( process.env.PUBLIC_URL +  "../images/static/dcc.jpg"),
           alt: "video background cloudy mountains ",
@@ -96,7 +107,7 @@
           },
 
         {
-          id: 8,
+          id: 9,
           title: "GEAH Group (ongoing)",
           images:( process.env.PUBLIC_URL +  "../images/static/geah_group.png"),
           alt: "El fundador sostiene tres botellas de vitamina.",
@@ -107,7 +118,7 @@
           builtWith: "Bulma."
         },
         {
-          id: 9,
+          id: 10,
           title: "ErrandFolks",
           images: ( process.env.PUBLIC_URL + "../images/static/errandfolks.png"),
           alt: "landing page with a video showing a man holding a cart witha mask",
@@ -119,7 +130,7 @@
 
 
             {
-                id: 10,
+                id: 11,
                   title: "Tic Game w React Hooks",
                   images:( process.env.PUBLIC_URL +  "../images/repos/ticgame.gif"),
                   alt: "Tic Game",
@@ -131,7 +142,7 @@
                 },
 
                 {
-                  id: 11,
+                  id: 12,
                     title: "Graduate School Newsletter #1",
                     images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs1.jpg"),
                     alt: "newsletter",
@@ -141,7 +152,7 @@
                     builtWith: "LucidPress.com"
                   },
                   {
-                    id: 12,
+                    id: 13,
                       title: "Graduate School Newsletter #2",
                       images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs2.png"),
                       alt: "Tic Game",
@@ -152,7 +163,7 @@
                     },
 
                     {
-                      id: 13,
+                      id: 14,
                         title: "Graduate School Newsletter #3",
                         images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs3.png"),
                         alt: "Tic Game",
@@ -163,7 +174,7 @@
                       },
 
                       {
-                        id: 14,
+                        id: 15,
                           title: "Graduate School Newsletter #4",
                           images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs4.jpg"),
                           alt: "Tic Game",
@@ -174,7 +185,7 @@
                         },
 
                         {
-                          id: 15,
+                          id: 16,
                             title: "Graduate School Newsletter #5",
                             images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs5.jpg"),
                             alt: "Tic Game",
@@ -183,5 +194,7 @@
                             myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
                             builtWith: "LucidPress.com"
                           },
+
+
   ];
 

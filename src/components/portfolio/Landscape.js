@@ -16,7 +16,7 @@ const Landscape = () => {
 
 <div className="container">
  <div className="columns scrolling-wrapper scrolling-hidden ">
-{data.slice(14,16).map(data => (
+{data.slice(15,17).map(data => (
 <div className="column is-8 p-6 " key={data.id}>
 <Card
 title={data.title}

@@ -8,7 +8,7 @@ const TicGame = () =>{
 <section className="hero is-light is-fullheight">
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(10,11).map(data => (
+{data.slice(11,12).map(data => (
 <div className="column  p-6" key={data.id}>
 <Card
 title={data.title}
