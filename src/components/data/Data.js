@@ -156,7 +156,7 @@
                 {
                   id: 12,
                     title: "Graduate School Newsletter #1",
-                    images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs1.jpg"),
+                    images:( process.env.PUBLIC_URL +  "../images/graduateschool/Artboard1.png"),
                     alt: "newsletter",
                     demo: "https://pub.lucidpress.com/520a802b-e3ae-4e0b-bf8b-0d56fe0b3aff/",
                     description: "Gallaudet University Graduate School Newsletter",
@@ -167,7 +167,7 @@
                   {
                     id: 13,
                       title: "Graduate School Newsletter #2",
-                      images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs2.png"),
+                      images:( process.env.PUBLIC_URL +  "../images/graduateschool/Artboard2.png"),
                       alt: "Tic Game",
                       demo:"https://pub.lucidpress.com/Issue2/",
                       description: "Gallaudet University Graduate School Newsletter",
@@ -179,7 +179,7 @@
                     {
                       id: 14,
                         title: "Graduate School Newsletter #3",
-                        images:( process.env.PUBLIC_URL +  "../images/graduateschool/gs3.png"),
+                        images:( process.env.PUBLIC_URL +  "../images/graduateschool/Artboard3.png"),
                         alt: "Tic Game",
                         demo:"https://pub.lucidpress.com/ThirdIssue/",
                         description: "Gallaudet University Graduate School Newsletter",

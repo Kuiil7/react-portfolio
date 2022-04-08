@@ -6,7 +6,7 @@ const TicGame = () =>{
   return (
     <>
 <section className="hero is-light is-fullheight">
-<p className="title has-text-centered mt-4 ">BOOTCAMP PROJECTS</p>
+<p className="title is-size-5 has-text-centered mt-5 ">GAMES PROJECTS</p>
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
 {data.slice(11,12).map(data => (

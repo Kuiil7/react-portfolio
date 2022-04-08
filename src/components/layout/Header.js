@@ -31,9 +31,9 @@ const Header = () => {
    <div className="navbar-item has-dropdown is-hoverable">
    <NavLink className="navbar-item " to="/portfolio">Portfolio</NavLink>
     <div className="navbar-dropdown">
-    <Link className="navbar-item is-active" to="/api">APIs</Link>
+    <Link className="navbar-item " to="/api">APIs</Link>
     <Link className="navbar-item" to="/bootcamp"> Bootcamp</Link>
-    <Link className="navbar-item" to="/asl"> Inclusive Web Design (ASL)</Link>
+    <Link className="navbar-item" to="/asl"> Inclusion</Link>
     <Link className="navbar-item" to="/static"> Static Websites</Link>
     <Link className="navbar-item" to="/games"> Games</Link>
 

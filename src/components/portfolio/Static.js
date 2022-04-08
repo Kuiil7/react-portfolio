@@ -7,7 +7,7 @@ const Static = () => {
 <>
 
 <section className="hero is-light is-fullheight">
-<p className="title has-text-centered mt-4 ">BOOTCAMP PROJECTS</p>
+<p className="title is-size-5 has-text-centered mt-4 ">STATIC WEBSITE PROJECTS</p>
 
 <div className="container">
 

@@ -8,8 +8,6 @@ import Bootcamp from "./components/portfolio/Bootcamp";
 import Games from "./components/portfolio/Games";
 import ASL from "./components/portfolio/ASL";
 import Static from "./components/portfolio/Static";
-import Portrait from "./components/portfolio/Portrait";
-import Landscape from "./components/portfolio/Landscape";
 import Header from "./components/layout/Header"
 
 const App = () =>{
@@ -28,8 +26,6 @@ const App = () =>{
         <Route path="games" element={<Games/>} />
         <Route path="asl" element={<ASL/>} />
         <Route path="static" element={<Static/>} />
-        <Route path="portrait" element={<Portrait/>} />
-        <Route path="landscape" element={<Landscape/>} />
 
       </Routes>
     </>
