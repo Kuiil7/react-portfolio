@@ -2,18 +2,14 @@ import React from "react";
 import Card from "../layout/cards/Card"
 import {data} from "../data/Data";
 import ASLHeader from "../layout/ASLHeader"
-import ProjectHeader from "../layout/ProjectsHeader";
-import Header from "../layout/Header"
 
 const Landscape = () => {
  return (
 <>
-<Header />
-<ProjectHeader/>
 <ASLHeader />
 
 <section className="hero is-light is is-fullheight">
-
+  
 <div className="container">
  <div className="columns scrolling-wrapper scrolling-hidden ">
 {data.slice(15,17).map(data => (

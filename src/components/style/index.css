@@ -19,7 +19,6 @@ body {
   border-radius: 50%;
 }
 
-
 .react-player {
   position: absolute;
   top: 0;
@@ -90,11 +89,4 @@ video {
   }
 }
 
-.header2{
-  background-color: hsl(215,100%,20%, .1);
-}
-
-.header1 {
-  background-color: hsl(204, 86%, 53%);
-}
 

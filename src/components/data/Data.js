@@ -11,7 +11,8 @@
       demo:"https://infinite-inlet-20359.herokuapp.com",
       description: "This application allows the user to search and find movies and buddies.",
       myDuty:"Set up and configured user authentication using PassportJs and styling.",
-      builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku."
+      builtWith: "ExpressJs, NodeJs, PassportJs, MySQL, MomentsJs, Ajax, Sequelize, Dotenv, Console.Table, and Heroku.",
+      status: "Completed"
     },
     {
       id: 1 ,
@@ -22,7 +23,8 @@
       demo:"https://shawnyulingolabsmaster.herokuapp.com/",
       description: "A website where users can browse and shop for stock website templates.",
       myDuty: "Creating the registration page, configuring the backend server, setting up private routes.",
-      builtWith: "NodeJs, NPM, Expressjs, MongoDB, Reactjs, Mongoose, Passportjs, Socket.io, and Heroku."
+      builtWith: "NodeJs, NPM, Expressjs, MongoDB, Reactjs, Mongoose, Passportjs, Socket.io, and Heroku.",
+      status: "Completed"
     },
     {
       id: 2,
@@ -33,7 +35,8 @@
       demo:"https://sportswarriorsgwu.github.io/Sports-Tracker/",
       description: "Sports-Tracker is a website dedicated to sports (NBA, NCAA, MLB, NHL) stats and news with a favorites funciton",
       myDuty: "My core responsibility utilizing Bootstrap and Bulma CSS to work with API call data.",
-      builtWith: "Bootstrap, Bulma, Javascript, and JQuery."
+      builtWith: "Bootstrap, Bulma, Javascript, and JQuery.",
+      status: "Completed"
     },
     {
       id: 3,
@@ -45,6 +48,7 @@
       description: "The purpose of this application is to write, save, and delete text notes using Atlas cloud service.",
       myDuty: "Created frontend using React and backend routing, schema using MongoDB Atlas cloud service.",
       builtWith: "Utilizing Bootstrap CSS framework, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON.",
+      status: "Completed"
     },
     {
       id: 4,
@@ -55,7 +59,8 @@
       demo:"https://ancient-thicket-66505.herokuapp.com/",
       description: "Eat-Da-Burger!, a restaurant app that lets users input the names of burgers they would like to eat. Items are saved to a RDBMS SQL database utilizing CRUD funcitons with a client and server set up",
       myDuty: "Created frontend and backend.",
-      builtWith: "NodeJs, Express Handlebars (MVC), and MySQL."
+      builtWith: "NodeJs, Express Handlebars (MVC), and MySQL.",
+      status: "Completed"
     },
     {
        id: 5,
@@ -64,10 +69,11 @@
           alt: "weather dashboard",
           repo: "https://github.com/Kuiil7/myweather" ,
           demo:"https://my-weather-one.vercel.app/",
-          description:"Search and find local temperature across the U.S.",
+          description:"user can find local temperature via browser's geolocation function and, also, do query search across U.S. cities.",
           myDuty:"Sole maintainer.",
-          builtWith:"Bulma, Axios, Moment and dotenv.",
-          poweredBy:"https://openweathermap.org/"
+          builtWith:"Bulma, Axios, Moments and dotenv.",
+          poweredBy:"https://openweathermap.org/",
+          status: "Completed"
         },
         {
           id: 6,
@@ -79,7 +85,8 @@
           description: "A website where users can search for movies, TV shows, and actors.",
           myDuty: "Sole maintainer.",
           builtWith: "Luxon, Axios, dotenv, Material-UI, and Bulma.",
-          poweredBy:"https://www.themoviedb.org/"
+          poweredBy:"https://www.themoviedb.org/",
+          status: "Ongoing"
 
         },
         {
@@ -88,34 +95,37 @@
             images:( process.env.PUBLIC_URL +  "../images/repos/mynews.png"),
             alt: "screenshot of app",
             demo:"https://pub.lucidpress.com/Issue5/",
-            description: "A U.S. news search app with 6 categories onload",
+            description: "Search and find U.S. news sources. Includes Top Headlines Health, Entertainment, Sports, Science, and Technology on load.",
             myDuty:"Sole maintainer",
-            builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express."
+            builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express.",
+            status: "Ongoing"
           },
 
         {
           id: 8,
-          title: "Disability Content Consulting (ongoing)",
+          title: "Disability Content Consulting",
           images:( process.env.PUBLIC_URL +  "../images/static/dcc.jpg"),
           alt: "video background cloudy mountains ",
           repo:"https://www.github.com/Kuiil7/dcc",
           demo:"https://www.disabilitycontentconsulting.com/",
           description: "A collective formed by talented Disabled content creators and accessibility inclusion specialists from across the globe.",
           myDuty:"Sole maintianer",
-          builtWith: "Bulma, Google Forms, Font Awesome"
+          builtWith: "Bulma, Google Forms, Font Awesome",
+          status: "Ongoing"
 
           },
 
         {
           id: 9,
-          title: "GEAH Group (ongoing)",
+          title: "GEAH Group",
           images:( process.env.PUBLIC_URL +  "../images/static/geah_group.png"),
           alt: "El fundador sostiene tres botellas de vitamina.",
           repo: "https://github.com/Kuiil7/geah_group" ,
           demo:"https://geahgroup.pe",
           description: "A multibusiness website consisting of Esthetic medicine, health and beauty, and pharmaeuticals based in Peru.",
           myDuty:"Sole maintainer.",
-          builtWith: "Bulma."
+          builtWith: "Bulma.",
+          status: "Suspended"
         },
         {
           id: 10,
@@ -125,7 +135,8 @@
           repo:   "https://github.com/Kuiil7/errandfolks" ,
           demo:"https://sad-spence-4b83df.netlify.app",
           description: "Volunteer-based delivery services to deaf elders and immunocompromised. (discontinued)",myDuty: "Sole maintainer.",
-          builtWith: "Bulma."
+          builtWith: "Bulma.",
+          status: "Suspended"
             },
 
 
@@ -138,7 +149,8 @@
                   demo:"https://ticgame.vercel.app/",
                   description: "A game converted game from a class based component to a full funcitonal component.",
                   myDuty:"Sole maintainer.",
-                  builtWith: "Bulma."
+                  builtWith: "Bulma.",
+                  status: "Completed"
                 },
 
                 {
@@ -149,7 +161,8 @@
                     demo: "https://pub.lucidpress.com/520a802b-e3ae-4e0b-bf8b-0d56fe0b3aff/",
                     description: "Gallaudet University Graduate School Newsletter",
                     myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
-                    builtWith: "LucidPress.com"
+                    builtWith: "LucidPress.com",
+                    status: "Completed"
                   },
                   {
                     id: 13,
@@ -159,7 +172,8 @@
                       demo:"https://pub.lucidpress.com/Issue2/",
                       description: "Gallaudet University Graduate School Newsletter",
                       myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
-                      builtWith: "LucidPress.com"
+                      builtWith: "LucidPress.com",
+                      status: "Completed"
                     },
 
                     {
@@ -170,7 +184,8 @@
                         demo:"https://pub.lucidpress.com/ThirdIssue/",
                         description: "Gallaudet University Graduate School Newsletter",
                         myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
-                        builtWith: "LucidPress.com"
+                        builtWith: "LucidPress.com",
+                        status: "Completed"
                       },
 
                       {
@@ -181,7 +196,8 @@
                           demo:"https://pub.lucidpress.com/FourthIssue/",
                           description: "Gallaudet University Graduate School Newsletter",
                           myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
-                          builtWith: "LucidPress.com"
+                          builtWith: "LucidPress.com",
+                          status: "Completed"
                         },
 
                         {
@@ -192,7 +208,8 @@
                             demo:"https://pub.lucidpress.com/Issue5/",
                             description: "Gallaudet University Graduate School Newsletter",
                             myDuty:"Graphic Designer, Video Production, and ePublication maintainer.",
-                            builtWith: "LucidPress.com"
+                            builtWith: "LucidPress.com",
+                            status: "Completed"
                           },
 
 

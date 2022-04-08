@@ -1,20 +1,34 @@
 import React from "react";
 import Portrait_4 from "../images/portrait_4.jpg";
 import Icons from "../icons/Icons"
-import Header from "../layout/Header"
 
 const AboutMe = () => {
 
   const selfPortrait = <img src={Portrait_4} alt="self-portrait" width="380"  className="is-pulled-left px-5 py-2 pt-5 "  />
 
-  const Bio =   <div className="has-text-justified has-background-white p-5 box"  >
-<p className="title ">Jose Aguilera Merino</p>
-<p className="subtitle is-6">
-  <span>Full Stack Developer (MERN)</span>
+  const Bio =   <div className="has-background-white p-5 box"  >
+<p className="title is-4  ">
+<span>Jose Aguilera Merino</span>
+<br/>
+</p>
+<p className="subtitle is-6  ">
+  <span>Full Stack Developer (MERN) </span>
   <br/>
-  <span>Master of Arts in American Sign Language Linguistics</span>
+  <span> M. A. - ASL Linguistics</span>
+  <br/>
+  <span> Spanish, English, and American Sign Language</span>
+  <br/>
+   <br/>
+  <span>Contact: <a className="is-size-6 " href="mailto:jgamerino@gmail.com">jgamerino@gmail.com</a>
+</span>
   </p>
 
+
+<div >
+<a  href="https://github.com/kuiil7"><i className="fab fa-github fa-2x "></i> </a>
+  <a href="https://www.linkedin.com/in/jose-aguilera-merino-8298b6193/"><i className="fab fa-linkedin fa-2x "></i> </a>
+
+</div>
 <p className="title is-size-4 fade-in-3 mb-1 mt-5">Accessibility.</p>
 <p>
 As a native of the Dominican Republic, I lost my hearing at a young age before emigrating to the United States.  Language and communication is something I intentionally focus on every day given this background as a trilingual individual.  In my professional career I have confronted the challenge of how to leverage English, Spanish, and American Sign Language to disseminate information in in the areas of Sales and Marketing. These challenges could not have been overcome without self-taught skills that I have acquired over time such as Information Technology, Web Design and Development, Graphic Design, and Video Production skills to name a few.
@@ -53,8 +67,6 @@ const mainContainer =   <section className="hero  is-fullheight has-background-l
 
   return (
     <>
-
-<Header />
 {mainContainer}
     </>
   );

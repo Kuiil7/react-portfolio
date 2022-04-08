@@ -1,12 +1,10 @@
 import React from "react";
-import APIProjects from "../portfolio/API";
-import ProjectHeader from "./ProjectsHeader";
-import Header from "./Header"
+import API from "../portfolio/API";
 
 const Portfolio = () => {
  return (
 <>
-<APIProjects/>
+<API/>
 </>
 );
 }
