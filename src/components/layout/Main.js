@@ -24,12 +24,12 @@ const mainContent = <section className="hero is-fullheight is-info" style={{back
 <p className="has-text-centered subtitle is-size-6 is-italic has-text-white">
 Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
 
-<div className="columns is-justify-content-center mt-4">
+<div className="columns is-justify-content-center mt-4 ">
 <div className="column is-2 ">
   <nav className="level is-mobile">
   <div className="level-item has-text-centered">
     <div>
-    <Link className="navbar-item " to="api"><i className="fa-solid fa-arrow-right-arrow-left fa-3x"></i></Link>
+    <Link className="navbar-item " to="api"><i className="fa-solid fa-arrow-right-arrow-left fa-1x"></i></Link>
       <p className="heading ">APIs</p>
     </div>
   </div>
@@ -41,7 +41,7 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
   <div className="level-item has-text-centered">
     <div>
     <Link className="link" to="/bootcamp">
-    <i className="fa-solid fa-graduation-cap fa-4x"></i>
+    <i className="fa-solid fa-graduation-cap fa-3x-mobile"></i>
 </Link>
       <p className="heading ">Bootcamp</p>
     </div>
@@ -49,12 +49,12 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
 </nav>
   </div>
 
-  <div className="column is-2 ">
+  <div className="column is-3 ">
   <nav className="level is-mobile">
   <div className="level-item has-text-centered">
     <div>
     <Link className="link" to="/asl">
-    <i className="fa-solid fa-people-group fa-4x"></i></Link>
+    <i className="fa-solid fa-people-group fa-3x-mobile"></i></Link>
       <p className="heading ">Inclusive Web Design</p>
     </div>
   </div>
@@ -62,12 +62,12 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
   </div>
 
 
-  <div className="column is-2">
+  <div className="column is-3">
   <nav className="level is-mobile">
 <div className="level-item has-text-centered">
     <div>
     <Link className="link" to="/static">
-    <i className="fa-solid fa-display fa-4x"></i>
+    <i className="fa-solid fa-display fa-3x-mobile"></i>
 </Link>
       <p className="heading " >Static Websites</p>
     </div>
@@ -82,7 +82,7 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
   <div className="level-item has-text-centered">
     <div>
     <Link className="link" to="/games">
-    <i className="fa-solid fa-gamepad fa-4x"></i>
+    <i className="fa-solid fa-gamepad fa-2x-mobile"></i>
     </Link>
       <p className="heading ">Games</p>
     </div>
