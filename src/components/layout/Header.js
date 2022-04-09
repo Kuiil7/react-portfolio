@@ -36,6 +36,7 @@ const Header = () => {
     <Link className="navbar-item" to="/asl"> Inclusion</Link>
     <Link className="navbar-item" to="/static"> Static Websites</Link>
     <Link className="navbar-item" to="/games"> Games</Link>
+    <Link className="navbar-item" to="/Designs"> Designs</Link>
 
         </div>
       </div>

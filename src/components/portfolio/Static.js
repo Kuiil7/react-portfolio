@@ -7,7 +7,7 @@ const Static = () => {
 <>
 
 <section className="hero is-light is-fullheight">
-<p className="title is-size-5 has-text-centered mt-4 ">STATIC WEBSITE PROJECTS</p>
+<p className="title  has-text-centered mt-4 ">STATIC WEBSITES </p>
 
 <div className="container">
 
@@ -24,6 +24,7 @@ alt={data.alt}
 repo={data.repo}
 demo={data.demo}
 status={data.status}
+url={data.url}
 
 />
 </div>

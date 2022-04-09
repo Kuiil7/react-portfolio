@@ -11,7 +11,7 @@ const API = () => {
 
 <div className="columns  scrolling-wrapper scrolling-hidden ">
 {data.slice(5,8).map(data => (
-<div className="column  px-5" key={data.id}>
+<div className="column is-6 px-5" key={data.id}>
 <Card
 title={data.title}
 myDuty={data.myDuty}
@@ -21,8 +21,8 @@ images={data.images}
 alt={data.alt}
 repo={data.repo}
 demo={data.demo}
-href={data.poweredBy}
 status={data.status}
+url={data.url}
 />
 </div>
 ))}

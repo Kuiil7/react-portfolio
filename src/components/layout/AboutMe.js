@@ -1,5 +1,5 @@
 import React from "react";
-import Portrait_4 from "../images/portrait_4.jpg";
+import Portrait_4 from "../images/portrait/portrait_4.jpg";
 import Icons from "../icons/Icons"
 
 const AboutMe = () => {

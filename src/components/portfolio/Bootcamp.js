@@ -6,7 +6,7 @@ const Bootcamp = () => {
  return (
 <>
 <section className="hero is-light is is-fullheight">
-<p className="title is-size-5 has-text-centered mt-4 ">BOOTCAMP PROJECTS</p>
+<p className="title  has-text-centered mt-4 ">BOOTCAMP PROJECTS</p>
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
 {data.slice(0,5).map(data => (
@@ -20,7 +20,7 @@ images={data.images}
 alt={data.alt}
 repo={data.repo}
 demo={data.demo}
-href={data.poweredBy}
+url={data.url}
 status={data.status}
 />
   </div>

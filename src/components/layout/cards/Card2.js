@@ -1,11 +1,11 @@
 import React from "react";
 
-const Card = (props) => {
+const Card2 = (props) => {
 
   return (
 <div className="card pt-5 px-5">
 <div className="card-image ">
-<figure className="image is-4by3">
+<figure className="image is-3by4">
 <img src={props.images} alt={props.alt}   />    </figure>
 </div>
 <div className="card-content">
@@ -36,4 +36,4 @@ const Card = (props) => {
 </div>
   );
 }
-export default Card;
+export default Card2;
