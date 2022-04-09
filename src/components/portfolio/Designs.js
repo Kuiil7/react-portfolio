@@ -9,7 +9,7 @@ const Designs = () => {
 <p className="title  has-text-centered mt-4 ">Graphic Designs</p>
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(17,29).map(data => (
+{data.slice(17,32).map(data => (
 <div className="column is-5" key={data.id}>
 <Card2
 title={data.title}

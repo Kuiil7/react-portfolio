@@ -8,7 +8,7 @@
       images:( process.env.PUBLIC_URL +  "../images/repos/movie_magic.png"),
       alt: "sign-in screen",
       repo: "https://github.com/HowardDaniels/movie-magic" ,
-      demo:"https://www.omdbapi.com/",
+      demo:"https://infinite-inlet-20359.herokuapp.com",
       url:"https://www.omdbapi.com/",
       poweredBy:"OMDB API",
       description: "This application allows the user to search and find movies and buddies.",
@@ -77,7 +77,7 @@
           demo:"https://my-weather-one.vercel.app/",
           description:"User can find local temperature via browser's geolocation function and, also, do query search across U.S. cities.",
           myDuty:"Sole maintainer.",
-          builtWith:"Bulma, Axios, Moments and dotenv.",
+          builtWith:"Bulma, Axios, Moments, Geolocation, and dotenv.",
           url:"https://openweathermap.org/",
           status: "Completed"
         },
@@ -92,7 +92,7 @@
           myDuty: "Sole maintainer.",
           builtWith: "Luxon, Axios, dotenv, Material-UI, and Bulma.",
           url:"https://www.themoviedb.org/",
-          status: "Ongoing"
+          status: "Ongoing (pagination stage)"
 
         },
         {
@@ -100,12 +100,12 @@
             title: "MyNews",
             images:( process.env.PUBLIC_URL +  "../images/repos/mynews.png"),
             alt: "screenshot of app",
-            demo:"https://pub.lucidpress.com/Issue5/",
+            demo:"",
             description: "Search and find U.S. news sources. Includes Top Headlines Health, Entertainment, Sports, Science, and Technology on load.",
             myDuty:"Sole maintainer",
             builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express.",
             url:"https://newsapi.org/",
-            status: "Ongoing"
+            status: "Ongoing (deployment stage)"
           },
 
         {
@@ -234,7 +234,7 @@
                           },
                           {
                             id: 17,
-                              title: "ASL Gatherings Schedule",
+                              title: "ASL Gatherings Schedule 8.5x11 ",
                               images:( process.env.PUBLIC_URL +  "../images/design/cbtl_1.png"),
                               alt: "poster with contact info and schedule for ASL Gatherings",
                               demo:"n/a",
@@ -247,8 +247,8 @@
                             },
                             {
                               id: 18,
-                                title: "ASL Gatherings Schedule",
-                                images:( process.env.PUBLIC_URL +  "../images/design/cbtl_2.png"),
+                                title: "ASL Gatherings Schedule 8.5x11",
+                                images:( process.env.PUBLIC_URL +  "../images/design/cbtl_2.jpg"),
                                 alt: "poster with contact info and schedule for ASL Gatherings",
                                 demo:"n/a",
                                 description: "CBTL's ASL Gathering class Schedule for Fall 2017",
@@ -261,7 +261,7 @@
 
                               {
                                 id: 19,
-                                  title: "ASL Gatherings Schedule",
+                                  title: "ASL Gatherings Schedule 8.5x11",
                                   images:( process.env.PUBLIC_URL +  "../images/design/cbtl_3.png"),
                                   alt: "poster with contact info and schedule for ASL Gatherings",
                                   demo:"n/a",
@@ -274,8 +274,8 @@
                                 },
                                 {
                                   id: 20,
-                                    title: "Video Production Process",
-                                    images:( process.env.PUBLIC_URL +  "../images/design/cbtl_5.png"),
+                                    title: "Video Production Process 8.5x11",
+                                    images:( process.env.PUBLIC_URL +  "../images/design/cbtl_5.jpg"),
                                     alt: "poster with contact info and schedule for ASL Gatherings",
                                     demo:"n/a",
                                     description: "CBTL's Video Production Request Process",
@@ -287,7 +287,7 @@
                                   },
                                   {
                                     id: 21,
-                                      title: "AL Immersion Day",
+                                      title: "ASL Immersion Day half-fold",
                                       images:( process.env.PUBLIC_URL +  "../images/design/cbtl_6.png"),
                                       alt: "Brochure re ASL Immersion Day at Gallaudet University with schedule, dates, QR code",
                                       demo:"n/a",
@@ -300,7 +300,7 @@
                                     },
                                     {
                                       id: 22,
-                                        title: "ASL Gatherings Calendar",
+                                        title: "ASL Gatherings Calendar 8.5x11",
                                         images:( process.env.PUBLIC_URL +  "../images/design/cbtl_9.png"),
                                         alt: "ASL Gatherings Spring calendar schedule with people sitting in a circular table",
                                         demo:"n/a",
@@ -313,7 +313,7 @@
                                       },
                                       {
                                         id: 23,
-                                          title: "CBTL banner",
+                                          title: "CBTL banner 10ft",
                                           images:( process.env.PUBLIC_URL +  "../images/design/cbtl_10.png"),
                                           alt: "woman standing with hands locked in front of Gallaudet University",
                                           demo:"n/a",
@@ -326,7 +326,7 @@
                                         },
                                         {
                                           id: 24,
-                                            title: "Schuchman Center",
+                                            title: "Schuchman Center mural",
                                             images:( process.env.PUBLIC_URL +  "../images/design/sc_1.png"),
                                             alt: "print on wall depicting a video production in process in blue and green",
                                             demo:"n/a",
@@ -339,7 +339,7 @@
                                           },
                                           {
                                             id: 25,
-                                              title: "Schuchman Center",
+                                              title: "Schuchman Center 4.25x6",
                                               images:( process.env.PUBLIC_URL +  "../images/design/sc_2.png"),
                                               alt: "Postcard with Schuchman Center documentary pictures of random deaf individuals,back says - teach. do. share.",
                                               demo:"n/a",
@@ -352,7 +352,7 @@
                                             },
                                             {
                                               id: 26,
-                                                title: "Capturing Deaf Heritage Day",
+                                                title: "Capturing Deaf Heritage Day 24x36",
                                                 images:( process.env.PUBLIC_URL +  "../images/design/sc_3.png"),
                                                 alt: "poster with capturing deaf heritage day caption and 6 different photos of people in panel, in space, and presenting. color is blue and green with white font",
                                                 demo:"n/a",
@@ -365,7 +365,7 @@
                                               },
                                               {
                                                 id: 27,
-                                                  title: "Deaf Heritage Day",
+                                                  title: "Schuchaman Center's Banner 47x83",
                                                   images:( process.env.PUBLIC_URL +  "../images/design/sc_4.png"),
                                                   alt: "banner with the words - Deaf Heritage Day in blue and green",
                                                   demo:"n/a",
@@ -378,7 +378,7 @@
                                                 },
                                                 {
                                                   id: 28,
-                                                    title: "Schuchman Center's Banner ",
+                                                    title: "Schuchman Center's Banner 4.25x6",
                                                     images:( process.env.PUBLIC_URL +  "../images/design/sc_5.png"),
                                                     alt: "Schuchman Center pull-up banner",
                                                     demo:"n/a",
@@ -391,8 +391,8 @@
                                                   },
                                                   {
                                                     id: 29,
-                                                      title: "Youth Programs poster ",
-                                                      images:( process.env.PUBLIC_URL +  "../images/design/yp_1.png"),
+                                                      title: "Youth Programs poster 8.5x11",
+                                                      images:( process.env.PUBLIC_URL +  "../images/design/YP_1.png"),
                                                       alt: "Youth Programs Poster",
                                                       demo:"n/a",
                                                       description: "Youth Programs Poster",
@@ -404,7 +404,7 @@
                                                     },
                                                     {
                                                       id: 30,
-                                                        title: "Youth Programs poster ",
+                                                        title: "Youth Programs poster 8.5x11",
                                                         images:( process.env.PUBLIC_URL +  "../images/design/YP_2.png"),
                                                         alt: "Youth Programs Poster",
                                                         demo:"n/a",
@@ -417,7 +417,7 @@
                                                       },
                                                       {
                                                         id: 31,
-                                                          title: "Physical Education & Recreation ",
+                                                          title: "Physical Education & Recreation 38x48",
                                                           images:( process.env.PUBLIC_URL +  "../images/design/PE_1.png"),
                                                           alt: "Physical Education & Recreation",
                                                           demo:"n/a",
