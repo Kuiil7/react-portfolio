@@ -22,6 +22,7 @@ repo={data.repo}
 demo={data.demo}
 url={data.url}
 status={data.status}
+dimension={data.dimension}
 />
   </div>
 ))}
