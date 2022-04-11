@@ -51,7 +51,7 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
 
   <div className="level-item ">
     <div>
-    <Link className="link" to="/asl">
+    <Link className="link" to="/inclusion">
     <i className="fa-solid fa-people-group fa-2x has-text-white"></i></Link>
       <p className="heading ">Inclusion</p>
     </div>
