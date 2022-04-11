@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../layout/cards/Card"
-import {data} from "../data/Data";
+import {APIData} from "../data/APIData";
 
 const API = () => {
  return (
@@ -10,19 +10,19 @@ const API = () => {
 <div className="container ">
 
 <div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(5,8).map(data => (
-<div className="column is-6 px-5" key={data.id}>
+{APIData.map(APIData => (
+<div className="column is-6 px-5" key={APIData.id}>
 <Card
-title={data.title}
-myDuty={data.myDuty}
-description={data.description}
-builtWith={data.builtWith}
-images={data.images}
-alt={data.alt}
-repo={data.repo}
-demo={data.demo}
-status={data.status}
-url={data.url}
+title={APIData.title}
+myDuty={APIData.myDuty}
+description={APIData.description}
+builtWith={APIData.builtWith}
+images={APIData.images}
+alt={APIData.alt}
+repo={APIData.repo}
+demo={APIData.demo}
+status={APIData.status}
+url={APIData.url}
 />
 </div>
 ))}

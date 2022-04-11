@@ -6,7 +6,8 @@ const Card = (props) => {
 <div className="card pt-5 px-5">
 <div className="card-image ">
 <figure className="image is-4by3">
-<img src={props.images} alt={props.alt}   />    </figure>
+<img src={props.images} alt={props.alt}   />
+  </figure>
 </div>
 <div className="card-content">
 <div className="media">

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../layout/cards/Card";
-import {data} from "../data/Data";
+import {GamesData} from "../data/GamesData";
 
 const TicGame = () =>{
   return (
@@ -9,19 +9,19 @@ const TicGame = () =>{
 <p className="title has-text-centered mt-5 ">GAMES PROJECTS</p>
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
-{data.slice(11,12).map(data => (
-<div className="column  px-5" key={data.id}>
+{GamesData.map(GamesData => (
+<div className="column  px-5" key={GamesData.id}>
 <Card
-title={data.title}
-myDuty={data.myDuty}
-description={data.description}
-builtWith={data.builtWith}
-images={data.images}
-alt={data.alt}
-repo={data.repo}
-demo={data.demo}
-url={data.url}
-status={data.status}
+title={GamesData.title}
+myDuty={GamesData.myDuty}
+description={GamesData.description}
+builtWith={GamesData.builtWith}
+images={GamesData.images}
+alt={GamesData.alt}
+repo={GamesData.repo}
+demo={GamesData.demo}
+url={GamesData.url}
+status={GamesData.status}
 
 />
 </div>

@@ -6,7 +6,7 @@ import Main from "./components/layout/Main";
 import API from "./components/portfolio/API";
 import Bootcamp from "./components/portfolio/Bootcamp";
 import Games from "./components/portfolio/Games";
-import ASL from "./components/portfolio/ASL";
+import Inclusion from "./components/portfolio/Inclusion";
 import Static from "./components/portfolio/Static";
 import Header from "./components/layout/Header"
 import Designs from "./components/portfolio/Designs"
@@ -25,7 +25,7 @@ const App = () =>{
         <Route path="api" element={<API/>} />
         <Route path="bootcamp" element={<Bootcamp/>} />
         <Route path="games" element={<Games/>} />
-        <Route path="asl" element={<ASL/>} />
+        <Route path="inclusion" element={<Inclusion/>} />
         <Route path="static" element={<Static/>} />
         <Route path="designs" element={<Designs/>} />
 

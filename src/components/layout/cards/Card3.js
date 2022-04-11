@@ -1,14 +1,14 @@
 import React from "react";
 
-const Card2 = (props) => {
+const Card3 = (props) => {
 
   return (
+<div className="container">
+
 <div className="card  pt-5 px-3">
-<div className="card-image ">
-<figure className="image is-4by3">
-<img src={props.images} alt={props.alt}   />
-</figure>
-</div>
+
+<embed src={props.iframe} width="100%vw" height="450px" />
+
 <div className="card-content">
 <div className="media">
 <div className="media-left">
@@ -24,6 +24,8 @@ const Card2 = (props) => {
 <p className="subtitle is-size-6 is-size-6-mobile"><strong>Status: </strong>  <button className="button is-primary is-light ">{props.status}</button>
 </p>
 
+</div>
+
 
 
 
@@ -32,4 +34,4 @@ const Card2 = (props) => {
 </div>
   );
 }
-export default Card2;
+export default Card3;

@@ -89,3 +89,6 @@ video {
   }
 }
 
+.column {
+  display: flex;
+}

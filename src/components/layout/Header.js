@@ -33,7 +33,7 @@ const Header = () => {
     <div className="navbar-dropdown">
     <Link className="navbar-item " to="/api">APIs</Link>
     <Link className="navbar-item" to="/bootcamp"> Bootcamp</Link>
-    <Link className="navbar-item" to="/asl"> Inclusion</Link>
+    <Link className="navbar-item" to="/inclusion"> Inclusion</Link>
     <Link className="navbar-item" to="/static"> Static Websites</Link>
     <Link className="navbar-item" to="/games"> Games</Link>
     <Link className="navbar-item" to="/Designs"> Designs</Link>
