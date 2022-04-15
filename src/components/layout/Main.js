@@ -12,6 +12,7 @@ const mainContent =
 <video
 autoplay="autoplay"
 muted
+loop
 className="video2"
   >
   <source
