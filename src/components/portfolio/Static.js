@@ -12,7 +12,7 @@ const Static = () => {
 <div className="container">
 
 <div className="columns scrolling-wrapper scrolling-hidden ">
-{StaticData.slice.map(StaticData => (
+{StaticData.map(StaticData => (
 <div className="column is-8  px-5" key={StaticData.id}>
 <Card
 title={StaticData.title}

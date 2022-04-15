@@ -8,15 +8,18 @@ const mainContent =
 
 <section className="hero is-fullheight">
 
-<ReactPlayer
-    url={water}
-    width="100vw"
-    height="100vh"
-    muted={true}
-    playing={true}
-    loop={true}
-    className="react-player "
-/>
+<video
+autoplay="autoplay"
+muted
+className="video2"
+  >
+  <source
+  src={water} type="video/mp4"
+
+  />
+
+Your browser does not support the video tag.
+</video>
 
   <div className="hero-body">
     <div className="container has-text-centered">
@@ -51,7 +54,7 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
 
   <div className="level-item ">
     <div>
-    <Link className="link" to="/asl">
+    <Link className="link" to="/inclusion">
     <i className="fa-solid fa-people-group fa-2x has-text-white"></i></Link>
       <p className="heading ">Inclusion</p>
     </div>
