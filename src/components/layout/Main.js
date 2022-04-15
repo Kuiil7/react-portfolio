@@ -1,7 +1,8 @@
 import React from "react";
 import {Link } from "react-router-dom";
-import ReactPlayer from 'react-player'
 import water from "../videos/water.mov"
+import inc2 from "../images/gifs/inc2.gif"
+
 
 const Main = () => {
 const mainContent =
@@ -55,7 +56,8 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </p>
   <div className="level-item ">
     <div>
     <Link className="link" to="/inclusion">
-    <i className="fa-solid fa-people-group fa-2x has-text-white"></i></Link>
+    <img src={inc2} alt="inclusion sign in ASL"    />
+    </Link>
       <p className="heading ">Inclusion</p>
     </div>
   </div>
