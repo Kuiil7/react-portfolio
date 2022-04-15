@@ -57,28 +57,10 @@ const AboutMe = () => {
 
 <div className="container">
 
-  <div className="columns px-4">
-  <div className="column">
-  <p>
-<span className="title mt-4 is-size-4 fade-in-2 mb-1 fade-in-3">Accessibility. </span>
-  <br/>
-
-<span className="fade-in-3">
-As a native of the Dominican Republic, I lost my hearing at a young age before emigrating to the United States.  Language and communication is something I intentionally focus on every day given this background as a trilingual individual.  In my professional career I have confronted the challenge of how to leverage English, Spanish, and American Sign Language to disseminate information in in the areas of Sales and Marketing. These challenges could not have been overcome without self-taught skills that I have acquired over time such as Information Technology, Web Design and Development, Graphic Design, and Video Production skills to name a few.
-  </span>
-</p>
-  </div>
-
-  <div className="column is-4">
-
-  <ReactPlayer url='https://youtu.be/-AFKr0027R0' controls="true" muted="true"   width='100%'
-          height='102%'/>
 
 
 
-  </div>
 
-</div>
 
 
 
@@ -94,12 +76,17 @@ As a native of the Dominican Republic, I lost my hearing at a young age before e
   </span>
 </p>
   </div>
-  <div className="column px-4 is-4">
-  <ReactPlayer url='https://youtu.be/NMk8dpbSN6w' controls="true" muted="true"   width='100%'
-          height='100%'/>
+
+  <div className="column is-4">
+
+<ReactPlayer url='https://youtu.be/-AFKr0027R0' controls="true" muted="true"   width='100%'
+        height='102%'/>
 
 
-  </div>
+
+</div>
+
+
 </div>
 
 
@@ -113,6 +100,27 @@ I have had the privilege of working for two Fortune 500 companies (MCI WorldCom 
   </span>
 </p>
   </div>
+  <div className="column px-4 is-4">
+  <ReactPlayer url='https://youtu.be/NMk8dpbSN6w' controls="true" muted="true"   width='100%'
+          height='100%'/>
+
+
+  </div>
+
+
+</div>
+
+
+<div className="columns px-4">
+  <div className="column">
+  <p>
+  <span className="title mt-4 is-size-4 fade-in-2 mb-1">Flexibility. </span>
+  <br/>
+<span className="fade-in-3">
+To find a solution to the challenges listed above, I attended The George Washington University’s Bootcamp program to gain a solid foundation in programming and made the transition to Web Development to better implement the use of ASL videos in code. Today, I am a Full Stack Developer specializing in MongoDB, Express, React, and Node. I have gained a deep understanding of HTML and CSS as well as an introduction into JavaScript. Utilizing React, using reusable components, and managing their own state has made creating innovative interactive UIs a huge hurdle to overcome.
+  </span>
+</p>
+  </div>
   <div className="column is-4">
   <ReactPlayer url='https://youtu.be/HyCeErhF0oI' controls="true" muted="true"   width='100%'
           height='102%'/>
@@ -120,12 +128,8 @@ I have had the privilege of working for two Fortune 500 companies (MCI WorldCom 
 
   </div>
 
+
 </div>
-<p className="px-4">
-  <span className="title mt-4 is-size-4 fade-in-1 mb-1">Flexibility. </span>
-  <br/>
-To find a solution to the challenges listed above, I attended The George Washington University’s Bootcamp program to gain a solid foundation in programming and made the transition to Web Development to better implement the use of ASL videos in code. Today, I am a Full Stack Developer specializing in MongoDB, Express, React, and Node. I have gained a deep understanding of HTML and CSS as well as an introduction into JavaScript. Utilizing React, using reusable components, and managing their own state has made creating innovative interactive UIs a huge hurdle to overcome.
-</p>
 
 <Icons />
 </div>
