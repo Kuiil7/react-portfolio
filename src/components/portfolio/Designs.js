@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Card2 from "../layout/cards/Card2"
-import Card3 from "../layout/cards/Card3"
+import Card2 from "../layout/cards/Card_4by3_norepo"
+import Card3 from "../layout/cards/Card_pdf"
 
 import {CBTLData} from "../data/CBTLData";
 import {ATTData} from "../data/ATTData";

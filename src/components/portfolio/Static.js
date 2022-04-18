@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../layout/cards/Card"
+import Card from "../layout/cards/Card_4by3"
 import {StaticData} from "../data/StaticData";
 
 const Static = () => {

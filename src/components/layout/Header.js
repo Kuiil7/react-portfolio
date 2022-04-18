@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import {NavLink } from "react-router-dom";
 import {Link } from "react-router-dom";
-import inc2 from "../images/gifs/inc2.gif"
-
 
 const Header = () => {
 
@@ -13,7 +11,7 @@ const Header = () => {
     <div className="navbar-brand " >
     <NavLink className="navbar-item " to="/"> JGAMWORKS</NavLink>
     <div
-           onClick={() => {setisActive(!isActive)}}
+            onClick={() => {setisActive(!isActive)}}
             role="button"
             className={`navbar-burger burger  ${isActive ? "is-active" :""} ` }
             aria-label="menu"
@@ -34,13 +32,10 @@ const Header = () => {
     <div className="navbar-dropdown">
     <Link className="navbar-item " to="/api">APIs</Link>
     <Link className="navbar-item" to="/bootcamp"> Bootcamp</Link>
-    <Link className="navbar-item" to="/inclusion">
-
-       Inclusion  <img src={inc2} alt="inclusion sign in ASL" width="20%"   />
-</Link>
+    <Link className="navbar-item" to="/inclusion">Inclusion </Link>
     <Link className="navbar-item" to="/static"> Static Websites</Link>
     <Link className="navbar-item" to="/games"> Games</Link>
-    <Link className="navbar-item" to="/Designs"> Designs</Link>
+    <Link className="navbar-item" to="/Designs"> Graphic Design</Link>
 
         </div>
       </div>

@@ -10,7 +10,6 @@ import Inclusion from "./components/portfolio/Inclusion";
 import Static from "./components/portfolio/Static";
 import Header from "./components/layout/Header"
 import Designs from "./components/portfolio/Designs"
-import Main2 from "./components/layout/Main2"
 
 const App = () =>{
   const location = useLocation();
@@ -18,7 +17,6 @@ const App = () =>{
     < >
     {location.pathname !== '/' && <Header/>}
       <Routes>
-
         <Route path="/" element={<Main/>} />
         <Route path="aboutme" element={<AboutMe />} />
         <Route path="portfolio" element={<Portfolio/>} />
@@ -28,10 +26,7 @@ const App = () =>{
         <Route path="inclusion" element={<Inclusion/>} />
         <Route path="static" element={<Static/>} />
         <Route path="designs" element={<Designs/>} />
-        <Route path="main2" element={<Main2/>} />
-
-
-      </Routes>
+    </Routes>
     </>
   );
 }

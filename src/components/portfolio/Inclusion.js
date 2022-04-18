@@ -1,18 +1,26 @@
 import React from "react";
-import Card from "../layout/cards/Card"
+import Card from "../layout/cards/Card_4by3"
 import {InclusionData} from "../data/InclusionData";
+import inc2 from "../images/gifs/inc2.gif"
 
 const Inclusion = () => {
  return (
 <>
 <section className="hero is-light is is-fullheight">
-<p className="Gallaudet University Graduate School's Newsletter"></p>
-<p className="title  has-text-centered mt-5 ">Inclusive Web Design </p>
-<p className="subtitle is-size-5 has-text-centered">Launched Gallaudet University's First Graduate School Newsletters in 2017</p>
+<nav className="level">
+  <div className="level-item has-text-centered mt-2">
+    <div>
+<img src={inc2} alt="inclusion sign in ASL"  />
+<p className="title">Inclusive Web Design</p>
+    </div>
+  </div>
+</nav>
+
 <div className="container">
  <div className="columns scrolling-wrapper scrolling-hidden ">
 {InclusionData.map(InclusionData => (
-<div className="column is-8 px-5 py-5 " key={InclusionData.id}>
+<div className="column is-8 px-5  " key={InclusionData.id}>
+
 <Card
 title={InclusionData.title}
 myDuty={InclusionData.myDuty}
