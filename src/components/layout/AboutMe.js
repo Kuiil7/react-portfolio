@@ -1,5 +1,5 @@
 import React from "react";
-import Portrait_4 from "../images/portrait/portrait_4.jpg";
+import Portrait_5 from "../assets/images/portrait/portrait_5.jpg";
 import Icons from "../icons/Icons"
 import ReactPlayer from 'react-player'
 
@@ -12,14 +12,12 @@ const AboutMe = () => {
   <div className="container">
   <div className="hero-body">
   <div className="columns">
-  <div className="column ml-4 ">
- <figure>
- <img src={Portrait_4} alt="self-portrait"   className="avatar  fade-in-3 "  />
+  <div className="column ">
+ <img src={Portrait_5} alt="self-portrait"  className="box p-1"  />
 
- </figure>
   </div>
-  <div className="column is-6">
-  <p className="subtitle is-6  "><span className="title is-size-4 has-text-weight-bold fade-in-3 ">    Jose Aguilera Merino</span>
+  <div className="column is-8">
+  <p className="subtitle is-6 mt-6 "><span className="title is-size-4 has-text-weight-bold fade-in-3 ">    Jose Aguilera Merino</span>
 <br />
 <span className="fade-in-3">Full Stack Developer (MERN) </span>
   <br />
