@@ -22,7 +22,7 @@
           images: ( process.env.PUBLIC_URL + "../images/repos/mymovies_ss.png"),
           alt: "screenshot of mymovies app",
           repo: "https://github.com/Kuiil7/mymovies" ,
-          demo:"https://mymovies-five.vercel.app/",
+          demo:"https://mymovies-amber.vercel.app/",
           description: "A website where user can search and find movies, TV shows, and actors along with trending, popularity, and other categories",
           myDuty: "Sole maintainer.",
           builtWith: "Luxon, Axios, dotenv, Material-UI, and Bulma.",
