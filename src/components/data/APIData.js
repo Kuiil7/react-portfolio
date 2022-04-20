@@ -35,7 +35,7 @@
             title: "MyNews",
             images:( process.env.PUBLIC_URL +  "../images/repos/mynews.png"),
             alt: "screenshot of app",
-            demo:"",
+            demo:"functional but not deployment-ready",
             description: "Search and find U.S. news sources. Includes Top Headlines Health, Entertainment, Sports, Science, and Technology on load.",
             myDuty:"Sole maintainer",
             builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express.",
