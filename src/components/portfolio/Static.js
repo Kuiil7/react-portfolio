@@ -5,9 +5,10 @@ import {StaticData} from "../data/StaticData";
 const Static = () => {
  return (
 <>
+<main aria-labelledby="static websites projects">
 
 <section className="hero is-light is-fullheight">
-<p className="title  has-text-centered mt-4 ">STATIC WEBSITES </p>
+<h1 className="title  has-text-centered mt-4 ">STATIC WEBSITES </h1>
 
 <div className="container">
 
@@ -32,6 +33,7 @@ url={StaticData.url}
  </div>
  </div>
 </section>
+</main>
 </>
 );
 }

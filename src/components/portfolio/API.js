@@ -5,8 +5,11 @@ import {APIData} from "../data/APIData";
 const API = () => {
  return (
 <>
+<main aria-labelledby="API projects">
+
+</main>
 <section className="hero is-light is-fullheight">
-<p className="title has-text-centered mt-4 ">API PROJECTS</p>
+<h1 className="title has-text-centered mt-4 ">API PROJECTS</h1>
 <div className="container ">
 
 <div className="columns  scrolling-wrapper scrolling-hidden ">

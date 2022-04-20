@@ -26,6 +26,7 @@ const App = () =>{
         <Route path="inclusion" element={<Inclusion/>} />
         <Route path="static" element={<Static/>} />
         <Route path="designs" element={<Designs/>} />
+
     </Routes>
     </>
   );

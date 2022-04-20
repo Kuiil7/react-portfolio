@@ -6,18 +6,20 @@ import inc2 from "../assets/images/gifs/inc2.gif"
 const Inclusion = () => {
  return (
 <>
+<main aria-labelledby="inclusive design projects">
+
 <section className="hero is-light is is-fullheight">
 <nav className="level">
   <div className="level-item has-text-centered mt-3">
     <div>
 <img src={inc2} alt="inclusion sign in ASL"  />
-<p className="title">Inclusive Web Design</p>
+<h1 className="title">Inclusive Web Design</h1>
     </div>
   </div>
 </nav>
 
 <div className="container">
-<p className="subtitle ">Gallaudet University</p>
+<h2 className="subtitle ">Gallaudet University</h2>
 
  <div className="columns scrolling-wrapper scrolling-hidden ">
 {InclusionData.map(InclusionData => (
@@ -41,6 +43,7 @@ url2={InclusionData.url2}
  </div>
  </div>
 </section>
+</main>
 </>
 );
 }

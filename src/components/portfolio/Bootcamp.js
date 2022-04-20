@@ -5,8 +5,10 @@ import {BootcampData} from "../data/BootcampData";
 const Bootcamp = () => {
  return (
 <>
+<main aria-labelledby="bootcamp projects">
+
 <section className="hero is-light is is-fullheight">
-<p className="title  has-text-centered mt-4 ">BOOTCAMP PROJECTS</p>
+<h1 className="title  has-text-centered mt-4 ">BOOTCAMP PROJECTS</h1>
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
 {BootcampData.map(BootcampData => (
@@ -28,7 +30,7 @@ status={BootcampData.status}
  </div>
  </div>
 </section>
-
+</main>
 </>
 );
 }

@@ -5,8 +5,10 @@ import {GamesData} from "../data/GamesData";
 const TicGame = () =>{
   return (
     <>
+  <main aria-labelledby="games projects">
+
 <section className="hero is-light is-fullheight">
-<p className="title has-text-centered mt-5 ">GAMES PROJECTS</p>
+<h1 className="title has-text-centered mt-5 ">GAMES PROJECTS</h1>
 <div className="container">
 <div className="columns  scrolling-wrapper scrolling-hidden ">
 {GamesData.map(GamesData => (
@@ -29,6 +31,7 @@ status={GamesData.status}
  </div>
  </div>
 </section>
+</main>
     </>
   );
 }

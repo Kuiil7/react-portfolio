@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Card2 from "../layout/cards/Card_4by3_norepo"
 import Card3 from "../layout/cards/Card_pdf"
 
@@ -15,11 +15,12 @@ const Designs = () => {
 
  return (
 <>
+<main aria-labelledby="graphic design portfolio">
 
 <section className="hero is is-fullheight " >
 
-<p className="title is-size-4 mt-4 has-text-centered ">Gallaudet University</p>
-<p className="title is-size-5 has-text-weight-light has-text-centered">Center for Bilingual Teaching and Learning</p>
+<h1 className="title is-size-4 mt-4 has-text-centered ">Gallaudet University</h1>
+<h2 className="title is-size-5 has-text-weight-light has-text-centered">Center for Bilingual Teaching and Learning</h2>
 
 
 
@@ -45,7 +46,7 @@ dimension={CBTLData.dimension}
  </div>
 
 
- <p className="title is-size-5 has-text-weight-light has-text-centered">Schuchman Center</p>
+ <h2 className="title is-size-5 has-text-weight-light has-text-centered">Schuchman Center</h2>
 
  <div className="columns is-flex-wrap-wrap px-3">
 
@@ -70,7 +71,7 @@ dimension={SCData.dimension}
 </div>
 
 
- <p className="title has-text-weight-light mt-4 has-text-centered">Youth Programs</p>
+ <h2 className="title has-text-weight-light mt-4 has-text-centered">Youth Programs</h2>
 
  <div className="columns is-flex-wrap-wrap px-3">
 {YPData.slice(0,6).map(YPData => (
@@ -92,7 +93,7 @@ dimension={YPData.dimension}
 ))}
  </div>
 
- <p className="title has-text-weight-light mt-4 has-text-centered">Physical Education & Recreation</p>
+ <h2 className="title has-text-weight-light mt-4 has-text-centered">Physical Education & Recreation</h2>
 
  <div className="columns is-flex-wrap-wrap px-3">
 {PERData.slice(0,1).map(PERData => (
@@ -115,7 +116,7 @@ dimension={PERData.dimension}
  </div>
 
 
- <p className="title  ml-4">AT&T</p>
+ <h2 className="title  ml-4">AT&T</h2>
 
  <div className="columns is-flex-wrap-wrap px-3">
 
@@ -161,7 +162,7 @@ iframe={ATTData2.iframe}
 
 
 </section>
-
+</main>
 </>
 );
 }
