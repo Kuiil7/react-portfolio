@@ -1,12 +1,6 @@
-import React from "react";
-import Portrait_5 from "../assets/images/portrait/portrait_5.jpg";
-import Icons from "../icons/Icons"
-import ReactPlayer from 'react-player'
 
 const AboutMe = () => {
 
-
-  <Icons />
 
   const mainContent = <section className="hero is-info">
   <div className="container">
@@ -93,7 +87,8 @@ It is in fusing my linguistic and technical background that I create and innovat
   return (
     <>
     <main aria-labelledby="aboutme - bio">
-    {mainContent}
+
+
     </main>
 
     </>

@@ -9,7 +9,8 @@
     "react-player": "^2.10.0",
     "react-router": "^6.0.0",
     "react-router-dom": "^6.0.0",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "react-videojs-hook": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -9,15 +9,9 @@ const Main = () => {
 const mainContent =
 
 <section className="hero is-fullheight">
-<video
-autolay="autoplay"
-muted
-loop
-className="video2"
->
-<source
-src={water} type="video/mp4"
-/>
+
+<video autoPlay={true} muted loop className="video2">
+<source src={water} type="video/mp4"/>
 Your browser does not support the video tag.
 </video>
 
