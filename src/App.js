@@ -16,12 +16,7 @@ import Designs from "./components/portfolio/Designs"
 const App = () =>{
 
   
-    useEffect(() => {
-      window.history.pushState(null, null, document.URL);
-      window.addEventListener('popstate', function(event) {
-         window.location.replace(`/main`);
-      });
-    });
+ 
 
   
   return (
