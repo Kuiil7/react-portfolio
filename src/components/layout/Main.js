@@ -17,15 +17,16 @@ Your browser does not support the video tag.
 
   <div className="hero-body">
     <div className="container has-text-centered">
-    <Link className="link" to="/aboutme"><h1 className="has-text-centered title is-size-1  has-text-white ">JGAMWORKS</h1>
-    </Link>
+    <Link className="link " to="/aboutme">
+      <h3 className="heading is-size-1">JGAMWORKS</h3>
+      </Link>
 <h2 className="has-text-centered subtitle is-size-6 is-italic has-text-white">
 Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </h2>
 
-<nav className="level is-mobile has-text-white ">
+<nav className="level is-mobile ">
   <div className="level-item ">
     <div>
-    <Link className="link has-text-white " to="/api">
+    <Link className="link " to="/api">
     <i className="fa-solid fa-arrow-right-arrow-left fa-3x has-text-white"></i>
       <h3 className="heading ">API</h3>
       </Link>
@@ -34,7 +35,7 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </h2>
 
   <div className="level-item ">
     <div>
-    <Link className="link has-text-white " to="/bootcamp">
+    <Link className="link " to="/bootcamp">
     <i className="fa-solid fa-graduation-cap fa-3x has-text-white"></i>
       <h3 className="heading ">Bootcamp</h3>
       </Link>
@@ -43,7 +44,7 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </h2>
 
   <div className="level-item ">
     <div>
-    <Link className="link has-text-white " to="/inclusion">
+    <Link className="link " to="/inclusion">
     <img src={inc2} alt="inclusion sign in ASL"  />
 
       <h3 className="heading ">Inclusion</h3>
@@ -55,9 +56,9 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </h2>
    <Link className="link has-text-white" to="/static">
     <i className="fa-solid fa-display fa-3x has-text-white"></i>
       <h3 className="heading " >
-        <span>Static</span>
+        <span className="link">Static</span>
         <br/>
-        <span>Websites</span>
+        <span className="link">Websites</span>
       </h3>
       </Link>
     </div>
@@ -65,11 +66,11 @@ Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </h2>
   <div className="level-item ">
     <div>
    <Link className="link has-text-white" to="/Designs">
-   <i className="fa-solid fa-paintbrush has-text-white fa-3x"></i>
+   <i className="fa-solid fa-paintbrush fa-3x"></i>
    <h3 className="heading " >
-        <span>Graphic</span>
+        <span className="link">Graphic</span>
         <br/>
-        <span>Design</span>
+        <span className="link">Design</span>
       </h3>
    </Link>
     </div>
