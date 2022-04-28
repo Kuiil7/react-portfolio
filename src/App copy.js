@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation} from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import AboutMe from "./components/layout/AboutMe";
 import Portfolio from "./components/layout/Portfolio";
 import Main from "./components/layout/Main";
@@ -11,8 +11,10 @@ import Static from "./components/portfolio/Static";
 import Header from "./components/layout/Header"
 import Designs from "./components/portfolio/Designs"
 
+
+
 const App = () =>{
-  const location = useLocation();
+  
   return (
     < >
     {location.pathname !== '/' && <Header/>}
