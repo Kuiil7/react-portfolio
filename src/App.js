@@ -1,5 +1,5 @@
-import React, {useEffect} from "react";
-import { Routes, Route } from "react-router-dom";
+import React from "react";
+import { Routes, Route, location } from "react-router-dom";
 import AboutMe from "./components/layout/AboutMe";
 import Portfolio from "./components/layout/Portfolio";
 import Main from "./components/layout/Main";
@@ -14,10 +14,6 @@ import Designs from "./components/portfolio/Designs"
 
 
 const App = () =>{
-
-  
- 
-
   
   return (
     < >
