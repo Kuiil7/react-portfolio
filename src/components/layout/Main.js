@@ -22,6 +22,7 @@ Your browser does not support the video tag.
 <h2 className="has-text-centered subtitle is-size-6 is-italic has-text-white">
 Full Stack Development (MERN) + ASL Linguistics = Inclusive Web Design. </h2>
 
+
 <nav className="level is-mobile has-text-white ">
   <div className="level-item ">
     <div>
