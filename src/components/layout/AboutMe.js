@@ -1,4 +1,12 @@
 
+import React from 'react'
+import ReactPlayer from 'react-player'
+import Portrait_5 from "../assets/images/portrait/portrait_5.jpg"
+import Icons from "../icons/Icons"
+
+
+
+
 const AboutMe = () => {
 
 
@@ -88,7 +96,7 @@ It is in fusing my linguistic and technical background that I create and innovat
     <>
     <main aria-labelledby="aboutme - bio">
 
-
+{mainContent}
     </main>
 
     </>

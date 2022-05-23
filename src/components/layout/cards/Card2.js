@@ -20,12 +20,9 @@ const Card2 = (props) => {
 <p className="subtitle is-size-6 is-size-6-mobile"><strong>My Duties: </strong>{props.myDuty}</p>
 <p className="subtitle is-size-6 is-size-6-mobile"><strong>Built with: </strong>{props.builtWith}<a href={props.url2} > {props.url2} </a></p>
 <p className="subtitle is-size-6 is-size-6-mobile"><strong>Dimension: </strong>{props.dimension}</p>
-
 <p className="subtitle is-size-6 is-size-6-mobile"><strong>Status: </strong>  <button className="button is-primary is-light ">{props.status}</button>
 </p>
-
-
-
+<a href={props.demo}><button className="button is-info is-outlined ">Demo</button></a>
 
 </div>
 </div>

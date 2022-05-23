@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../layout/cards/Card_4by3"
+import Card2 from "../layout/cards/Card2"
 import {InclusionData} from "../data/InclusionData";
 import inc2 from "../assets/images/gifs/inc2.gif"
 
@@ -25,14 +25,13 @@ const Inclusion = () => {
 {InclusionData.map(InclusionData => (
 <div className="column is-8 px-5  " key={InclusionData.id}>
 
-<Card
+<Card2
 title={InclusionData.title}
 myDuty={InclusionData.myDuty}
 description={InclusionData.description}
 builtWith={InclusionData.builtWith}
 images={InclusionData.images}
 alt={InclusionData.alt}
-repo={InclusionData.repo}
 demo={InclusionData.demo}
 url={InclusionData.url}
 status={InclusionData.status}
