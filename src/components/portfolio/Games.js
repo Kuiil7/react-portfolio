@@ -1,5 +1,5 @@
-import React from "react";
-import TicGame from "./TicGame";
+import React from 'react';
+import TicGame from './TicGame';
 
 
 const Games= () => {

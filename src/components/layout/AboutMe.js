@@ -1,15 +1,10 @@
 
 import React from 'react'
 import ReactPlayer from 'react-player'
-import Portrait_5 from "../assets/images/portrait/portrait_5.jpg"
-import Icons from "../icons/Icons"
-
-
-
+import Portrait_5 from '../assets/images/portrait/portrait_5.jpg'
+import Icons from '../icons/Icons'
 
 const AboutMe = () => {
-
-
   const mainContent = <section className="hero is-info">
   <div className="container">
   <div className="hero-body">

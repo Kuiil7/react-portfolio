@@ -1,16 +1,15 @@
-import React from "react";
-import Card from "../layout/cards/Card_4by3"
-import {BootcampData} from "../data/BootcampData";
+import React from 'react';
+import Card from '../layout/cards/Card_4by3'
+import {BootcampData} from '../data/BootcampData';
 
 const Bootcamp = () => {
  return (
 <>
 <main aria-labelledby="bootcamp projects">
-
-<section className="hero is-light is is-fullheight">
-<h1 className="title  has-text-centered mt-4 ">BOOTCAMP PROJECTS</h1>
-<div className="container">
-<div className="columns  scrolling-wrapper scrolling-hidden ">
+  <section className="hero is-light is is-fullheight">
+    <h1 className="title  has-text-centered mt-4 ">BOOTCAMP PROJECTS</h1>
+      <div className="container">
+        <div className="columns  scrolling-wrapper scrolling-hidden ">
 {BootcampData.map(BootcampData => (
 <div className="column is-6 px-5" key={BootcampData.id}>
 <Card
@@ -25,7 +24,7 @@ demo={BootcampData.demo}
 url={BootcampData.url}
 status={BootcampData.status}
 />
-  </div>
+</div>
 ))}
  </div>
  </div>

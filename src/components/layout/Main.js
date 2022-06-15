@@ -1,7 +1,7 @@
-import React from "react";
-import {Link } from "react-router-dom";
-import water from "../videos/water.mov"
-import inc2 from "../assets/images/gifs/inc2.gif"
+import React from 'react';
+import {Link } from 'react-router-dom';
+import water from '../videos/water.mov'
+import inc2 from '../assets/images/gifs/inc2.gif'
 
 
 const Main = () => {

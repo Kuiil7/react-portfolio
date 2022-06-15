@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Routes, Route, useLocation} from "react-router-dom";
+import { Accessibility } from 'accessibility/src/main';
 import AboutMe from "./components/layout/AboutMe";
 import Portfolio from "./components/layout/Portfolio";
 import Main from "./components/layout/Main";
@@ -11,7 +12,18 @@ import Static from "./components/portfolio/Static";
 import Header from "./components/layout/Header"
 import Designs from "./components/portfolio/Designs"
 
+let options = {
+  icon: {
+  circular: [true],
+  img: ['accessibility'],
+  }
+}
+
 const App = () =>{
+  useEffect(() => {
+    window.addEventListener('load', function() { new Accessibility(options); }, false);
+  });
+
   const location = useLocation();
   return (
     < >

@@ -1,14 +1,12 @@
 import React from 'react';
-import Card2 from "../layout/cards/Card2"
-import Card3 from "../layout/cards/Card_pdf"
-
-import {CBTLData} from "../data/CBTLData";
-import {ATTData} from "../data/ATTData";
-import {ATTData2} from "../data/ATTData2";
-
-import {SCData} from "../data/SCData";
-import {YPData} from "../data/YPData";
-import {PERData} from "../data/PERData";
+import Card2 from '../layout/cards/Card2'
+import Card3 from '../layout/cards/Card_pdf'
+import {CBTLData} from '../data/CBTLData';
+import {ATTData} from '../data/ATTData';
+import {ATTData2} from '../data/ATTData2';
+import {SCData} from '../data/SCData';
+import {YPData} from '../data/YPData';
+import {PERData} from '../data/PERData';
 
 const Designs = () => {
 
@@ -16,16 +14,10 @@ const Designs = () => {
  return (
 <>
 <main aria-labelledby="graphic design portfolio">
-
-<section className="hero is is-fullheight " >
-
-<h1 className="title is-size-4 mt-4 has-text-centered ">Gallaudet University</h1>
-<h2 className="title is-size-5 has-text-weight-light has-text-centered">Center for Bilingual Teaching and Learning</h2>
-
-
-
-<div className="columns is-flex-wrap-wrap px-3">
-
+  <section className="hero is is-fullheight " >
+    <h1 className="title is-size-4 mt-4 has-text-centered ">Gallaudet University</h1>
+    <h2 className="title is-size-5 has-text-weight-light has-text-centered">Center for Bilingual Teaching and Learning</h2>
+  <div className="columns is-flex-wrap-wrap px-3">
 {CBTLData.map(CBTLData => (
 <div className="column is-4" key={CBTLData.id}>
 <Card2
