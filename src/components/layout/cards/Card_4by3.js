@@ -5,9 +5,9 @@ const Card = (props) => {
   return (
 <div className="card pt-5 px-5">
 <div className="card-image ">
-<figure className="image is-4by3">
+<figure className="image">
 <img src={props.images} alt={props.alt}   />
-  </figure>
+</figure>
 </div>
 <div className="card-content">
 <div className="media">
@@ -23,9 +23,11 @@ const Card = (props) => {
 <p className="subtitle is-size-5 is-size-6-mobile"><strong>Powered By:</strong><a href={props.url} > {props.url} </a></p>
 
 
-<p className="subtitle is-size-5 is-size-6-mobile"><strong>Status: </strong>  <button className="button is-primary is-light ">{props.status}</button>
+<p className="subtitle is-size-5 is-size-6-mobile"><strong>Status: </strong>
+  <button className="button is-primary is-light ">{props.status}</button>
 </p>
 
+<p className="subtitle is-size-5 is-size-6-mobile"><strong>Notes:</strong><a href={props.notes} > {props.notes} </a></p>
 
 
 <div className="has-text-centered">

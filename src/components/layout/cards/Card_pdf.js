@@ -4,11 +4,8 @@ const Card3 = (props) => {
 
   return (
 <div className="container">
-
 <div className="card  pt-5 px-3">
-
 <embed src={props.iframe} width="100%vw" height="450px" />
-
 <div className="card-content">
 <div className="media">
 <div className="media-left">

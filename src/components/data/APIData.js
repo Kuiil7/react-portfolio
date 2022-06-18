@@ -1,20 +1,18 @@
 
 
   export const APIData = [
-
-
     {
-       id: 0,
-          title: "MyWeather",
-          images:( process.env.PUBLIC_URL +  "../images/repos/myweather_ss.png"),
-          alt: "weather dashboard",
-          repo: "https://github.com/Kuiil7/myweather" ,
-          demo:"https://my-weather-one.vercel.app/",
-          description:"User can find local temperature via browser's geolocation function and, also, do query search across U.S. cities.",
-          myDuty:"Sole maintainer.",
-          builtWith:"Bulma, Axios, Moments, Geolocation, and dotenv.",
-          url:"https://openweathermap.org/",
-          status: "Completed"
+      id: 0,
+      title: "MyWeather",
+      images:( process.env.PUBLIC_URL +  "../images/repos/myweather_ss.png"),
+      alt: "weather dashboard",
+      repo: "https://github.com/Kuiil7/myweather" ,
+      demo:"https://my-weather-one.vercel.app/",
+      description:"User can find local temperature via browser's geolocation function and, also, do query search across U.S. cities.",
+      myDuty:"Sole maintainer.",
+      builtWith:"Bulma, Axios, Moments, Geolocation, and dotenv.",
+      url:"https://openweathermap.org/",
+      status: "Completed"
         },
         {
           id: 1,
@@ -32,15 +30,16 @@
         },
         {
           id: 2,
-            title: "MyNews",
-            images:( process.env.PUBLIC_URL +  "../images/repos/mynews.png"),
-            alt: "screenshot of app",
-            demo:null,
-            description: "Search and find U.S. news sources. Includes Top Headlines Health, Entertainment, Sports, Science, and Technology on load.",
-            myDuty:"Sole maintainer",
-            builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express.",
-            url:"https://newsapi.org/",
-            status: "Ongoing (APP is functional but not deployment-ready)"
+          title: "MyNews",
+          images:( process.env.PUBLIC_URL +  "../images/repos/mynews.png"),
+          alt: "screenshot of app",
+          demo:null,
+          description: "Search and find U.S. news sources. Includes Top Headlines Health, Entertainment, Sports, Science, and Technology on load.",
+          myDuty:"Sole maintainer",
+          builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express.",
+          url:"https://newsapi.org/",
+          status: "Ongoing",
+          notes: "APP is functional in development."
           },
 
 

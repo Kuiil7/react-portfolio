@@ -7,13 +7,13 @@
         {
           id: 0,
           title: "Disability Content Consulting",
-          images:( process.env.PUBLIC_URL +  "../images/static/dcc.jpg"),
-          alt: "video background cloudy mountains ",
+          images:( process.env.PUBLIC_URL +  "../images/static/dcc_main.png"),
+          alt: "video background depicting NYC night time buildings",
           repo:"https://www.github.com/Kuiil7/dcc",
           demo:"https://www.disabilitycontentconsulting.com/",
           description: "A collective formed by talented Disabled content creators and accessibility inclusion specialists from across the globe.",
           myDuty:"Sole maintianer",
-          builtWith: "Bulma, Google Forms, Font Awesome",
+          builtWith: "Bulma, Google Forms, FontAwesome, React-Player, Google Fonts, and Accessibility.",
           url:"Google Forms",
           status: "Ongoing"
 

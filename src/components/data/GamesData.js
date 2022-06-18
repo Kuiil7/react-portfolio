@@ -1,9 +1,6 @@
 
 
   export const GamesData = [
-
-
-
             {
                 id: 0,
                   title: "Tic Game w React Hooks",
@@ -17,7 +14,5 @@
                   url:"N/A",
                   status: "Completed"
                 },
-
-
   ];
 

@@ -45,10 +45,10 @@
     {
       id: 3,
       title: "Note-Taker",
-     images: ( process.env.PUBLIC_URL + "../images/repos/note_taker.gif"),
-     alt: "note taker",
-     repo: "https://github.com/Kuiil7/Note-Taker" ,
-     demo:"https://kuiil7.github.io/Note-Taker",
+      images: ( process.env.PUBLIC_URL + "../images/repos/note_taker.gif"),
+      alt: "note taker",
+      repo: "https://github.com/Kuiil7/Note-Taker" ,
+      demo:"https://kuiil7.github.io/Note-Taker",
       description: "The purpose of this application is to write, save, and delete text notes using Atlas cloud service.",
       myDuty: "Created frontend using React and backend routing, schema using MongoDB Atlas cloud service.",
       builtWith: "Utilizing Bootstrap CSS framework, NodeJs, NPM, jQuery, Expressjs, Ajax, and JSON.",
@@ -68,7 +68,7 @@
       url:"N/A",
       status: "Completed"
     },
-   
+
 
   ];
 

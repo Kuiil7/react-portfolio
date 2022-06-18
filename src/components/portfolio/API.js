@@ -23,6 +23,7 @@ repo={APIData.repo}
 demo={APIData.demo}
 status={APIData.status}
 url={APIData.url}
+notes={APIData.notes}
 />
 </div>
 ))}
