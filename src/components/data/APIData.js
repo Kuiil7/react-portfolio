@@ -12,7 +12,8 @@
       myDuty:"Sole maintainer.",
       builtWith:"Bulma, Axios, Moments, Geolocation, and dotenv.",
       url:"https://openweathermap.org/",
-      status: "Completed"
+      status: "Completed",
+      notes:"Considering adding extra features in v2."
         },
         {
           id: 1,
@@ -25,7 +26,9 @@
           myDuty: "Sole maintainer.",
           builtWith: "Luxon, Axios, dotenv, Material-UI, and Bulma.",
           url:"https://www.themoviedb.org/",
-          status: "Ongoing (pagination stage)"
+          status: "Completed",
+          notes:"Pagination to be added in v2"
+
 
         },
         {
@@ -39,7 +42,7 @@
           builtWith: "Bulma, FontAwesome, Luxon, dotenv, and Express.",
           url:"https://newsapi.org/",
           status: "Ongoing",
-          notes: "APP is functional in development."
+          notes: "APP is functional in development. Needs serverless function for production."
           },
 
 
