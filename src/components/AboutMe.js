@@ -31,7 +31,7 @@ const AboutMe = () => {
     </span>
   </div>
   <div className="column is-4">
-  <ReactPlayer url='https://youtu.be/-AFKr0027R0' controls muted width='100%' height='100%'/>
+  <ReactPlayer url='https://youtu.be/-AFKr0027R0' controls muted width='100%' height='100%' alt="accessibility" />
   </div>
   <div className="column is-4">
   <span>
@@ -42,7 +42,7 @@ I have had the privilege of working for two Fortune 500 companies (MCI WorldCom 
   </span>
   </div>
   <div className="column is-4">
-  <ReactPlayer url='https://youtu.be/NMk8dpbSN6w' controls muted width='100%' height='100%'/>
+  <ReactPlayer url='https://youtu.be/NMk8dpbSN6w' controls muted width='100%' height='100%' alt="Inclusion"/>
   </div>
   <div className="column is-4">
   <span>
@@ -52,7 +52,7 @@ I have had the privilege of working for two Fortune 500 companies (MCI WorldCom 
       </span>
   </div>
   <div className="column is-4">
-  <ReactPlayer url='https://youtu.be/HyCeErhF0oI' controls muted width='100%' height='100%'/>
+  <ReactPlayer url='https://youtu.be/HyCeErhF0oI' controls muted width='100%' height='100%' alt="Flexibility"/>
   </div>
 </div>
    
