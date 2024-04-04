@@ -12,7 +12,7 @@
    bziltWith: "Illustrator and Photoshop.",
    dimension: "47x83 in",
    status: "Completed",
-   images:( process.env.PUBLIC_URL +  "/assets/images/design/att_2.png"),
+   images:( process.env.PUBLIC_URL + "/assets/images/design/att_2.png"),
 
    },
 
