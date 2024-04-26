@@ -1,2 +1,2 @@
 # My Portfolio
-Created with Bulma, FontAwesome, Nodejs, Express, Accessibility, and Google Forms.
+Created with React, Bulma, Node, React-Player, and React-Image-Gallery.
